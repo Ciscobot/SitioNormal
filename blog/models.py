@@ -34,158 +34,210 @@ class uzbekistan(models.Model):
         return texto.format(self.titulo, self.texto)
   
 
-
+class afganistan(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
    
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
+class africana(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
     
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
+class argentina(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
+class austria(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
     
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
+class belgica(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class brunei(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class caboverde(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class canada(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class catar(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
 
+class corea(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class croacia(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
-
+class cuba(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class egipto(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class espana(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class etiopia(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class grecia(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class guatemala(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class hungria(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
-
-    def __str__(self):
-        texto = "{0} ({1})"
-        return texto.format(self.titulo, self.texto)
-
-
+class indonesia(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
-
+class kuwait(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
         return texto.format(self.titulo, self.texto)
 
+class lituania(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class sanmarino(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class suiza(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class turquia(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class venezuela(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
+
+    def __str__(self):
+        texto = "{0} ({1})"
+        return texto.format(self.titulo, self.texto)
+
+class yemen(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
 
     def __str__(self):
         texto = "{0} ({1})"
