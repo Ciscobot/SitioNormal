@@ -1,0 +1,380 @@
+{% load static %}
+
+<html>
+<head>
+<title> Suiza </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Suiza <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#lengua">Lengua</a></li>
+            <li><a href="#naturales">Naturales</a></li>
+            <li><a href="#sociales">Sociales</a></li>
+            <li><a href="#ingles">Ingles</a></li>
+            <li><a href="#artistica">Artistica</a></li>
+            <li><a href="#juridico">Juridico Contable</a></li>
+            <li><a href="#educacion">Educacion Fisica</a></li>
+            <li><a href="#tec">Tecnología e informáticas</a></li>
+            <li><a href="#curso">Curso 5°C</a></li>
+        </ul>
+    </div>
+    <div id="lengua"><section id="titulo">Lengua</section></div>
+    <textos id="subtitulo">La Historia de Suiza</textos>
+    <section id="parrafo">
+    <img src="{% static 'imagenes informacion/suizahistoria.jpg' %}">
+        Las primeras noticias históricas sobre las tierras de la actual Suiza aparecen con julio cesar en sus comentarios sobre la guerra de las galias. después de las grandes invasiones que bosquejaron las barreras lingüísticas del país, se formaron alianzas entre pequeños estados durante la edad media, entre 1291 y 1332, con la finalidad de formar la confederación de los III cantones, la cual fue la primera etapa para la formación de la confederación suiza. Luego de sucesivas alianzas de defensa hasta que en 1481 se constituyó la confederación de los VIII Cantones. En los siglos siguientes, se construyó progresivamente la confederación de los XIII cantones hasta que alcanzó su independencia en 1648. Suiza obtuvo un estatus federal en 1803 al ser dividida y organizada como república  helvética durante la ocupación de la Francia revolucionaria gracias a Napoleón Bonaparte. Suiza se construyó en veintidós cantones hasta su liberación en 1815 y, más tarde durante una guerra civil y religiosa, emergió el estado federal en 1848. Debido a su política de neutralidad suiza atravesó el siglo xx sin participar en guerra alguna.
+    </section>
+    <textos id="subtitulo">Aspecto cultural</textos>
+    <section id="parrafo">
+        Suiza posee una próspera escena artística. Sobre todo algunos arquitectos destacados se han ganado renombre internacional.<br>
+        La vida cultural en Suiza se caracteriza por la situación geográfica específica del país, una sociedad multilingüe, la pluralidad de confesiones y una gran variedad de costumbres locales y regionales.<br>
+        Todo ello se traduce en una notable diversidad de la producción literaria, artística, arquitectónica y musical.
+        <img src="{% static 'imagenes informacion/suizacultura.jpg' %}">
+    </section>
+    <textos id="subtitulo">Arquitectura</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizarquitectura.jpg' %}">
+        Le Corbusier (1887-1965), que en realidad se llamaba Charles-Edouard Jeanneret. Fue sin duda alguna uno de los arquitectos y urbanistas más influyentes del siglo XX.<br>
+        Los principios fundamentales de la arquitectura moderna, como la racionalidad, la rentabilidad económica y el funcionalismo, fueron propuestos por él ya en el año 1922.<br>
+        Mario Botta de Lugano y la sociedad formada por Herzog y de Meuron de Basilea son, hoy por hoy, probablemente los arquitectos suizos mejor conocidos en el mundo.<br>
+        Arquitectos extranjeros en Suiza<br>
+        Algunos edificios destacados en Suiza han sido diseñados por arquitectos extranjeros. Entre ellos figura el Centro Paul Klee en Berna (inaugurado en el año 2005), creado por el italiano Renzo Piano, y el Centro Cultural y de Congresos en Lucerna (inaugurado en 1998), diseñado por el francés Jean Nouvel.<br>
+        Nouvel también fue el que diseñó el Monolito para la Exhibición Nacional Suiza en el 2002.
+    </section>
+    <textos id="subtitulo">El cine suizo</textos>
+    <section id="parrafo">
+        Suiza no posee una gran industria del cine. La producción cinematográfica suiza es muy dependiente de fondos estatales, como es el caso en muchos otros países pequeños en Europa. Sea como sea, la cinematografía suiza no dispone de fuentes de inversión suficientes como para alimentar una industria competitiva al nivel de las grandes productoras europeas. <br> <br>
+        ¿Sabías que en Suiza existe un cine que en vez de asientos ofrece camas? <br>
+        <img src="{% static 'imagenes informacion/suizacine.jpg' %}">
+        En Suiza, el Cinema Pathé acaba de inaugurar la primera sala de cine con habitaciones VIP, de tal manera que en vez de asientos hay camas.<br>
+        Se trata del “VIP Bedroom Cinema”, el cual tiene 11 camas con cabeceros ajustables, sábanas y 2 almohadas. También tiene dos mesitas de luz a los lados para apoyar la comida y la bebida.<br>
+        Diseñado para atraer a los consumidores lejos de Netflix, este nuevo concepto ofrece una acogedora experiencia de cine hogareño. Además, las camas del cine están debidamente equipados para asegurarse de que los clientes no se duerman.<br> <br>
+        La película suiza más popular de todos los tiempos es un film de R. Lyssy del año 1978 con el título «Die Schweizermacher» (Los nacionalizadores). Se trata de una comedia satírica que se toma con los procedimientos discriminatorios y partidarios de la naturalización en Suiza. «Beresina, or the Last Days of Switzerland» (Beresina o los últimos días de Suiza) del director D. Schmid, que se estrenó en 1999, es otra comedia negra, que tuvo bastante éxito incluso al otro lado de las fronteras nacionales.
+    </section>
+    <textos id="subtitulo">Música folklórica</textos>
+    <section id="parrafo">
+        El yodel y la trompa alpina son componentes esenciales de la música folklórica alpina, tanto en Austria como en Suiza. Sin embargo, se cree que los orígenes del canto tirolés no se hallan en los países alpinos, sino más bien en Polonia.<br>
+        Según cuentan las leyendas suizas, el yodel surgió para facilitar la comunicación a larga distancia. Gracias al yodel, los ganaderos alpinos conseguían mantener juntos sus esparcidos animales gregarios y comunicarse con los demás pastores.
+    </section>
+    <textos id="subtitulo">Música clásica</textos>
+    <section id="parrafo">
+        Hasta el siglo XVII la tradición musical suiza más vivaz era la música sacra, la tradición coral surgió todavía más tarde, a mediados del siglo XIX en torno a las fiestas de la vendimia. Y las primeras orquestas de sinfonía se fundaron en los centros urbanos a comienzos del siglo XX.<br>
+        Uno de los festivales estrellas de la música clásica es el Easter Concerts o «Conciertos de Pascua» en el Centro de Cultura y Folklore en Lucerna, en el que participan más de 13.000 aficionados cada año. Otro escenario importante es San Moritz (Grisones), donde se celebra cada año el festival Snow and Symphony (Nieve y Sinfonía).
+    </section>
+    <textos id="subtitulo">Literatura</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizaliteratura2.jpg' %}">
+        Evidentemente, Heidi es más famosa que su creadora, la escritora suiza Juana Spyri. Heidi es, sin lugar a dudas, uno de los caracteres más conocidos de la literatura suiza en general y de la literatura infantil en particular. No es sólo una figura literaria, una invención pasajera de la ficción, es más, es la encarnación alegórica, aunque quizás también algo hiperbólica de la sociedad suiza. El personaje principal de esta obra de Spyri forma parte del amplio surtido de elementos tópicos de Suiza como el chocolate, el queso, los relojes o los bancos. Además, Heidi representa la naturaleza intacta de los Alpes suizos con sus praderas, montañas y paisajes idílicos. <br> <br>
+        <img src="{% static 'imagenes informacion/suizaliteratura.jpg' %}">
+        Suiza, el cantón de St Gallen, St Gallen, el centro histórico, la Biblioteca de la Abadía del siglo 18th, el lujoso interior estilo rococó y su colección de literatura medieval. Considerada la biblioteca suiza más antigua y rica, algunos de sus 160.000 libros se remontan a la fundación de la abadía a mediados del siglo 8th, patrimonio mundial de la UNESCO
+    </section>
+    <div id="naturales"><section id="titulo">Naturales</section></div>
+    <textos id="subtitulo">FAUNA Y FLORA EN SUIZA</textos>
+    <section id="parrafo">
+        Suiza, a pesar de ser un país pequeño, contiene una rica variedad de flora y fauna, descubriendo diversos animales y plantas, pasando rápidamente de un clima a otro. Por ejemplo, desde un paisaje ártico a más de 4.000 metros de altura, hasta temperaturas y vegetación subtropical a solo 200 metros sobre el nivel del mar. Cada uno de los niveles de altura intermedios presenta formas propias de paisaje y vida: escarpadas montañas, densos bosques de coníferas, verdes praderas, flores y animales, glaciares y cascadas de aguas.<br>
+        Los Alpes son un bello fenómeno de la naturaleza. Con imponentes ríos de hielo, entre los que destacan los glaciares, Suiza se descubre como un auténtico paraíso. Cuenta, además con más de 1.400 lagos naturales, 42.000 kilómetros de ríos e impresionantes diques.<br>
+        En el Jura se encuentra una naturaleza virgen con extensas llanuras y suaves colinas pobladas de coníferas. Por otro lado, en todas las zonas altas se pueden ver plantas y flores diferentes como violetas de los Alpes, soldanella, narcisos, campánulas, iris, rosas de los Alpes y arándanos.<br>
+        En cuanto a la fauna se pueden ver rebecos, marmotas, cabras monteses o águilas reales.
+        <img src="{% static 'imagenes informacion/suizafauna.jpg' %}">
+    </section>
+    <textos id="subtitulo">Fauna alpina</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizalpina.jpg' %}">
+        Los animales que viven en las montañas tienen que enfrentarse a distintos desafíos: terrenos empinados, rocas miserables, vegetación escasa y temperaturas extremas. No obstante, hay muchos animales que se han adaptado a estas condiciones difíciles.<br>
+        Un desafío particular es el invierno: escasean los alimentos y la nieve obstaculiza el desplazamiento de los animales en el terreno ya de por sí casi intransitable. En el invierno es necesario ahorrar energía, por eso, los animales reducen sus actividades a un mínimo absoluto; algunas especies hibernan.
+    </section>
+    <textos id="subtitulo">La gamuza</textos>
+    <section id="parrafo">
+        La gamuza tiene su plaza fija en el folclore suizo. Este hecho impidió probablemente la extinción de la raza en Suiza. Hasta la segunda mitad del siglo XIX las existencias de la gamuza habían descendido de manera tan amenazante que en 1875 se decretó una ley para la reglamentación de la caza del rebeco. <br>
+        Sin embargo, la caza no es la única amenaza para la gamuza. Desde que se introdujo el lince en Suiza, el animal alpino volvió a tener su antiguo enemigo natural. Además, la gamuza sufre a veces una ceguera típica, cuyas causas aún se desconocen. Esa ceguedad suele ser pasajera, pero los animales mueren de hambre o caen de las rocas empinadas antes de poder recuperar la vista. 
+        <img src="{% static 'imagenes informacion/suizagamuza.jpg' %}">
+        Se estima que en Suiza (en los Alpes y en el Jurá) viven más de 95.000 ejemplares. Este ágil y elegante animal escalador se mueve en solitario o en grupos. <br>
+        La gamuza es fácil de reconocer: un animal adulto puede alcanzar una altura de 1,30 metros y un peso de hasta 50 kilos. Los cuernos, cuyas puntas tienen una forma arqueada, pueden alcanzar 17 centímetros. Dos rayas oscuras en la cara son algunas de las características más típicas de este animal alpino. <br>
+        Además, los pelos característicos que la gamuza lleva en la espalda, pueden alcanzar una longitud de 15 a 20 centímetros en los meses de invierno. La gamuza eriza ese vello si quiere impresionar a un congénere. Antiguamente, los cazadores adornaban sus sombreros con los mechones de la gamuza en señal de trofeo. 
+    </section>
+    <textos id="subtitulo">El íbice</textos>
+    <section id="parrafo">
+        En Suiza viven cerca de 15.000 cabras monteses. La raza estuvo a punto de su extinción en la primera mitad del siglo pasado. La causa de esta caza incontrolada eran los cuernos del íbice que se empleaban para remedios milagrosos contra un sinnúmero de posibles achaques físicos. En el País de los Grisones, aquel cantón que lleva el íbice en el escudo cantonal desde 1457, el íbice ya estaba extinguido en el siglo XVII.<br>
+        <img src="{% static 'imagenes informacion/suizaibice.jpg' %}">
+        La reintroducción del íbice en el Parque Nacional Suizo en los Grisones se llevó a cabo entre 1920 y 1934. Actualmente hay populaciones también en los cantones del Valais y Berna. Todos los íbices que viven ahora en Suiza son descendientes directos de las cabras introducidas en aquel período. <br>
+        El íbice puede alcanzar un peso de hasta 100 kilos y una altura de hasta un metro. Tiene dos grandes cuernos encorvados y costiformes. La edad del animal se desprende del número de costillas que lleva el cuerno. Los cuernos suelen crecer por dos costillas al año y pueden alcanzar una longitud de hasta un metro y un peso de hasta 10 kilos. <br>
+        Las pezuñas del íbice están perfectamente adaptadas al terreno montañoso. Por fuera tienen bordes duros y por dentro pulpejos blandos y antideslizantes que ayudan al animal a mantener el equilibrio hasta en los terrenos más acantilados. El animal es capaz de saltar varios metros hacia arriba sin tener que tomar impulso. 
+        <img src="{% static 'imagenes informacion/suizaibice2.jpg' %}">
+        Los guardas forestales no son muy amigos de las cabras monteses porque no suelen comer sólo los renuevos, también estropean los árboles jóvenes al sacar las fibras de los cuernos frotándose en el tronco. La corteza sufre así heridas importantes que pueden impedir el flujo de líquido en el interior de la planta y causar, en última consecuencia, la muerte del árbol. Las cabras monteses son capaces de destruir un entero proyecto de reforestación que se lleva a cabo en las laderas alpinas para proteger los valles contra las avalanchas. 
+    </section>
+    <textos id="subtitulo">La marmota</textos>
+    <section id="parrafo">
+        En verano se suelen ver con frecuencia muchas marmotas. Pero además de verlos, se oyen. Si un peligro se avecina, las marmotas sueltan silbidos fuertes para prevenir a sus congéneres de un peligro y se esconden en sus madrigueras. <br>
+        Las marmotas viven en familias con hasta 15 miembros. Construyen sus guaridas en el campo abierto. Las madrigueras están interconectadas en un sistema de túneles. Cuando salen a la superficie para buscar comida hay siempre una del rebaño que vigila. <br>
+        Los enemigos naturales más peligrosos son las aves de rapiña y los zorros. Las marmotas se adaptan con facilidad a su ambiente natural. En zonas muy transitadas por senderistas, las marmotas acabaron acostumbrándose al hombre en el que ya no ven ningún peligro. <br>
+        Las marmotas viven sobre todo en los Alpes. Su actividad principal consiste en buscar comida. Durante el verano y el otoño tienen que engrasar para sobrevivir la hibernación. En este período suelen duplicar su peso (hasta ocho kilos). <br>
+        Durante la hibernación su temperatura corporal baja a cinco grados. Con el derretimiento de la nieve se acaba para las marmotas el insomnio invernal. 
+        <img src="{% static 'imagenes informacion/suizamarmota.jpg' %}">
+    </section>
+    <textos id="subtitulo">La salamandra alpina</textos>
+    <section id="parrafo">
+        Las fascinantes estrategias de supervivencia de la salamandra alpina son susceptibles de batir todos los récords. Es el único anfibio europeo que se reproduce por cría viva (no pone huevos); además, la cría permanece hasta tres años en el seno materno. Debido a las duras condiciones alpinas es importante que la cría nazca bien desarrollada y preparada para sobrevivir en un ambiente tan hostil. 
+        <img src="{% static 'imagenes informacion/suizasalamandra.jpg' %}">
+        La salamandra alpina prefiere las zonas húmedas (bosques de la sierra) hasta una altitud de 3.000 metros sobre el nivel del mar. Es negra y alcanza una longitud de hasta 16 centímetros. Su alimentación consiste sobre todo de escarabajos, arañas y ciempieses.
+    </section>
+    <textos id="subtitulo">Naturaleza</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizacorazon.webp' %}">
+        Situada en el corazón de Europa, Suiza se divide en tres zonas geográficas: los Alpes, la Planicie central y el Jurá. La diversidad de paisajes y de hábitats contribuye al atractivo de las condiciones de vida y del emplazamiento económico del país. Suiza tiene doce sitios inscritos en la lista del patrimonio mundial de la humanidad. <br>
+        Una pradera florece en Adelboden, en medio de los Alpes berneses. Como en cualquier parte de Suiza, las praderas resultan esenciales para la biodiversidad. <br>
+        En Adelboden como en cualquier parte de Suiza, las praderas ricas en especies resultan esenciales para preservar la biodiversidad © Adelboden Turismo<br>
+        Debido a su topografía y a sus grandes diferencias de altitud, Suiza cuenta con un elevado número de microclimas. Estos entornos ofrecen una gran diversidad de especies animales y vegetales. Suiza alberga cerca de 50.000 especies diferentes de plantas, setas y animales.<br>
+        Siendo un elemento fundamental de la identidad helvética, la montaña ocupa dos tercios del territorio nacional. Es un entorno más bien hostil, pero muchas especies se han adaptado a él. Por ejemplo, seiscientas plantas fanerógamas solo existen en el arco alpino.<br>
+        <img src="{% static 'imagenes informacion/suizajura.jpg' %}">El Jurá
+    </section>
+    <textos id="subtitulo">Clima</textos>
+    <section id="parrafo">
+        En Suiza hay cuatro estaciones del año. Sin embargo, el país tiene muchos microclimas debido a su topografía y sus grandes diferencias de altitud.
+    </section>
+    <textos id="subtitulo">Biodiversidad</textos>
+    <section id="parrafo">
+        Suiza posee una gran biodiversidad, que, sin embargo, se encuentra bajo presión. El gobierno se ocupa de proteger de forma sostenible este patrimonio natural.
+    </section>
+    <textos id="subtitulo">Reciclaje</textos>
+    <section id="parrafo">
+        En Suiza se recicla todo: compost, plásticos PET, aluminio, vidrio, hierro, pilas, papel y textiles. Ningún residuo acaba en el vertedero, siendo una mitad reciclada y la otra transformada en energía en las plantas de incineración.
+    </section>
+    <div id="sociales"><section id="titulo">SOCIALES</section></div>
+    <textos id="subtitulo">UBICACIÓN</textos>
+    <section id="parrafo">
+        Suiza se encuentra en el corazón de Europa. Comparte 1.935 kilómetros de fronteras con cinco países: Alemania, Austria, Francia, Italia y el Principado de Liechtenstein.<br>
+        Suiza se divide en tres zonas geográficas distintas.<br>
+        Con una superficie de 41.285 kilómetros cuadrados, Suiza abarca tan sólo el 1,5 por mil de la superficie terrestre habitada.
+        <img src="{% static 'imagenes informacion/suizaubicacion2.png' %}">
+        El Jurá, la Planicie y los Alpes constituyen las tres principales zonas geográficas del país.<br>
+        Un total de 7,7 millones de habitantes o el 0,1 por ciento de la población mundial vive en Suiza.<br>
+        Suiza es un país sin litoral en los Alpes de Europa Central. La tierra tiene un área total de 41.290 km². Esta área es aproximadamente 129% del tamaño de Cataluña. Esto hace que Suiza sea el 32° país más pequeño de Europa y el 136° del mundo. Una proporción considerable de los habitantes (74%) pertenece a la población urbana.<br>
+        Hay fronteras nacionales directas con los 5 países vecinos Austria, Francia, Italia, Liechtenstein y Alemania. El pico más alto de la montaña (Dufourspitze) está a 4.634 metros. La distancia entre Madrid y la capital Bern es de aproximadamente 1.150 km.
+        <img src="{% static 'imagenes informacion/suizaubicacion.svg' %}">
+    </section>
+    <textos id="subtitulo">CLIMA </textos>
+    <section id="parrafo">
+        En Suiza predomina un clima manso con frio, calor y humedad que no experimentan demasiadas diferencias.
+        <img src="{% static 'imagenes informacion/suizaclima.webp' %}">
+        Entre julio y agosto, la temperatura oscila entre 18 y 28°C, entre enero y febrero alrededor de 2°C hasta 7°C. En primavera y otoño la temperatura varía cotidianamente entre los 8 y los 15°C.<br>
+        La temperatura varía según la altura. Se recomienda un equipaje liviano que puede constar de: un pullover, zapatillas con buena suela, crema solar, paraguas, una campera para lluvia.
+        <img src="{% static 'imagenes informacion/suizaclima2.jpg' %}">
+    </section>
+    <textos id="subtitulo">Épocas del año</textos>
+    <section id="parrafo">
+        Las épocas del año pueden distinguirse claramente. En otoño (septiembre a noviembre) maduran las frutas y se colorean las hojas de los árboles frondosos.<br>
+        Mientras que los inviernos antaño solían ser fríos y ricos en nieve, hoy las temperaturas negativas y la caída de nieve no son la norma en las llanuras. Muchas regiones de esquí apenas si podrán sobrevivir sin la nieve artificial.<br>
+        En primavera (marzo a mayo) florecen los árboles y los prados se vuelven verdes. Puede suceder que en abril vuelve durante poco tiempo el invierno y que en mayo ya haya temperaturas estivales.
+        <div align="right"><img src="{% static 'imagenes informacion/suizaepoca.jpg' %}"></div>
+        En verano, la temperatura sube hasta los 25 a 30 centígrados. En veranos muy calientes, las temperaturas incluso pueden superar la marca de 30 °C.
+    </section>
+    <textos id="subtitulo">LA VEGETACIÓN:</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizabosque.webp' %}">
+        típica de Suiza es el bosque mixto caducifolio, pero con un aumento claro de las coníferas, especialmente a medida que ascendemos en las montañas. El roble y el haya se refugia en el fondo de los valles y las partes más bajas del país, hasta los 1.500-1.600 metros de altitud.<br>
+        <img src="{% static 'imagenes informacion/suizalpina2.jpg' %}">
+        En las zonas más altas encontramos el matorral alpino, y la pradera alpina, con muy buenos pastos en verano, ya que en invierno suele estar cubierta de nieve. No obstante, y debido a la presión antrópica, el bosque natural sólo aparece en las montañas y laderas de umbría menos accesibles.<br>
+        En Suiza podemos encontrar tres ecorregiones: el bosque de frondosas de Europa occidental, en el norte y el este, el bosque mixto del valle del Po, alrededor del lago Mayor, en el cantón del Tesino, y el bosque de los Alpes, en el resto del país.<br>
+        Una biodiversidad rica gracias a la topografía y a los microclimas<br>
+        En Suiza existen más de 230 entornos naturales, como praderas, riberas, ciénagas, bosques o incluso ciudades, y cerca de 64.000 especies animales, vegetales y fúngicas, de las que se conocen 45.890. Esta riqueza se explica por los contrastes climáticos y la topografía del país. Las regiones alpinas y las zonas forestales concentran la mayor variedad de especies. Los arroyos y ríos ofrecen hábitats irreemplazables para numerosas especies raras. Además, la biodiversidad es indispensable para el bienestar del ser humano y reviste una gran importancia para la economía. El gobierno protege este patrimonio natural para asegurar su preservación.
+    </section>
+    <textos id="subtitulo">Poblacion</textos>
+    <section id="parrafo">
+        En Suiza viven unas 8 millones de habitantes.<br>
+        El multilingüismo, la edad promedio cada vez más alta y la elevada cuota de extranjeros en la población total caracterizan el desarrollo demográfico de Suiza<br>
+        De los 8 millones de habitantes del país, más del 22,7 % no tiene ningún pasaporte suizo.<br>
+        Aumenta la edad promedio porque la gente vive más tiempo y tiene menos hijos.
+    </section>
+    <textos id="subtitulo">PROBLEMÁTICA AMBIENTAL DE SUIZA</textos>
+    <section id="parrafo">
+        Investigadores de la Escuela Politécnica Federal de Lausanne (EPFL), en Suiza, han detectado contaminación por microplástico en uno de los lagos más grandes de Europa occidental, el Lago Lemán o Lago Ginebra, en cantidades suficientemente grandes para causar preocupación. El análisis se está realizando por orden de la Oficina Federal Suiza para el Medio Ambiente.<br>
+        Mientras que los estudios en el océano han demostrado que estos pequeños trozos de plástico pueden ser perjudiciales para los peces y las aves que se alimentan de plancton y otros pequeños organismos transmitidas por el agua, la magnitud de sus consecuencias en los lagos y ríos se está investigando ahora.<br> 
+        La contaminación de microplástico es también una cepa de lago y de los ecosistemas fluviales, amenazando a los animales que habitan estos ecosistemas acuáticos, tanto física como químicamente. Cuando accidentalmente es tragada por las aves acuáticas y los peces, los pequeños trozos de plástico pueden terminar atrapados en los intestinos de los animales y obstruir su tracto digestivo, o hacer que se asfixien al bloquear sus vías respiratorias.<br>
+        Los vasos descartables de plástico liberan billones de partículas microscópicas en las bebidas calientes.<br>
+        La producción de basura era enorme para un territorio tan pequeño. Entonces sus habitantes decidieron buscar una solución definitiva.<br>
+        Suiza es una ejemplo de solución al problema de la basura (residuos).<br>
+        Un problema que parecía imposible de resolver<br>
+        A pesar de que hoy en día las democracias occidentales vemos a Suiza como un modelo de país con una ciudadanía comprometida con la protección de su modelo político, social y ecológico, esto no siempre fue así en todos los aspectos.<br> <br>
+        <img src="{% static 'imagenes informacion/suizaproblema.jpg' %}">
+        Tiñen de verde fosforescente un río en Suiza para alertar sobre la crisis ambiental
+    </section>
+    <textos id="subtitulo">Soluciones sociales y ecológicas</textos>
+    <section id="parrafo">
+        Suiza optó por un pacto social cuyo eje fuera la clasificación de los residuos. El gobierno y la ciudadanía se organizaron para imponer la obligación de clasificar y separar la basura, sin excepciones. Esto quiere decir que todo ciudadano debía salvaguardar los recursos naturales, ecológicos y paisajísticos de su nación mediante un compromiso con el reciclaje.<br>
+        Hoy en día Suiza es un modelo de desarrollo y limpieza: todo desecho es clasificado y procesado, independientemente que forme un componente de un empaque. De esta forma si un recipiente tiene etiquetas de cartón, estas se separan del plástico y se depositan en bolsas debidamente marcadas, tal como los desechos orgánicos. Las consecuencias de no hacerlo se castigan mediante severas multas.
+    </section>
+    <textos id="subtitulo">Números Verdes</textos>
+    <section id="parrafo">
+        El 71% de las botellas plásticas del país helvético son recicladas, lo mismo sucede con el papel, cuya cifra llega al 70% (el cartón también se recicla aparte del papel). Otros tipos de recipientes corren la misma suerte, como las conservas, cuyas cifras también llegan al 70%, o los recipientes de aluminio que suben hasta el 90%. Un número similar sucede con las botellas de vidrio. Estas últimas deben ser clasificadas según su color.
+    </section>
+    <div id="ingles"><section id="titulo">INGLES</section></div>
+    <section id="parrafo">
+        Switzerland is located in the heart of Europe. It shares 1,935 kilometers of borders with five countries: Germany, Austria, France, Italy and the Principality of Liechtenstein. Switzerland is divided into three different geographical zones. With an area of 41,285 square kilometers, Switzerland covers only 1.5 per thousand of the inhabited land area. The Jura, the Plain and the Alps constitute the three main geographical areas of the country.
+    </section>
+    <div id="artistica"><section id="titulo">ARTÍSTICA</section></div>
+    <section id="parrafo">
+        Suiza es un país con diversidad cultural gracias a su ubicación geográfica entre países como Alemania, Francia, Italia, Austria y Liechtenstein. ¡Esta diversidad ha contribuido a dar forma a una cultura única! Suiza tiene una extensa tradición en música, artesanía y museos.<br>
+        Si alguna vez visita el país, verá "CH" en muchos casos. Pero, ¿qué representa? ''CH'' se refiere a las tribus que habitaron el país hace 2.000 años. Una de estas grandes tribus eran los helvéticos, una tribu celta y "CH" significa "Confoederatio Helvética", el nombre formal de la Confederación Suiza.<br>
+        ¿Sabías que Suiza tiene una importante tradición de música folclórica? La música folclórica suiza incluye canto a la tirolesa, música de trompeta alpina y música ländler. Los instrumentos musicales más conocidos son la trompa alpina (un instrumento musical típico suizo), el schwyzerörgeli (un acordeón), el violín, el violín bajo y el clarinete.<br>
+        Si eres un entusiasta de los museos o de las artes, entonces Suiza definitivamente te encantará. Suiza se encuentra entre los principales países con la mayor cantidad de museos per cápita, lo que significa que puedes encontrar más de 1,000 museos.<br>
+        La cultura suiza también es muy conocida por su artesanía y especialmente por la relojería. La industria de relojes de lujo en Suiza tiene una excelente reputación de artesanía con marcas de relojes como Patek Phillippe, Rolex, Tissot, TAG Heuer, Vacheron Constantin y Chopard.<br>
+        ¿Qué pasa con los ciudadanos suizos famosos? Roger Federer, el legendario tenista, Johanna Spyri, escritora del libro de ficción ''Heidi'' o el psiquiatra y psicoanalista Carl Jung se encuentran entre los suizos más famosos. Pequeño consejo: si desea entablar amistad con un suizo y asimilar la cultura suiza, debe valorar tres características: ¡honestidad, puntualidad y cortesía!
+        <img src="{% static 'imagenes informacion/suizarte.jpg' %}">
+    </section>
+    <textos id="subtitulo">cocina suiza</textos>
+    <section id="parrafo">
+        La cocina suiza tiene un lugar en el corazón de muchos gourmets, y una vez que la pruebas, es difícil dejarla ir. Es un paraíso culinario gourmet con influencias de varios países como Italia y Francia. ¿Por dónde empezar, los chocolates de primera calidad o el queso súper sabroso?<br>
+        Algunos de los platos más característicos de la cocina suiza son la fondue de queso (queso fundido con cubitos de pan), la raclette, el älplermagronen y el rösti. Deliciosos quesos se encuentran en todas partes del país y cuando estudias en Suiza puedes probar quesos especiales como vacherin, appenzeller, emmentaler o sbrinz.<br>
+        ¿Con qué frecuencia comes muesli en el desayuno? Bueno, debes saber que el muesli es de origen suizo y fue desarrollado alrededor de 1900 por el médico suizo Maximilian Oskar Bircher-Brenner.<br>
+        La producción de chocolate en Suiza comenzó durante el siglo XVII y rápidamente ganó audiencia en todo el mundo, gracias a su calidad. Hoy en día, se producen toneladas de chocolate cada año y las principales marcas suizas de chocolate como Lindt, Cailler, Frey, Nestlé y Toblerone se encuentran entre los principales proveedores de chocolate del mundo.
+    </section>
+    <textos id="subtitulo">Idiomas de Suiza</textos>
+    <section id="parrafo">
+        Si eres un amante de los idiomas, entonces no hay mejor lugar que Suiza para desentrañar tu competencia lingüística. ¿Hay un idioma oficial en Suiza? La respuesta es un poco compleja. ¡Los idiomas de suiza no son uno o dos, sino cuatro!<br>
+        Los cuatro idiomas oficiales en Suiza incluyen alemán (hablado en el norte, centro y este de Suiza), francés (hablado en el oeste de Suiza), italiano (hablado en el sur de Suiza) y romanche (hablado en el sureste de Suiza). Los suizos son la mayor parte del tiempo multilingües, dependiendo de la región en la que crecieron.<br>
+        La comunidad de habla alemana es la más grande, con 17 cantones que tienen el alemán como idioma oficial. A pesar de eso, no tendrás ningún problema para comunicarte en inglés en Suiza, ya que los suizos mantienen un alto nivel de dominio del idioma inglés. Además de eso, puede encontrar una variedad de programas de maestría y doctorado impartidos en inglés
+    </section>
+    <textos id="subtitulo">Danza</textos>
+    <section id="parrafo">
+        En Suiza, la danza es un nuevo arte. Impulsado por los artistas alternativos asentados en Monte Verità ha venido desarrollándose en todas las variedades posibles durante los  
+        últimos cien años. En la actualidad, la danza en Suiza muestra tanta diversidad como su paisaje.
+        <img src="{% static 'imagenes informacion/suizadanza.jpg' %}">
+        De Ginebra a Zúrich, de Locarno a Basilea, de San Galo a Friburgo se baila mucho y de muchas formas: clásico o contemporáneo, flamenco o hip hop, oriental o minimalista, y no solo en modernos teatros o en salas de ópera neoclásicas, sino también en fábricas, graneros o escenarios al aire libre. Mientras en muchos teatros institucionales se promueve tanto la continuidad como la calidad y se cuida el repertorio, los artistas de la danza consiguen espacios libres de todo tipo para sus experimentos. En los últimos tiempos, las tendencias más recientes de danza libre en Suiza y las escuelas oficiales helvéticas se están acercando y creando nuevas estructuras.
+        <img src="{% static 'imagenes informacion/suizadanza2.jpg' %}">
+        La danza suiza no goza de una larga tradición, pero se ha ido diversificando con el tiempo hasta llegar a lo que es hoy en día. El impulso principal proviene de Monte Verità, en el Tesino, donde se creó a principios del siglo XX una colonia alternativa de artistas ansiosos de liberarse de todas las convenciones y buscar nuevas formas de arte y de vida. En la colina de la verdad también dieron clases los pioneros de la danza expresionista y encontraron numerosos seguidores. En Ginebra comenzó el movimiento rítmico que influyó en la enseñanza de la danza. Durante las dos guerras mundiales, en los países vecinos sucumbieron todas las nuevas tendencias de la danza. A partir de entonces, Zúrich y Lausana pasaron a ser los nuevos centros internacionales de este arte. Legendarios cursos de verano atraían a estrellas de la danza de todo el mundo a Suiza, donde presentaban su trabajo a la vez que impartían clases. Aquí actuaban estrellas de fama mundial y se crearon escuelas de formación profesional.
+    </section>
+    <textos id="subtitulo">El ballet clásico hoy</textos>
+    <section id="parrafo">
+        Suiza cuenta en la actualidad con cuatro compañías de ballet que ofrecen un repertorio clásico y neoclásico: el Ballet de Zúrich, el Ballet de Basilea, el Ballet Béjart de Lausana y el Ballett du Grand Théâtre de Genève. Fundadas entre las dos grandes guerras, son la base para el desarrollo de la danza en Suiza. En un primer momento, los ballets son el marco del teatro musical. Posteriormente, además de los interludios de ballet en óperas y operetas, las compañías comienzan a presentar al público auténticos espectáculos de danza. En la actualidad, cada vez se acercan más a la danza contemporánea.
+        <img src="{% static 'imagenes informacion/danza4.jpg' %}">
+        El nombre del Ballet de Zúrich está íntimamente ligado a Heinz Spoerli. Nacido en 1940 en Basilea, este bailarín y coreógrafo participó en la creación del Ballet de Zúrich, la mayor compañía profesional suiza de ballet, y lo dirigió durante 16 años en el Teatro de la Ópera. Él mismo se denomina artesano de la danza, lo cual suena algo modesto teniendo en cuenta su gran aportación al ballet clásico en Suiza. Gracias a sus excelentes coreografías, este excepcional artista consiguió poner el ballet suizo en la escena internacional. En la temporada 2012/13 se hizo cargo de la dirección Christian Spuck. El Ballet de Zúrich suele colaborar con William Forsythe, Martin Schläpfer, Jiri Kylian, Wayne McGregor, Marco Goecke y Mats Ek
+        <img src="{% static 'imagenes informacion/suizadanza3.jpg' %}">
+        El Béjart Ballet de Lausana lleva el nombre del bailarín y coreógrafo Maurice Béjart (1927-2007), quien lo fundó en 1987. Este francés ha sido una de las grandes figuras del ballet contemporáneo. En sus coreografías reforzaba el papel del bailarín masculino y, con sus escenificaciones gráficas y apasionadas, llegaba a un público muy diverso. Su sucesor fue Gil Roman. El Béjart Ballet de Lausana no está ligado a ningún teatro y ofrece regularmente piezas del repertorio de su fundador, así como coreografías de Gil Roman y de otros coreógrafos invitados.<br>
+        Al igual que el Teatro de la Ópera de Zúrich, el actual Teatro de Basilea pasó en las décadas de los 50 y los 60 una fase de tradición rusa y no alcanzó renombre internacional hasta encontrarse bajo las órdenes del director de ballet Waslaw Orlikowsky. En la actualidad, el director del Ballet de Basilea es Richard Wherlock.<br>
+        En su reapertura en 1962, el Grand Théâtre creó su propia compañía de ballet. Desde entonces su vocación es hacer pasar por su escenario la gran variedad de estilos surgidos en el siglo XX. Para ello la compañía, actualmente a las órdenes de Philippe Cohen, colabora con conocidos artistas y coreógrafos.<br>
+        El Teatro de San Galo cuenta desde 1939 con una compañía de danza. En 2001, con el bailarín y coreógrafo de Zúrich Philipp Egli por primera vez se hizo cargo de una compañía institucional un representante de la escena libre. Egli presentó desde los clásicos del ballet hasta sus propias creaciones. La bailarina y coreógrafa Beate Vollack se hizo cargo de la dirección de la compañía en la temporada 2014/2015.<br>
+        El Teatro Municipal de Berna cuenta desde 1933 con una compañía de ballet. Martin Schläpfer, que había sido bailarín en el Heins Spoerlis Basler Ballett, dotó a esa compañía por primera vez en 1994 de un alto nivel. A las órdenes de su nueva directora de danza Estefanía Miranda, la compañía se concentra en estrenos, primicias en Suiza y series de danza
+    </section>
+    <div id="juridico"><section id="titulo">JURIDICO CONTABLE</section></div>
+    <textos id="subtitulo">SUIZA <br>CONSTITUCIÓN FEDERAL DE LA CONFEDERACIÓN SUIZA DE 18 DE ABRIL DE 1999 (SITUACIÓN EN FECHA DE 27 DE SEPTIEMBRE DE 2009)</textos>
+    <section id="parrafo">
+        Año de versión 2009<br>
+        Fechas<br>
+        Situación a: 27 de septiembre de 2009<br>
+        Entrada en vigor: 1 de enero de 2000<br>
+        Adoptado/a: 18 de abril de 1999<br>
+        La Constitución es la ley suprema de Suiza. La primera Constitución, que fue adoptada el 12 de septiembre de 1848, establecía Suiza como Estado Federal. Dicha Constitución introdujo el principio de subsidiariedad, conforme al cual los cantones son soberanos en la medida en que su soberanía no esté expresamente limitada por la Constitución. El 29 de mayo de 1874, tras efectuar una revisión completa de la primera Constitución de 1848, se adoptó la segunda Constitución de Suiza. Con esta segunda Constitución se reforzaron las competencias federales y se introdujo el procedimiento de referéndum en el plano federal. El 18 de abril de 1999 se adoptó por votación popular la tercera Constitución, que entró en vigor el 1 de enero del 2000. La Constitución de 1999, que es una reestructuración de las anteriores Constituciones de 1848 y 1874, codifica los derechos fundamentales, a los que, anteriormente, solo se hacía alusión en la jurisprudencia y la doctrina. Suiza puede definirse como un Estado democrático federal parlamentario de carácter pluralista. La Constitución especifica las competencias y obligaciones de los poderes del Estado.
+    </section>
+    <textos id="subtitulo">El sistema político </textos>
+    <section id="parrafo">
+        Siete consejeros federales, 26 gobiernos cantonales, 2.172 concejos municipales y 5,5 millones de votantes comparten el poder político en Suiza.
+    </section>
+    <textos id="subtitulo">Los partidos políticos</textos>
+    <section id="parrafo">
+        El paisaje político suizo se caracteriza por su equilibrio y su estabilidad relativa; últimamente han ganado en importancia los partidos ecológicos.
+    </section>
+    <textos id="subtitulo">Consejo Federal</textos>
+    <section id="parrafo">
+        Los siete consejeros y consejeras federales tienen los mismos derechos y gobiernan según el principio de colegialidad. Representan los principales partidos políticos de Suiza.
+    </section>
+    <textos id="subtitulo">Federalismo</textos>
+    <section id="parrafo">
+        Suiza está constituida por 26 cantones que a su vez integran a más de 2.300 municipios. La Confederación, los cantones y los ayuntamientos comparten las competencias políticas y legislativas.
+    </section>
+    <textos id="subtitulo">Asamblea Federal (Parlamento)</textos>
+    <section id="parrafo">
+        El Consejo Nacional y el Consejo de los Estados se reúnen cuatro veces al año en sesiones de tres semanas de duración. Solo una vez al año se reúnen ambas cámaras en sesión conjunta para la elección de los miembros del gobierno nacional y de los tribunales supremos.
+    </section>
+    <textos id="subtitulo">Democracia directa</textos>
+    <section id="parrafo">
+        Tres son los instrumentos fundamentales de la democracia directa en Suiza: la iniciativa popular, el referéndum facultativo y el referéndum obligatorio.
+    </section>
+    <div id="educacion"><section id="titulo">EDUCACION FISICA</section></div>
+    <textos id="subtitulo">Participaciones en mundiales</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/suizamundial.jpg' %}">
+        Participaciones en mundiales<br>
+        La primera participación en suiza en mundiales fue en el año 1934<br>
+        La Selección de Suiza participó en 11 Copas del Mundo y lleva 5 consecutivas desde Alemania 2006. Su mejor actuación fue llegar a los cuartos de final en Italia 1934, Francia 1938 y cuando fue el anfitrión en 1954.<br>
+        El futbolista con más apariciones es Heinz Hermann. Compitió con la selección de Suiza en 117 ocasiones desde 1978 hasta 1991. Le sigue Alain Geiger, con 112 partidos entre 1980 y 1996. Completa el podio un futbolista más actual, pero también retirado: Stephan Lichtsteiner, con 107 encuentros entre 2006 y 2019.
+    </section>
+    <textos id="subtitulo">Juegos olímpicos</textos>
+    <section id="parrafo">
+        Suiza en los Juegos Olímpicos está representada por la asociación Asociación Olímpica Suiza, miembro del Comité Olímpico Internacional desde el año 1912.​ Ha participado en todas las ediciones de los Juegos Olímpicos de Verano.<br>
+        Ha participado en todas las ediciones de los juegos olímpicos de verano (29 en total). El país ha obtenido un total de 205 medallas en las ediciones de verano: 53 de oro, 79 de plata y 73 de bronce.<br>
+        <img src="{% static 'imagenes informacion/suizaolimipico.jpg' %}">
+        En los juegos olímpicos de invierno ha participado en todas las ediciones (24 en total). El país ha conseguido un total de 167 medallas en las ediciones de invierno: 63 de oro, 47 de plata y 57 de bronce.<br>
+        Este país fue anfitrión de los Juegos Olímpicos de Invierno en dos ocasiones: Sankt-Moritz 1928 y Sankt-Moritz 1948.
+    </section>
+    <div id="tec"><section id="titulo">TECNOLOGIA E INFORMATICA</section></div>
+    <section id="parrafo">
+        En 2015, Suiza fue nombrado, por séptimo año consecutivo, el país más competitivo del mundo, encabezando el índice presentado por el World Economic Forum. Una de las claves más importantes para ser y seguir siendo un país altamente competitivo es, ante todo, fomentar la investigación y la innovación. Quisiera presentar algunas de las actividades que Suiza emprende en estos sectores y que llevaron a mi país a convertirse en la nación más competitiva del mundo.<br>
+        La investigación y la innovación son dos pilares fundamentales de la economía helvética: Suiza invierte cada año tres por ciento de su PIB en los sectores de la investigación y el desarrollo, con lo cual detenta un puesto entre las cinco naciones industriales más activas en el ámbito científico. Tres cuartas partes de la labor científica son financiadas por fondos de la economía privada y el resto por subvenciones públicas, así como por diversas instituciones y escuelas técnicas superiores. Hasta hoy han sido galardonados 20 científicos suizos con el premio Nobel.<br>
+        El aún activo Mars Exploration Rover de la NASA, movido por motores de fabricación suiza.<br>
+        En Ginebra se encuentra el laboratorio más grande del mundo, el CERN, dedicado a la investigación de la física de partículas. Cerca de Ginebra y próximo a la frontera con Francia. Cuenta con una serie de aceleradores de partículas, entre los que destaca el ya desmantelado gran colisionador de electrones y positrones. Actualmente en su lugar se ha construido el gran colisionador de hadrones, un acelerador protón-protón previsto para operar a mayor energía y luminosidad (se producirán más colisiones por segundo) de 27 km de circunferencia y que constituye el acelerador de partículas más grande construido hasta la fecha. Financiado con la colaboración de 60 países, hizo posible la confirmación de la existencia del bosón de Higgs. La primera prueba de este último se realizó con éxito el 10 de septiembre de 2008.<br>
+        El éxito del CERN no es solo su capacidad para producir resultados científicos de gran interés, sino también el desarrollo de nuevas tecnologías tanto informáticas como industriales. Entre los primeros destaca en 1990 la invención del World Wide Web (WWW) por los científicos Tim Berners-Lee y Robert Cailliau, pero no hay que olvidar el desarrollo y mantenimiento de importantes bibliotecas matemáticas (CERNLIB ahora llamada ROOT) usadas durante muchos años en la mayoría de centros científicos, o también sistemas de almacenamiento masivo (el gran colisionador de hadrones almacenará un volumen de datos del orden de varios PB cada año). Para finales de 2010 los directivos del CERN anunciaron que habían conseguido producir y capturar átomos de antimateria por un lapso de más de una décima de segundo. Este hecho es importantísimo para la ciencia ya que abre un campo que, al menos en la práctica, era desconocido y podría proporcionar energía en cantidades inmensas.<br>
+        Otro importante centro de investigación es el Instituto Paul Scherrer. Invenciones muy conocidas incluyen el LSD, el microscopio de efecto túnel (premio Nobel) y el popular velcro. Algunas tecnologías ayudaron a la exploración de nuevos mundos, como el globo presurizado de Auguste Piccard y el batiscafo de Jacques Piccard, que le permitió llegar al punto más profundo del océano.<br>
+        La Agencia Espacial Suiza, llamada Oficina Espacial Suiza, participó en el desarrollo de varios programas y tecnologías espaciales. En 1975 también fue uno de los diez fundadores de la Agencia Espacial Europea y es el séptimo contribuyente más importante para la AEE. En el sector privado, varias compañías están implicadas en la industria espacial, como Oerlikon Space y Maxon Motors.
+    </section>
+    <div id="curso"><section id="titulo">Curso 5°C</section></div>
+    <section id="parrafo">
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno3.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno6.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno9.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno10.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno11.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/suiza/alumno12.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>
+  

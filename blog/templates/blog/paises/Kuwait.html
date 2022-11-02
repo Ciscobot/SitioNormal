@@ -1,0 +1,162 @@
+{% load static %}
+
+<html>
+<head>
+<title> Kuwait </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Kuwait <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#aspectos">ASPECTOS GEOGRAFICOS</a></li>
+            <li><a href="#aspectosh">ASPECTOS HISTORICOS</a></li>
+            <li><a href="#aspectosc">ASPECTOS CULTURALES</a></li>
+            <li><a href="#curso">Curso 1°F</a></li>
+        </ul>
+    </div>
+    <section id="titulo">INFORME: KUWAIT</section>
+    <section id="parrafo">
+        Nombre oficial: Kuwait, estado de Kuwait  superficie:17.818 km límites: situado en el extremo noroeste del Golfo Pérsico, limita al norte con Irak y al este y sur con Arabia Saudí
+        <img src="{% static 'imagenes informacion/kuwaitmapa.jpg' %}">
+        Población:4,68millones de los que 1,47millones serían nacionales de Kuwait <br>
+        La tasa de natalidad en Kuwait 12,68%
+    </section>
+    <div id="aspectos"><section id="titulo">ASPECTOS GEOGRAFICOS</section></div>
+    <textos id="subtitulo">Los Biomas:</textos>
+    <section id="parrafo">
+        Ecología dentro del Bioma de desierto que ocupa todo el territorio de Kuwait, se distingue dos ecorregiones: El desierto y e l monte xerofilo de Arabia y el soñar en el extremo oeste,y el desierto y semide sierto del Golfo persico en todo el resto del país
+    </section>
+    <textos id="subtitulo">Los relieves:</textos>
+    <section id="parrafo">
+        Generalmente plano o suavemente ondulado. La máxima elevaciones es el pico de Alshioaya (290 metros) situado en el extremo occidental del país. La franja litoral está salpicada de marisma saladas. En Kuwait no existen cursos fluviales regulares, tampoco lagos de agua dulce.
+    </section>
+    <textos id="subtitulo">Clima:</textos>
+    <section id="parrafo">
+        Desértico, cálido y seco <br>
+        Las precipitaciones oscilan entre 75 hasta 150 milímetros por años en todo el país. Las temperaturas en verano son de entre 43 a 47°c, La temperatura más alta registrada en Kuwait ha Sido de 54° c en  21 de julio de 2016, en Mitribah . Y en invierno la temperatura fresca dura 3,3 meses del 26 de noviembre al 5 de marzo, y la temperatura máxima promedio diaria es menos de 24°c. El mes más frío del año en Kuwait es enero, con una temperatura mínima promedio de 8°c y la máxima de 18°c.
+    </section>
+    <textos id="subtitulo">Etnias:</textos>
+    <section id="parrafo">
+        Los kuwaitíes son un pueblo árabe, pero constituyen menos de la mitad de la población local, formada en 60% por trabajadores inmigrantes palestinos, Egipcios, jordanos, iraníes, pakistanies, indios, bengalíes, filipinos.
+    </section>
+    <div id="aspectosh"><section id="titulo">ASPECTOS HISTORICOS</section></div>
+    <section id="parrafo">
+        En 1756 se entregó el gobierno de Kuwait a la dinastía de as¬¬-Sabah, que desde 1716 habitaban el lugar, aunque permaneciera bajo soberanía Otomana. Cuando los otomanos trataron en el  siglo XIX de fortalecer su soberanía Kuwait busco la protección del imperio británico y se desligo del Otomano.<br>
+        El acuerdo anglo-Otomano de 1913 vieron los británicos y los Otomanos acordaron en definir Kuwait como una casta el imperio otomano. desde 1919 se produjeron muchas incursiones de los wahables saudíes contra Kuwait británicos militar y con el impulso el protocolo Uqair de 1922, entre Kuwait y los nechd de abdelaziz bin saud . y el rey de arabia saudita, en 1940 reconoció por primera vez a Kuwait en 1939 el jacket ahmad  al-jaber (1921-1950) empleo por primera vez el título de emir.<br>
+        A partir de 1938 se descubrieron grandes pozos petrolíferos, y tras la segunda guerra mundial paso a ser uno de los mayores productores de petróleo del golfo pérsico. Con los grandes beneficios obtenidos se financio la modernización del país y se estableció un estado de bienestar social. En 1960 se asoció junto a Irán, Irak, arabia saudita y Venezuela para formar la OPEP. En 1961, bajo el mando del jeque as-Salim as-Sabbah (1950-1965) Kuwait se independizo.<br>
+        Aunque Irak reconoció su independencia en 1963, en los años siguientes Kuwait fue objeto de reivindicaciones territoriales por su parte. En 1973 Irak se anexiono áreas fronterizas que los británicos habían entregado en 1915 a Kuwait. En 1981 Kuwait fue uno de los países fundadores del consejo de cooperación para los estados árabes de golfo pérsico. Durante la primera guerra del golfo entre Irán e Irak (1980-1988), Kuwait asistió financieramente. Sin embargo, desde 1987 se intensificaron las tensiones entre los dos países.<br>
+        Tras la alianza con Irak durante la guerra irano-iraqui (1980-1988)  (ampliamente debida al deseo de protección frente al islámico Iran ), Kuwait fue invadido y anexionado por Irak (bajo el régimen de Saddam Hussein ) en agosto de 1990. Las primeras justificaciones de Hussein incluyeron el argumento de que el territorio Kuwait era, en regaladamente provincia iraquí, y que esa anexión era represalia a la “guerra económica” en la que Kuwait había combatido perforando hacia las reservas de petróleo iraquíes.
+    </section>
+    <textos id="subtitulo">Invasión Iraquí (agosto de1990)</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/kuwaitinvasion.jpg' %}">
+        El amanecer se 2 de agosto de 1990, las tropas iraquíes cruzaron la frontera de Kuwait con vehículos armados de infantería, ocupando puestos estratégicos en todo el país, incluyendo el Palacio del Emir. El ejercito de Kuwait fue rápidamente aplastado, aunque lograron dar el tiempo necesario para que las fuerzas aéreas de aquel país lograsen destruir a Arabia saudita. La lucha más difícil se desarrolló en el palacio del Emir, donde los miembros de la guardia real lucharon a favor de que la familia real tuviera tiempo de escapar. Un primo del Emir, quien comandaba la guardia estuvo en el grupo de aquellos que murieron. Las tropas saquearon reservas alimenticias y médicas, detuvieron miles de civiles y tomaron el control de los medios. Irak detuvo a miles de turistas occidentales como rehenes para después intentar usarlos como escudo para las negociaciones. Después de que un breve gobierno títere liderado por Alaa Hussein fuese instalado, Irak anexo Kuwait. Hussein instalo entonces un nuevo gobernador provincial escribiendo lo acaecido como la liberación del pueblo de las manos del Emir; esto fue usado principalmente como propaganda de guerra. <br>
+        Esta monarquía fue depuesta tras la anexión y se nombró a un gobernador iraquí. <br>
+        Aunque inicialmente ambiguo frente a la anexión de Kuwait por parte de Irak, el presidente norteamericano George H.W. Bush condeno definitivamente las acciones de Hussein y decidió expulsar a las fuerzas iraquíes. Autorizada por el consejo de seguridad de las Naciones Unidas, una coalición de 34 naciones dirigidos por Estados Unidos lucho en la guerra del golfo de Pérsico para reinstaurar el Emirato Kuwaití desde el 15 de enero al 27 de febrero del año 1990 tras la victoria, se alteraron también las fronteras en beneficio de Kuwait.<br>
+        Tras la guerra se produjo una reforma democrática. Desde el año 1996 los partidos islámicos y fundamentalista obtienen la mayoría en el parlamento. En 2003 Kuwiat fue el punto de partida de las tropas estado unidenses que invadieron Irak.<br>
+        Se define como un estado árabe soberano e independiente; el pueblo de Kuwait es parte de la Nación Árabe (art. 1 Constitución).<br>
+        El Emir es el jefe del Estado. El sistema de gobierno es democrático, la soberanía reside en el pueblo, del que emanan los poderes. La soberanía se ejerce de la manera establecida en la Constitución (art.6). El sistema de gobierno se basa en la separación de poderes y la cooperación entre ellos (art. 50). El poder ejecutivo corresponde al Emir, el Gabinete y los ministros; el poder legislativo corresponde al Emir y la Asamblea Nacional. División administrativa: el país se divide en seis gobernaciones: Capital, Al Ahmadi, Al Farwaniyah, Al Jahra, Hawalli y Mubarak Al Kabir.
+    </section>
+    <div id="aspectosc"><section id="titulo">ASPECTOS CULTURALES</section></div>
+    <textos id="subtitulo">Música</textos>
+    <section id="parrafo">
+        La tradición musical de Kuwait estuvo bien (documentada) hasta la guerra del golfo. Cuando el ejército de Irak destruyó el archivo.<br>
+        Sin embargo Kuwait ha mantenido una industria musical activa, tanto antes como después de la invasión. La música refleja las diversas influencias de las cultura Kuwait en general, incluyendo música del África oriental y de la India .<br>
+        Kuwait es junto a Baréin, el centro del un tipo de música popular con aires de blues. fue popularizada en los años 1970 por Shadi al Khaleej ( el canto de pájaro del golfo) Nabil, Shaeil y Abdullan el Rowaished son los artistas de Sawt más populares en la actualidad ambos incluyen influencias de la música technoy del pop europeo.
+    </section>
+    <textos id="subtitulo">Música y baile tradicional</textos>
+    <section id="parrafo">
+        La música tradicional Kuwait es ejecutada principalmente por mujeres en privado, con algunas banderas de música exclusivamente de mujeres haciendo conciertos en celebraciones públicas. Instrumentos de percusión simples cómo pequeña tambores (mirwuas) y plamas. Son los únicos instrumentos utilizados. Las canciones de boda incluyen los alfann, durante las que también se baila individualmente el al whamari y también el almesri.<br>
+        La canción de marinero al arda es bahariya ampliamente conocida en Kuwait, al igual que las canciones del tipo al nahma que acompañaban las labores de navegación.<br>
+        Los mawled son recitados de secciones de la Biografía de Mahoma, cantadas durante fiestas religiosas.<br>
+        Los beduinos son conocidos por el uso de un instrumento llamado rubabah, aunque también emplean el oído, el tambarah (instrumento de cuerpo) y el habban ( gaitán) . <br>
+        El al-faraesa es una danza realizada por mujeres disfrazadas de hombre en ( determinadas) fiestas nacionales y religiosas.<br>
+        La danza se realiza como una batalla entre un caballero y dos atacantes otros bailes  tradicionales incluyen una danza de sables llamada ardah ( acompañada de tambores y panderetas ) y las danzas de mujeres llamadas khamari, tamboura ,  fraish , zifan y samiri.<br>
+        La música tradicional Kuwait es música árabe está basada en tambores pandores, laudes y otros instrumentos de cuerdas, acompañados de pequeños instrumentos de bronce cómo cascabeles y campanas.
+    </section>
+    <textos id="subtitulo">Historia del arte.</textos>
+    <section id="parrafo">
+        El movimiento de arte moderno de Kuwait surgió en la  década de 1930,Kuwait tiene el movimiento de arte más antiguo de la península Arábiga. Kuwait alberga más de 20  galerías de arte. En los últimos años, la escena del arte contemporáneo de Kuwait se ha disparado. Tiene la segunda escena de galería más completa (después de Dubái). <br>
+        A partir de 1936, Kuwait fue el primer país del golfo en otorgar becas en las artes .El artista kuwaití Mojeb al-Douseri fue el primer artista visual reconocido en la región del golfo pérsico . considerado el fundador del arte del retrato en la región . En 1943, Al-Douaeri inauguro la primera galería de arte de Kuwait<br>
+        La sultan gallery fue la primera galeria de arte árabe profesional en la región del golfo pérsico Khalifa  Qattan fue en el primer artista Kuwait en realizar una exposición individual en Kuwait, Fundo una nueva teoría del arte a principios de la década de 1660 conocida como “ circulismo “ .
+    </section>
+    <textos id="subtitulo">Vestimenta</textos>
+    <section id="parrafo">
+        Los  hombres utilizan traje  y camisa:   en el caso de la mujer , se recomienda llevar pantalón , manga larga o vestido por bajo de la rodilla las prendas ajustadas o reveladoras están    prohibidas en el código penal. Sin   embargo, hoy en día tanto los hombres como mujeres visten ropa de diseño occidental
+        <img src="{% static 'imagenes informacion/kuwaitropa.png' %}">
+        La vestimenta tradicional femenina por excelencia se llama abaya, y consiste en una túnica larga que llega hasta los pies, generalmente hecha de poliéster o seda, de color negro. Se suele completar con el hiyab o manto con el que las mujeres cubren su cabeza y, a veces con el niqab, que es el velo con el que se tapan el rostro, dejando los ojos al descubierto. Los motivos de usar esta prenda, ya sea con o sin niqab, son meramente religiosos y culturales, y es algo que va a depender del grado de religiosidad o tradicionalismo de cada mujer. Es decir,  en Kuwait al menos no es obligatorio, aunque hay países como Arabia Saudí y Qatar en los que sí lo es en todos los lugares públicos. Siguiendo con los atuendos femeninos, la abaya no es la única ropa tradicional para las mujeres de Kuwait. Hay otro vestido, también largo aunque mucho más colorido, llamado daara. Se suele usar para eventos especiales, como bodas y otras celebraciones, aunque también hay chicas que se lo ponen para salir por ahí. La daara puede ser de diversos colores y diseños, y suele estar decorada con bordados y filigranas de pedrería.<br>
+        En cuanto a los hombres, los más tradicionales suelen llevar una túnica larga de color blanco llamada dishdasha, con un pantalón interior del mismo color. En la cabeza suelen llevar un tipo de manto, conocido como ghutra, que puede ser de diferentes colores, predominando el blanco o un diseño de cuadritos rojos, que recuerda mucho a los típicos pañuelos palestinos. El ghutra se remata con un doble cordel negro, el agal, un accesorio destinado a mantener el manto en su sitio sin que se caiga.
+        <img src="{% static 'imagenes informacion/kuwaitropa2.jpg' %}">
+    </section>
+    <textos id="subtitulo">Religión</textos>
+    <section id="parrafo">
+        El Islam es la religión oficial del Estado y la sharia es una fuente principal de la legislación (art. 2 de la Constitución). Se reconocen la libertad de credo y la libertad de culto, de acuerdo con las costumbres y siempre que no contradiga el orden público y la moral (art. 35) Forma del Estado: Emirato constitucional. La Constitución de Kuwait fue promulgada el 11 de noviembre de 1962.
+        <img src="{% static 'imagenes informacion/kuwaitreligion.jpg' %}">
+    </section>
+    <textos id="subtitulo">Comidas tradicionales</textos>
+    <section id="parrafo">
+        Machboos, { en árabe un plato hecho con cordero } ,pollo, o pescado acompañada con arroz  fragante que se ha cocinado en caldo de pollo con cordero bien condimentado, una salsa de pescado ácida con arroz cocinado con carne, batatas y berenjenas. <br>
+        Fatay (empanadas árabe ) de cordero u otra carne roja, macerada en limón y muy condimentada
+        <img src="{% static 'imagenes informacion/kuwaitcomida.jpg' %}">
+    </section>
+
+    <div id="curso"><section id="titulo">Curso 1°F</section></div>
+    <section id="parte1">
+           <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno6.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno9.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno10.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno11.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/kuwait/alumno12.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

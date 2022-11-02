@@ -1,0 +1,119 @@
+{% load static %}
+
+<html>
+<head>
+<title> España </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a España<br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#prehistoria">La Prehistoria</a></li>
+            <li><a href="#edad">Edad Antigua</a></li>
+            <li><a href="#cultura">La cultura de España</a></li>
+            <li><a href="#relieves">Relieves y Biomas</a></li>
+        </ul>
+    </div>
+    <section id="titulo">Tema Características generales de España o reino de España.</section>
+    <section id="parrafo">
+        La historia de España engloba el periodo comprendido desde la primera colonización humana en la prehistoria en la península ibérica hasta la actualidad. La formación del estado español inicia a finales de la edad media con la unión o invasión (caso de Navarra y Granada) de los reinos que acabaron formando castilla, León Aragón, Navarra y Granada.
+        <ul>
+            <li>Prehistoria en la península ibérica</li>
+            <li>Historia antigua de la península ibérica</li>
+            <li>Historia medieval de España</li>
+            <li>Hispania visigoda</li>
+            <li>Conquista musulmana de la península ibérica</li>
+            <li>Reinos cristianos peninsulares medievales</li>
+            <li>Plena edad media debla península ibérica</li>
+            <li>Baja edad media de la península ibérica</li>
+            <li>Historia moderna de España</li>
+            <li>Historia contemporánea de España.</li>
+        </ul>
+    </section>
+    <div id="prehistoria"><textos id="subtitulo">LA PREHISTORIA.</textos></div>
+    <section id="parrafo">
+        La presencia de homínidos en la península ibérica se remota al menos a 1,3 o 1,2 millones de años, datación de la mandíbula encontrada en la cima del elefante, uno de los yacimientos de la cierra de ata puerca (provincia de burgos). corresponde a un homo aún por determinar, próximo a los más primitivos homos africanos y al hombre de omanís, pero con algunas características derivadas propias. De esta edad sería también yacimientos con industria lítica propia del paleolítico interior arcaico (pre achalense) de fuente nueva 3, en la cuenca de GUADIX-BAZA (provincia de granada). De hace unos 900.000 años son los restos del yacimiento de la GRAN DOLINA, también en atapuerca, que definen una especie clave para entender la evolución humana, bautizada como homo anecessar. El siguiente hallazgo datado en unos 430.000 de años, es la ingente cantidad de restos de homo heidelbrgensis (especie precursora del homo neanderthalensis) hallados en la sima de los huesos de altapuerca, yacimientos que ha proporcionado, entre una variedad ósea excepcional, números cráneos muy bien conservados. <br>
+        Son numerosos los yacimientos con industria lítica achellense de esta época en la península, como los de Torralba y ambrona (provincia de soria) x los de las terrazas de manzanares (provincia de Madrid) <br>
+        En el paleolítico medio se sitúa la presencia del hombre de neandertales, asociado a la cultura musteriense dando en unos 60.000 años sus primeros restos en Gibraltar. En la cueva del Ner(Málaga), se han datado en 42.000 años de antigüedad algunos restos orgánicos asociados a unas pinturas de focas que podrían ser la primera obra de arte conocida de la historia de la humanidad  <br>
+        En el paleolítico superior de sitúa la llegada a la península durante varios millares de años con los neandertales, hasta la extensión debla últimas poblaciones de neandertales en el sur hace unos 27.000 años. <br>
+        Hace unos 16.000 años la cultura magdaleniense estaba presente en Australia y parte del país vasco, cuya aportación más notable lo representan las pinturas rupestres de las 
+        cuevas de Altamira. El arte rupestre se desarrolló en dos zonas estilística y cronológicamente bien diferenciadas: el arte Franco-cantábrico y el arte levantino. La revolución neolítico, que la teoría difusionista entiende como una difusión cultural a  partir de su inicio en el creciente fértil de oriente próximo, apoyándose en la difusión  simultánea de la cerámica cordial, alcanza la costa mediterránea en torno a 6.000 a.c  ,provocando el abandono del tradicional modo de vida cazador recolector x un estilo de  vida sedentario ,enfocado en la agricultura y la ganadería, extendido al resto de la  península durante los siguientes dos milenios .en torno al 5.000 a.c aparece la cultura  malatica en el tercio occidental de la la península.  <br>
+        Las culturas que usaron los metales (edad de los metales) aparecieron en la península ibérica en torno a los años 3.000 o 2.500 a.c su distribución geográfica es mayor y se considera que la búsqueda de los metales trajo flujos migratorios importantes, destacando los Millares en Armería con una gran fortificación, y en el curso del río Tajo en la zona portuguesa actual. 
+    </section>
+    <div id="edad"><textos id="subtitulo">EDAD ANTIGUA.</textos></div>
+    <section id="parrafo">
+        La edad de hierro se inicia en la península ibérica con la penetración de población e  influencia cultural indoeuropea desde el comienzo del milenio a.c determinado la  identidad étnica y lingüística celta de la mayor parte de los pueblos indígenas de las zonas  norte ,este y centro ,con alguna excepción:lucitanos y vetones, también indoeuropeos ,se  clasifican de “precelticos” mientras que los vascones se clasifican de “preseltico”a pesar  de la similitud de su forma de vida a la de otros pueblos de la zona norte (galaicos, astures  y cántabros) su lengua (el protoeuskera ) se supone similar a los habladas en una zona  oriental peninsular ,las del grupo de pueblos denominados iberos de mayor desarrollo  económico. Las fuentes clásicas denominaron celtiberios al grupo de pueblos situados en una posición intermedia (geográficamente) <br>
+        La costa peninsular meridional y el área tartesica (con el centro en el valle del Guadalquivir_ la turdetania y con proyección hasta zonas muy lejanas de la desembocadura del Tajo a la del seguro, la más rica en metales y de mayor desarrollo económico y social (una verdadera civilización) fue profundamente influenciada por la colonización fenicia. La fundación mítica de Gadir (Cádiz) se data en el 1104 a.c aunque no hay base arqueológica para sustentar semejantes cronología hasta varios siglos más tarde.  En el siglo VIII a.c ya hay pruebas de la presencia de un abundante grupo de factorías y de las colonias fenicias como Málaga, Almuñécar y abdera.  Las colonias griegas se instalaron más al norte, en akra leuke (alicante), hemeroscapan (penia), empirion (Ampurias) y Rhodas (rosas) su contacto con los iberos les hizo dar las primeras referencias escritas de estos pueblos. Las mismas fuentes griegas señalaron que los navegantes griegos habían establecido contactos con el “reino” de tortuosos y con su rey que les habría dado suficiente plata como para construir murallas contra los ataques persas. Tales contactos no fructificaron, precisamente por el dominio fenicio de esta ruta, y no ha podido constatarse arqueológicamente la presencia griega en la costa mediterránea malacitana en una colonia que habría llevado el nombre de Mainaque. 
+    </section>
+    <div id="cultura"><section id="titulo">La cultura de España. </section></div>
+    <section id="parrafo">
+        La cultura española tiene sus raíces en las influencias que los diferentes pueblos han dejado tras su paso por la península a lo largo de los siglos. Además, la historia, el relieve montañoso y los mares que los circundan han contribuido significativamente en la formación de la cultura actual.<br>
+        La cultura española es una de las más ricas del planeta, con Miles de años de historia. Conoce un poco nuestro arte, costumbres, deportes y geopolítica Diferentes civilizaciones hicieron de España un país con una gran diversidad cultural. España fue a lo largo de su historia sede de culturas y civilizaciones, España tiene una cultura singular fuertemente arraigado en la Europa accidental y formada por una combinación de influencias históricas.
+        Después, durante la crema, que es una de las celebraciones más importantes de las fallas, se queman todos los monumentos que no ganaron ningún premio. Mientras todo esto pasa, la cuidad se llama de música, fuegos artificiales, comida, alcohol y mucha gente bailando al ritmo de las llamas. Si quieres una fiesta intensa, las vallas son para ti.
+    </section>
+    <textos id="subtitulo">Comidas típicas de España:</textos>
+    <section id="parrafo">
+        Las tapas, El cocido. Tortilla de papa Paella. Las migas. El Gazpacho. Rabo de Toro. Dulcesol. Bizcochos y Pastelitos. Galletas. Magdalenas. Pan de molde. Tortilla de patata es por excelencia la más típica de España. Jamón siberico otra de las especialidades de la Casa "made in spanish". Salmorejo cordobés. Gazpacho andaluz. Fabada asturiana. Pulpo a la gallega. Pulpo a la gallega. Cocido montañes. Calamares en su tinta. Un plato de paella valenciana.
+    </section>
+    <textos id="subtitulo">El carnaval: </textos>
+    <section id="parrafo">
+        Brasil muy famosa por su carnaval, pero los españoles no se quedan atrás. Es una de las tradiciones de España que atrae a turistas de todas partes del mundo. En febrero, las ciudades españolas se llenan de desfiles, conciertos, bailes y disfraces de todas las formas y colores. Está fiesta, sin duda, te va encantar por otra parte, dentro de la cultura española las letras y las artes también ha jugado su papel primordial. Conocidísimo es el flamenco, símbolo español a nivel.
+    </section>
+    <div id="relieves"><section id="titulo">Relieves y Biomas</section></div>
+    <textos id="subtitulo">Biomas: ecosistemas terrestres españoles </textos>
+    <section id="parrafo">
+        <ul>
+            <li>Alta Montaña</li>
+            <li>Bosque Atlántico</li>
+            <li>Bosque Mediterráneo </li>
+            <li>Desierto</li>
+            <li>Estepa </li>
+            <li>Laurisilva</li>
+        </ul>
+    </section>
+    <textos id="subtitulo">Los principales ecosistemas acuáticos y terrestres que hay en España son:</textos>
+    <section id="parrafo">
+        <ul>
+            <li>Alta montaña </li>
+            <li>Bosque Atlántico</li>
+            <li>Bosque Mediterráneo</li>
+            <li>Desierto</li>
+            <li>Estepa</li>
+            <li>Laurisilva</li>
+        </ul>
+    </section>
+    <textos id="subtitulo">Ecosistemas acuáticos españoles</textos>
+    <section id="parrafo">
+        <ul>
+            <li>Húmedos</li>
+            <li>Rios</li>
+            <li>Lagos </li>
+            <li>Zonas Marinas</li>
+        </ul>
+    </section>
+    <textos id="subtitulo">Los principales ecosistemas terrestres son:</textos>
+    <section id="parrafo">
+        Alta Montaña: los ecosistemas de alta montaña podemos localizarlos en los Pirineos, el sistema ibérico, el macizo galaico, el sistema central, los sistemas béticos y los penibéticos. En estas zonas, las temperaturas son muy frías y húmedas, y las precipitaciones son muy elevadas, sobre todo en invierno y casi siempre en formas de nieve. La fauna de estas zonas está formada por animales que están completamente adaptados al frío como las cabras montés, víboras, conejos o distintas clases de aves como el buitre leonado o el quebrantahuesos. En la vegetación, encontramos coníferas (abeto pino, etc.) y matorrales como el enebro enano.  <br> <br>
+        Bosque atlántico: En este tipo de ecosistemas se localiza sobre todo en el noroeste de la península ibérica. Su clima suele ser suave y húmedo, con temperaturas moderadas (alrededor de 22°C a 23°C en verano) y precipitaciones frecuentes todo el año. Entre su fauna encontramos Jabalíes, Búhos, Lobos, Zorros, Oso Pardos, Lechuzas o Nutrias. Sus árboles suelen ser caducifolios (Robles, Fresnos, Abedules, Arce, Olmos, etc.) y plantas como los Helechos, Musgos o Lianas Climas de España Podemos encontrarnos cuatro diferentes climasen España: Atlántico, mediterráneo, subtropical y de montaña. Cada clima configura un área geográfica específica y delimitada esta variante climática la podemos encontrar por todo el norte y noreste de la península, desde los primeros hasta Galicia. En las tierras del interior, los valores descienden, las temperaturas aumentan de norte a sur.
+    </section>
+</div>
+</body>
+</html>

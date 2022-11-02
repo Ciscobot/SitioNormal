@@ -1,0 +1,279 @@
+{% load static %}
+
+<html>
+<head>
+<title> Croacia </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+<link rel="stylesheet" href="{% static 'css/textopaises.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Croacia <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <section>
+        <div class="idc-box">
+            <p class="idc-titulo">Informe de Croacia</p>
+            <ul class="idc-lista">
+                <li><a href="#introduccion">Introduccion</a></li>
+                    <li><a href="#abstract">Abstract</a></li>
+                    <li><a href="#historia">Historia de Croacia</a></li>
+                <li><a href="#etnografia">Etnografía y Folklore</a></li>
+                <li><a href="#trajes">Trajes Nacionales</a></li>
+                <li><a href="#comidas">Comidas Tipicas de Croacia</a></li>
+                <li><a href="#paisajes">Paisajes de Croacia</a></li>
+                <li><a href="#frontera">Frontera y division politica</a></li>
+                <li><a href="#clima">Clima y Relieve</a></li>
+                <li><a href="#demografia">Demografia</a></li>
+                <li><a href="#minorias">Minorias etnicas</a></li>
+                <li><a href="#idiomas">Idiomas hablados en Croacia</a></li>
+                <li><a href="#impacto">Impacto Ambiental</a></li>
+                <li><a href="#politica">Politica Ambiental</a></li>
+                <li><a href="#co2">Co2 en Croacia en 2021 </a></li>
+                <li><a href="#economia">Economia </a></li>
+                <li><a href="#anexo">Anexo</a></li>
+                <li><a href="#curso">Curso 3°B</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="titulo">
+         <div id="introduccion">Introduccion</div> 
+    </section>
+    <section id="parrafo">
+        En el presente informe desarrollaremos algunos aspectos principales de Croacia, tales como su ubicación, historia, origen y grupos étnicos, aspectos culturales (comida típica y bailes de acuerdo a cada región, su etnografía y folklore), idioma oficial y tipo de moneda.<br>
+        Además, realizaremos un breve análisis demográfico, a partir del índice de natalidad y mortalidad, pobreza y analfabetismo.<br>
+        Por otra parte, analizaremos los usos que hacen de la tecnología y la manera que lo vinculan, al mejoramiento de la calidad de vida de la población.<br>
+        En relación a su economía, haremos hincapié en ubicar los puntos turísticos más importantes del país, a partir de la tasa de  empleo, desempleo y los bienes y servicios más utilizados.<br>
+        En cuanto al paisaje, investigaremos el tipo de flora y fauna y cómo influye el deterioro del medio, en los diversos ambientes y en la biodiversidad.<br>
+        Presentaremos un breve speech (abstract) en inglés, sobre las principales características de su capital, Zagreb.<br>
+        El objetivo de este trabajo es caracterizar los aspectos principales de Croacia.<br> 
+        Detectar la problemática principal que atañe al país y su desarrollo.<br>
+        En cuanto a la metodología, realizaremos búsqueda de materiales en la biblioteca virtual, Clacso de investigaciones realizadas acerca de los diferentes tópicos presentados anteriormente, investigaremos en libros y revistas virtuales, presentaremos algunos cuadros estadísticos para analizar cuestiones demográficas y mapas.
+    </section>
+    <div id="abstract"><textos id="subtitulo">Abstract:</textos></div>
+    <textos id="parrafo">
+        Zagreb is the capital of Croatia, located in the northwest, is characterized by its Austro-Hungarian architecture from the 18th and 19th centuries. At its center, in the Upper Town, is the Gothic Zagreb Cathedral, with two identical spiers, and the 13th-century St. Mark's Church, with a colorful roof. Nearby is the Tkalciceva pedestrian street, lined with outdoor cafes. Lower Town has a main square, Ban Jelacic, along with shops, museums, and parks. <br>
+            <li>Muzej Grada Zagreba: A beautiful museum that traces the history of Zagreb and Croatia from prehistory to the present day.</li>
+            <li>Zagreb Cathedral: Free admission and beautiful finishes.</li>
+            <li>Church of Santa Catalina: Next to this church there is a nice viewpoint over the lower town.</li>
+            <li>Church of San Marcos: The beginning of the construction of this church is in Gothic style. The south doorway, which is the richest and most representative of the Gothic art in southeastern Europe, is made up of fifteen effigies placed in eleven shallow niches. Above the portal are Jose and Maria with the child Jesus, and below them we can see Saint Mark and the Lion.</li>
+            <li>Stone Bridge: (Kamenita Vrata) The gate was one of the entrances through the Gradec city walls. It has become an unusual place of worship, a chapel in the middle of the street, since the painting of the Virgin and Child miraculously escaped a fire in 1731. The frame burned, but the painting remained intact.</li>
+            <li> Gunners Tower: (Kula Lotrscak) At the end of fuicular everyday at noon a cannon shot is fired from this tower. It is possible to climb the tower to enjoy the beautiful view of Zagreb that is offered from its top.</li>
+            <li>Preradoviceva Square: A promenade with flower gardens near the center.</li>
+            <li>Mirogoj Cemetery: This cemetery, opened in 1876, located north of the city center, stands out for its impressive arcades and many Croatian personalities are buried here.</li>
+            <li>Mount Sljeme: Part of the Medvednica Mountains, this is the highest mountain (1,035m) in Zagreb and quite popular for hiking and trail running.</li>
+            <li>Strossmayer: In summer it is an open-air stage for painters, musicians and other artists offering food, drinks, performances and concerts. Popular meeting place for all ages.</li>
+    </textos>
+    <section id="titulo">Desarrollo</section>
+    <div id="historia"><textos id="subtitulo">Historia de Croacia:</textos></div>
+    <section id="parrafo">
+        Croacia forma parte desde otoño de 1918 del estado de los eslovenos, croatas y serbios ,que tenía capital en Zagreb, y posteriormente se fusionó con el Reino de los serbios, croatas y eslovenos desde 1929 llamado “Reino de Yugoslavia”.<br> 
+        Este estado balcánico, existió desde el 1 de diciembre de 1918 al 2 de diciembre de 1945; estaban comprendidas al área de los actuales estados de Bosnia-Herzegovina, Serbia y Montenegro, Macedonia , así como la mayor parte de los territorios de Croacia y Eslovenia.<br>
+        Stephan  Radic, fue la principal figura política croatas durante los primeros años del estados yugoslavo hasta su asesinato en 1928.<br>
+        Tras la disolución del imperio austrohúngaro, la idea de crear una nación para los eslavos en los balcanes cobró impulso y apoyo de la comunidad internacional. El Reino de los serbios, croatas y eslovenos.  Este Reino se formó en diciembre  de 1918 y duró hasta 1929, momento  en los que la denominación fue sustituida por la de reino de Yugoslavia.<br>
+        El 29 de octubre de 1918 ,el sabor croata ( el parlamento) declara la independencia y su soberanía.<br> 
+        La historia de Croacia es el resultado de catorce siglos de vida. En sus orígenes, los croatas eran un pueblo de origen eslavo-dinárico que se mezcló con otros pueblos eslavos, enriqueciendo su lengua y costumbres. Durante sus migraciones, en el siglo VII, se establecieron en la Croacia histórica, convirtiéndo los dos siglos más tarde en uno de los reinos más poderosos de la región. Desde entonces también comenzaron sus guerras, luchas por su independencia y combates con otras naciones: avaros, búlgaros, magiares o húngaros. En 1102, Croacia forma parte del imperio austrohúngaro que termina con la Primera Guerra Mundial. Seguidamente, pasa a formar parte del reino de Yugoslavia que se convierte en República en 1944. Con la Segunda Guerra Mundial consigue configurarse como Estado independiente, pero con la derrota de los alemanes vuelve a anexionar a Yugoslavia, hasta que declara su independencia en 1991. Esto llevó a Croacia a una guerra de luchas esporádicas que se sucedieron durante cuatro años hasta que se formó el Gobierno croata de la Eslavonia Oriental en 1998 bajo la supervisión de la Organización de las Naciones Unidas (ONU). En 2013 Croacia será oficialmente país miembro de la Unión Europea.<br> 
+        Desde siempre hasta hoy en día, el país Croata es conocido por ser el lugar de las inspiraciones. Una nación en la que se mezclan cuatro culturas diferentes: la romana, la bizantina, la europea central y la mediterránea, que han dado lugar al movimiento lirio. Es la tierra de la que proceden célebres personajes, tres premios Nobel e inventores conocidos mundialmente, a lo que se une su rica naturaleza, su tradición artística, literaria, musical y su interesante y diversa cocina.
+    </section>
+    <div id="etnografia"><textos id="subtitulo"> Etnografía y folklore: </textos></div>
+    <section id="parrafo">
+    La etnografía y el folklore de los croatas, o sea sus artes populares, tradiciones, costumbres, bailes, cantos y música cobran especial interés, por el hecho de haberse conservado excepcionalmente bien hasta nuestros días.<br>
+    Esta riqueza etnográfica y folklórica es tanto más significativa cuanto se trata de una nación europea que no se ha mantenido aislada de las influencias y corrientes de la civilización moderna. <br>
+    La preservación de las artes y tradiciones populares se debe, ante todo, a que el pueblo croata es apegado a la tierra y, hasta hace pocos años, era predominantemente campesino. A este patrimonio de un modo de vida rural, tradicionalista y conservador, y a la economía autóctona de las aldeas, donde cada cual fabricaba por sí mismo con los medios a su alcance cuanto necesitaba, se debe precisamente la riqueza etnográfica y folklórica de Croacia.<br>
+    Hay que advertir, sin embargo, que en los últimos veinte años, la estructura social de los croatas ha experimentado profundos cambios. Resultan notorias las fuertes migraciones del campesinado hacia las zonas urbanas y el abandono del campo por la juventud. <br>
+    Esto ha debilitado al estamento agrícola, convirtiéndolo en una minoría y, por lo tanto, afectando negativamente la etnografía y el folklore.<br>
+    Cabe aclarar que, la herencia etnográfica de los croatas proviene, en primer término, de su ascendencia eslava. En la migración hacia el sur desde sus tierras de origen situadas detrás de los montes Cárpatos, los croatas trajeron en el siglo VII las costumbres eslavas a las orillas del río Adriático. <br>
+    Empero, al conquistar y colonizar el territorio de su nueva patria absorbieron muchos aspectos de la vida y la cultura de los habitantes originales: ilirios y celtas romanizados y restos de la población romana. <br>
+    A través del milenio subsiguiente de la historia croata se experimentaron nuevas influencias culturales, sumándose otros elementos a la mezcla etnográfica básica : los traídos por los turcos de Asia (turcos, árabes, persas), los balcánicos (valacos, montenegrinos, albaneses, serbios, macedonios, etc.), los centroeuropeos y los mediterráneos. Con el tiempo, la multitud de elementos culturales de diverso origen en unos casos se mezclaron y fueron completamente asimilados en el medio croata, y en otros quedaron ciertas particularidades locales.<br>
+    Los etnógrafos acostumbran agrupar las diferentes provincias y regiones croatas en tres áreas etnográfico-culturales principales: panónica o plana (Alta Croacia, Eslavonia, Srijem, Banat, Bačka, Baranja y el área Subotica – Sombor en Voivodina); dinárica o montañesa (Krajina Croata, Bosnia - Herzegovina y la Dalmacia continental); y adriática o litoral (Istria, Kvarner, la Dalmacia costanera e Islas). <br>
+    Cada una de estas tres áreas se distinguen etnográficamente entre sí aun cuando sus habitantes sean todos igualmente croatas por su idioma, origen y conciencia nacional. Dichas áreas etnográfico-culturales son el resultado del desarrollo económico y social dentro de un medio geográfico particular y, a la vez, relacionado con los territorios adyacentes.
+    </section>
+    <div id="trajes"><textos id="subtitulo"> Trajes nacionales: </textos></div>
+    <section id="parrafo">
+        Se entiende por trajes nacionales, a las vestimentas de características comunes llevadas por el pueblo en cierta región o área. <br>
+        En Croacia los trajes nacionales constituyen una de las mayores y más variadas expresiones del arte popular. <br>
+        Hasta tiempos recientes, los trajes nacionales se usaban en la vida diaria en todo el territorio étnico de los croatas. Hoy «…van desapareciendo rápidamente por no existir ya una producción a La usanza antigua, y en las condiciones actuales, tampoco puede haberla. <br>
+        Todo esto resulta cierto hablando en términos generales, porque existen regiones donde el traje nacional se usa diariamente inclusive hoy en día, si bien ello ocurre solamente en las más aisladas y apartadas áreas del país que tienen deficientes comunicaciones y en las cuales el cuadro etnográfico total ofrece características de atraso cultural». <br>
+        En algunas regiones, esos trajes nacionales todavía se usan, aunque solamente en los días de fiesta.<br>
+        Los tipos básicos de trajes nacionales. Al igual que todo otro material etnográfico, puede clasificarse en tres grupos de acuerdo con las características de las tres áreas etnográfico-culturales a las cuales pertenecen.<br>
+        El área panónica o plana, donde predomina la agricultura intensiva (incluyendo, al lado de los granos, el lino y el cáñamo), se caracteriza por la abundancia de piezas de lino y algodón, blancas, amplias, frecuentemente fruncidas o plisadas y adornadas con tejido y bordado. <br>
+        Estos trajes son graciosos en la sencillez de su corte y por la amplitud de sus formas, con la costura corriendo en líneas rectas. Los pliegues y frunces tienen su origen en la necesidad de guardarlos en cofres y baúles, pero que se convirtieron después en una preocupación decorativa.<br>
+        Los hombres llevan una larga camisa (košulja) que cae libremente y cubre en parte un pantalón (gaće) de amplias perneras. Se tocan la cabeza con un casquete redondo de ala corta o con un gorro de piel. <br>
+        Las mujeres lucen un traje blanco que es un juego de frunces: falda, blusa de mangas voluminosas y un delantal. La parte blanca de la tela (platino) está adornada con bordados en colores de tonos vivos (destacándose el rojo) o en tonos menos fuertes y dominando los motivos florales o geométricos.<br>
+        El bellísimo vestido de las mujeres en Eslavonia Plana (Županja, Vinkovci), llamado zlatara, se destaca por su rico tejido de oro y seda mezclados. La antigua costumbre de que Ias mujeres casadas deben cubrir sus cabellos ha evolucionado con el uso de la populosa, un pequeño gorro de encaje, peča, una chalina cuadrada llevada en forma triangular y con encaje, más varios tipos de pañuelos, chales y mantones. <br>
+        Tanto los hombres como las mujeres llevan encima de la camisa un chaleco sin mangas y una chaqueta o saco grueso de manga larga. Todavía se usan en varias partes tradicionales sandalias (opanci) muy elaboradas y semejantes a los zapatos, además de éstos y de altas botas, al igual que entre los húngaros. (Ver imágenes en anexo). <br>
+        Dando como trajes nacionales se representa y son diferentes en cada área ejemplo de algunas de estas áreas (ver mapas en anexo). 
+            <li>Panoska</li> 
+            <li>Dinarska</li> 
+            <li>Jadranska</li>
+    </section>
+    <div id="comidas"><textos id="subtitulo">Comidas típicas de Croacia</textos></div>
+    <section id="parrafo">
+        Espod peke: Traducido literalmente como bajo la campana es una característica en muchos menús domésticos no es un plato es un método de preparación que consiste en cocinar lentamente bajo una tapa en forma de cúpula cubierta de ceniyo caliente. (Ver imagen en anexo)<br>
+        Vení riñot (risotto negro): incluidos en casi todos los menús dálmatas,( el risotto
+        negro, es mucho más sabroso de lo que parece). La tinta de calamar proporciona la coloración distintas y el sabor satisfactorio, el calamar y otros mariscos, los ingredientes carnosos. (Ver imagen en anexo)<br>
+        Fritule (bolitas de Donuts): la Navidad no sería navidad sin fritura, rebozadas con azúcar en polvo y relleno de ron y pasas. Diferentes hogares pueden añadir un toque de cáscara de limón o cáscara de naranja rallada aquí y allá, pero la clave aquí es compartir. A pesar de tomar más presencia en época navideña, las fritule se pueden encontrar durante la mayor parte del año como una delicia especial. (Ver imagen en anexo)<br>
+        Fregada (guiso de pescado): un guiso de pescado más asociado de tivar , aunque
+        encontrará versiones similares en toda Croacia, la fregada, se hace con pescado
+        escorpión,  que sea fresco ese día se corta en grandes trozos y se agrega a una olla de papas cortadas generosamente con chorros de aceite oliva. Luego los chefs añaden sus propios extras, generalmente perejil, pero todo hierven la olla a fuego lento agitando de vez en cuando, manteniendo los trozos enteros. (Ver imagen en anexo)<br>
+        Poparnik ( torta salada): es una torta salada con un relleno de acelga suiza , o flitba o como se conoce en Croacia. Ej la especialidad más famosa de la región dálmata de prolisca , que se encuentra entre Split y omis y a la que recientemente es como la alternativa de la pizza y va fantástico con el vino tinto en Croacia. (Ver imagen en anexo).
+    </section>
+    <div id="paisajes"><textos id="subtitulo"> Paisajes de Croacia:</textos></div>
+    <section id="parrafo">
+        Las islas del Adriático:<br>
+        Está compuesta por hermosas y numerosas islas. Tiene más de mil (el número puede aumentar hasta 1246, dependiendo de qué se considere una isla), aunque sólo 48 de ellas están permanentemente habitadas. Las islas son, además, la zona más soleada del país, con más de 2.700 horas de sol al año para Hvar y Korcula.<br>
+        Las islas más grandes son Krk y Cres (esta es naturalmente más grande, pero los romanos abrieron un canal para separarla de la que ahora es Losinj), con 405 km cuadrados aproximadamente, y la más chica es Smokvica Vela, con tan solo 1. Dos de las islas, Jabuka y Brusnik, son de origen volcánico.<br>
+        En mitad del canal, la pequeña isla de Vis es una zona de frecuentes temblores de tierra, aunque la inmensa mayoría de ellos son demasiado leves para sentirse. Aun así, cada varias décadas hay algún movimiento de tierra considerable y alguno que puede causar serios destrozos de infraestructura y vivienda cada siglo.
+    </section>
+    <div id="frontera"><textos id="subtitulo">Frontera y división política de Croacia</textos></div>
+    <section id="parrafo">
+        La forma de Croacia puede llamar la atención. Ellos mismos dicen que es un dragón, donde Istria sería la cabeza, Dalmacia el pecho y, la parte que se adentra en el continente, las alas.<br>
+        Lo cierto es que Croacia hace frontera con Eslovenia, Hungría, Serbia, Bosnia y Montenegro. Está dividida en 20 condados más la municipalidad de Zagreb, la capital, que en la práctica es un condado per se.<br>
+        Los condados, normalmente, reciben el nombre de su capital, aunque algunos tienen un nombre adicional, normalmente un nombre de alguna región tradicional. Por ejemplo, el condado cuya capital es Split se llama Split-Dalmacia. Otros, pocos, tienen un nombre de condado.
+    </section>
+    <textos id="subtitulo">División territorial de Croacia</textos>
+    <section id="parrafo">
+        El país entero es una región NUT1, según la nomenclatura estadística de la Unión Europea, se divide en tres regiones (lo que en España serían las comunidades autónomas) para las NUT2: noroccidental, central-oriental y adriática. Por último, las NUTS3 son los condados (lo que en España equivaldría a las provincias).
+    </section>
+    <div id="clima"><textos id="subtitulo">Clima y relieve de Croacia</textos></div>
+    <section id="parrafo">
+        Toda la costa, desde Istria, al norte, hasta Dubrovnik, al sur, disfruta de un clima mediterráneo con veranos calurosos e inviernos suaves. Los Alpes Dináricos separan la costa, cuya línea sigue de norte a sur, del interior, y hacen de frontera entre el clima mediterráneo y el continental.<br>
+        Incluso es posible encontrar localidades que se acercan a las temperaturas de la alta montaña. En el interior el clima es continental, con inviernos fríos y lluviosos y veranos suaves.
+    </section>
+    <textos id="subtitulo">Relieve de Croacia</textos>
+    <section id="parrafo">
+        Con los Alpes Dináricos separando la costa, de clima mediterráneo, del interior, con clima continental.<br> <br>
+        La temperatura más baja jamás registrada fue -35º en Čakovec, mientras que la más alta fue 42,4º en Karlovac. La cantidad de lluvia varía mucho según la zona. Donde menos llueve es en la costa, más concretamente en las islas.<br> <br>
+        La zona con más precipitaciones es la cadena montañosa de los Alpes Dináricos y, dentro de esta, la parte de la montaña Dinara, cerca de la frontera con Bosnia.<br>
+        Los vientos, por su parte, como suele acontecer, son más fuertes en la costa. El bora viene del norte o noreste y es frío y seco. Otro, menos común, es el siroco, que viene del Sáhara y suele ser cálido.<br>
+        En la costa de Croacia nunca se ve el mar abierto, las islas siempre están a la vista.
+    </section>
+    <div id="demografia"><textos id="subtitulo">Demografía de Croacia</textos></div>
+    <section id="parrafo">
+        El total de habitantes del país se estima en unos 4,3 millones. La mayor densidad de población se encuentra en la capital y otros puntos del norte y en algunos condados costeros, como Zadar y Split-Dalmatie.<br> <br>
+
+        Sin embargo, la tasa de natalidad de Croacia es una de las más bajas del mundo: 1,5 niños por mujer. Por eso, se calcula que para el 2051, si sigue esta tendencia, el país tendrá 3,1 millones de habitantes. (Ver mapa en anexo).<br> <br>
+
+        La llegada de inmigrantes, que parece una necesidad urgente, es escasa: alrededor de 7000 por año antes de la crisis de los refugiados.<br>
+        Una característica de la población croata ha sido la emigración masiva, a modo de éxodo, a la que se ha visto forzada en diferentes momentos de la historia. La más reciente es la que tuvo lugar entre 1991-1995, a lo largo de la guerra croata de independencia, que llegó a desplazar a más de 400 000 personas.
+    </section>
+    <div id="minorias"><textos id="subtitulo">Minorías étnicas en Croacia</textos></div>
+    <section id="parrafo">
+        El 90% de la población del país es croata, aunque también hay importantes minorías de serbios, bosnios, húngaros, italianos o eslovenos. Concretamente, la mayor minoría es la serbia, que es algo superior a 180 000 personas, según el censo de 2011. Con todo, su número está muy por debajo de los más de 500 000 serbios que poblaban el país en los años 50 del pasado siglo.
+    </section>
+    <div id="idiomas"><textos id="subtitulo">Idiomas hablados en Croacia</textos></div>
+    <section id="parrafo">
+        La política lingüística en Croacia es municipal. Si en una población hay una comunidad lingüística que supere el 33,3% del total, su idioma pasa a ser oficial en el municipio. Además del croata son oficiales otros idiomas.
+    </section>
+    <textos id="subtitulo">Lenguas minoritarias de Croacia (2011)</textos>
+    <section id="parrafo">
+        Es el caso del italiano, sobre todo en la costa occidental de la península de Istria y en la isla de Cres. El serbio es oficial en zonas fronterizas del sur, centro y este. El Húngaro también es oficial en el oeste. El checo es oficial en el centro del país. El Rusino (una lengua muy cercana al ucraniano) en el oeste y el eslovaco, también en el oeste. Hay otros, como romaní, yidis o istrorrumano, que no llegan al mínimo requerido para la oficialidad.
+    </section>
+    <div id="impacto"><textos id="subtitulo">Impacto ambiental</textos></div>
+    <section id="parrafo">
+        El gobierno aprobó en 2014 un nuevo plan, tras redefinir la noción de "áreas protegidas" para permitir una mayor construcción. De este cambio se beneficiaron los inversores privados, pequeños y grandes, extranjeros y ,principalmente nacionales.<br> <br>
+        "El número de apartamentos privados aumentó de 16 en 2009 a más de 300 en 2017, sólo en los municipios de Plitvica Selo y Plitvička Jezera. Las pernoctaciones pasaron de 600 [en 2009] a más de 30.000 [en 2017]".<br> <br>
+        "Los propietarios de esos establecimientos imprimen sus propios mapas del parque y guían de forma independiente a los visitantes dentro del mismo. Les permiten usar bicicletas... En pocas palabras, desafían la autoridad del parque nacional"<br> <br>
+        ¿Demasiado tarde para salvar a Plitvice? <br>
+        La ONG Zelena Akcija (Acción Verde), con sede en Zagreb, lleva años siguiendo este tema, participando en mesas redondas organizadas por el Gobierno con los actores locales.<br> <br>
+        Uno de los principales problemas que provoca el creciente número de edificaciones en el parque es, como señala la ONG, que las nuevas construcciones carecen de sistema de alcantarillado.<br> <br>
+        "Las licencias de construcción en la zona protegida ya no se conceden a nivel estatal, las autorizan las autoridades.<br>
+        A la pregunta de cómo obtienen los inversionistas privados licencias sin un sistema de alcantarillado que funcione.<br> <br>
+        Las autoridades locales y el Gobierno estatal están intentando resolver el problema del "lago 17", que se ha convertido en un asunto regional e internacional.<br> <br>
+        Debido a la creciente demanda de viviendas y las oportunidades de negocio, hay un rápido crecimiento de edificaciones. Se están reformando y ampliando muchas fincas antiguas y otros edificios para convertirlas en establecimientos turísticos", según el informe presentado por el Comité del Patrimonio Mundial.
+    </section>
+    <div id="politica"><textos id="subtitulo">Política Ambiental en Croacia</textos></div>
+    <section id="parrafo">
+        La Política ambiental (en Croacia y otros países) es todo plan o medida adoptada por un gobierno o una organización pública o privada (como una empresa) en relación con los efectos (en particular, perjudiciales) de las actividades humanas sobre el medio ambiente (la contaminación del aire y del agua, la gestión de los desechos, la gestión de los ecosistemas, el mantenimiento de la biodiversidad, la protección de los recursos naturales, la vida silvestre y las especies en peligro de extinción). <br> <br>
+        En realidad, la forma en que el gobierno de Croacia maneja los problemas ambientales (tales como la contaminación, la protección de la vida salvaje, el uso de la tierra, la producción y el uso de energía, la generación de residuos y la eliminación de desechos) no es a menudo el resultado de una elección consciente de un conjunto de alternativas. <br> <br>
+        En términos más generales, la política ambiental de la administración de Croacia puede caracterizarse por el examen de la orientación general de sus respuestas a los desafíos ambientales a medida que se producen, o por la definición de su política como la suma de los planes y las reacciones a los problemas ambientales realizados por cualquier número de diferentes ramas del gobierno.<br> <br>
+        Las políticas relativas a la energía o la regulación de las sustancias tóxicas, incluidos los plaguicidas y muchos tipos de desechos industriales, forman parte del tema de la política ambiental.<br> <br>
+        Aquí se explora la política medioambiental en Croacia. Se revisa si la política ambiental de Croacia preserva y protege los recursos y la calidad del medio ambiente.<br> <br>
+        La pérdida de biodiversidad, el impacto creciente del cambio climático y la presión incesante sobre los recursos naturales podrían provocar daños ambientales irreversibles en la cuenca del Mediterráneo, asegura un nuevo informe del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)<br> <br>
+        El estudio concluye que, a menos que se tomen medidas urgentes y decididas para detener las tendencias actuales, la degradación ambiental podría tener consecuencias graves y duraderas para la salud humana y los medios de vida en la región.<br> <br>
+        Según los datos del informe, un 15% de las muertes en la región del Mediterráneo son atribuibles a factores ambientales prevenibles. En 2016, por ejemplo, más de 228.000 personas murieron prematuramente por exposición a la contaminación del aire.<br> <br>
+        Al ser uno de los destinos turísticos más codiciados del mundo (con 360 millones de llegadas en 2017) y una de las rutas marítimas más transitadas, la región es contaminada con 730 toneladas de desechos plásticos diariamente.<br> <br>
+        Asimismo, la cuenca se está calentando un 20% más rápido que el promedio mundial. Actualmente llega a +1.54°C por encima de los niveles preindustriales y se prevé que aumentará a +2.2°C cuando el resto del mundo alcance los + 1.5°C, el límite establecido por el Panel Intergubernamental de Expertos del Cambio Climático, para evitar una catástrofe ambiental.<br> <br>
+        La presencia de más de mil especies no autóctonas también representa una amenaza para la biodiversidad reconocida de la región. El Mediterráneo alberga a más de 17.000 especies marinas (del 4% al 18% de las especies marinas conocidas del mundo), aunque solo representa alrededor del 1% del volumen oceánico global.
+    </section>
+    <div id="co2"><textos id="subtitulo">Emisiones de CO2 Croacia 2021</textos></div>
+    <section id="parrafo">
+        En Croacia las emisiones de CO2 durante 2021 han crecido 0,811 megatoneladas, un 4,72% respecto a 2020.<br> <br>
+        Las emisiones de CO2 en 2021 han sido de 17,999 megatoneladas, con lo que Croacia es el país número 94 del ranking de países por emisiones de CO2, formado por 184 países, en el que se ordenan los países de menos a más contaminantes.<br> <br>
+        Además de sus emisiones totales de CO2 a la atmósfera, que lógicamente dependen entre otras variables de la población del país, es conveniente analizar el comportamiento de sus emisiones por habitante. En la tabla vemos que las emisiones per cápita de CO2 en Croacia, han aumentado en 2021, en el que han sido de 4,4 toneladas por habitante.<br> <br>
+        Por último, es interesante observar el comportamiento de las emisiones de CO2 por cada 1.000 dólares de PIB, que mide, para un mismo país, la "eficiencia medioambiental" con la que se produce a lo largo del tiempo. En el último periodo, Croacia ha emitido 0,15 kilos por cada 1.000$ de PIB, una cifra menor que en 2020.<br> <br>
+        En la tabla podemos ver la evolución de las emisiones de CO2, que han disminuido desde el año 2011, al igual que lo han hecho las emisiones per cápita y al igual que las emisiones de CO2 por cada 1000$ de PIB.<br> <br>
+        Las emisiones totales de dióxido de carbono han disminuido también respecto a 2016, aunque en este plazo han aumentado las emisiones por habitante.<br> <br> <br>
+        Croacia, con una población de 3.879.074 personas, se encuentra en la posición 131 de la tabla de población, compuesta por 196 países y presenta una moderada densidad de población, 44 habitantes por Km2.<br> <br>
+        Su capital es Zagreb y su moneda Kunas croatas.<br> <br>
+        Croacia es la economía número 81 por volumen de PIB. Su deuda pública en 2021 fue de 45.719 millones de euros, con una deuda del 79,8% del PIB. Su deuda per cápita es de 11.786 € euros por habitante.<br> <br>
+        Hay algunas variables que pueden ayudarle a conocer algo más si va a viajar a Croacia o simplemente quiere saber más sobre el nivel de vida de sus habitantes.<br> <br>
+        El PIB per cápita es un muy buen indicador del nivel de vida y en el caso de Croacia, en 2021, fue de 14.750 € euros, con el que se sitúa en el puesto 53 del 2ranking y sus habitantes tienen un bajo nivel de vida en relación al resto de los 196 países del ranking de PIB per cápita.<br> <br>
+        En cuanto al Índice de Desarrollo Humano o IDH, que elabora las Naciones Unidas para medir el progreso de un país y que en definitiva nos muestra el nivel de vida de sus habitantes, indica que los croatas se encuentran en el puesto 44.<br> <br>
+        Si la razón para visitar Croacia son negocios, es útil saber que Croacia se encuentra en el 58º puesto de los 190 que conforman el ranking Doing Business, que clasifica los países según la facilidad que ofrecen para hacer negocios.<br> <br>
+        En cuanto al Índice de Percepción de la Corrupción del sector público en Croacia ha sido de 47 puntos, así pues, se encuentra en el puesto 63 del ranking de percepción de corrupción formado por 180 países.<br> <br>
+        En las tablas de la parte inferior de la página puede ampliar información sobre la economía y demografía de Croacia y si quiere ver información sobre cualquier otro país puede hacerlo desde economía. 
+    </section>
+    <div id="anexo"><section id="titulo">ANEXO</section></div>
+   <center> <img src="{% static 'imagenes informacion/croaciaanexo.png' %}"> <br> <br>
+    <img src="{% static 'imagenes informacion/croaciataza.png' %}"> <br> <br> <br>
+    <div id="economia"><img src="{% static 'imagenes informacion/croaciaeconomia.png' %}"></div>
+    
+    <div id="curso"><section id="titulo">Curso 3°B</section></div>
+    <section id="parrafo">
+           <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno6.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno9.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno10.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno11.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno12.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/croacia/alumno10.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

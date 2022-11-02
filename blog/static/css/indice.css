@@ -1,0 +1,21 @@
+.idc-box {
+    position: relative;
+	border: 5px solid black;
+	font-size: 95%;
+	width: 100%;
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: 105px;
+}
+
+.idc-box .idc-titulo {
+	font-weight: 700;
+	text-align: center;
+}
+
+.idc-box li, .idc-box ul, .idc-box ul li{
+	padding: 0.2%;
+	list-style: outside none none !important;
+	font-size: 20px;
+}

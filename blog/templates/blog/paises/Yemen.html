@@ -1,0 +1,166 @@
+{% load static %}
+
+<html>
+<head>
+<title> Yemen </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Yemen <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#guerra">Guerra en Yemen</a></li>
+            <li><a href="#gobierno">gobierno y política   </a></li>
+            <li><a href="#derechos"> DERECHOS HUMANOS </a></li>
+            <li><a href="#geografia">GEOGRAFIA DE YEMEN </a></li>
+            <li><a href="#economia">ECONOMÍA Y DEMOGRAFIA DE YEMEN</a></li>
+            <li><a href="#cultura">CULTURA </a></li>
+            <li><a href="#comida">Comidas y bebidas típicas  </a></li>
+            <li><a href="#educacion">Educación</a></li>
+        </ul>
+    </div>
+    <div id="historia"><section id="titulo">HISTORIA</section></div>
+    <section id="parrafo">
+        La República del Yemen, es un país bicontinental situado en Oriente Próximo. Su parte asiática está situada al sur de la península de Arabia, rodeado por el mar Arábigo, el golfo de Adén y el mar Rojo, en Asia. La isla de Socotra está en la plataforma continental africana. Comparte fronteras con Omán y Arabia Saudita. Es el único estado republicano en la península arábiga. Su capital y ciudad más poblada es Saná. <br>
+        Yemen surgió en 1990 tras la unificación de la República Árabe de Yemen 
+        (Yemen del Norte) y la República Popular Democrática de Yemen (Yemen del 
+        Sur). Yemen del Norte alcanzó la independencia en 1918 con la partición del Imperio otomano, mientras que los británicos mantuvieron el control en el sur del país hasta 1967, cuando nació Yemen del Sur. Los dos países se unificaron formalmente como la República de Yemen en 1990. <br>
+        fue uno de los más antiguos centros de civilización en el Oriente Próximo.Su tierra, relativamente fértil, y su clima húmedo permitieron el desarrollo de una población estable. Este hecho fue ya reconocido por el geógrafo griego Claudio Ptolomeo, quien se refirió a Yemen como Eudaimon Arabia término más conocido por su traducción latina, Arabia Félix, la ‘Arabia feliz’. <br>
+        Entre el siglo XII a. C. y el siglo VI d. C., la zona fue dominada por tres civilizaciones sucesivas, que controlaron el lucrativo tráfico de especias: los mineos, los sabeos y los himyaritas <br>
+        El Reino de Saba, capital era Marib, alcanzó un gran poderío por su situación estratégica, entre la India y el Mediterráneo, lo que le permitió monopolizar el tráfico de especias. De allí era supuestamente originaria la legendaria reina de Saba del Antiguo Testamento. El reino pasó a ser dominado a partir del siglo III 
+        d.c.por la dinastía himyarita, por lo que se habla del Reino de Himyar, que luego fue anexionado por la Persia sasánida en 572. <br>
+        El islam llegó a Yemen alrededor del año 630; a partir de entonces, Yemen pasó a formar parte de los califatos árabes y a ser dependiente primero de Damasco y luego de Bagdad. Durante el siglo VIII comienzan a aparecer en Yemen pequeños estados independientes, como el de la dinastía zaidí o zaidita. A partir del siglo XV , interviene Portugal, que dominó el puerto de Adén durante unos veinte años y mantuvo durante este periodo un enclave fortificado en la isla de Socotra. Desde 1500, los portugueses representaron una amenaza inmediata para el comercio del océano Índico. <br>
+        Durante el siglo XX, Yemen hizo importantes avances en materia de cooperación internacional, en 1945 el reino de Yemen ingresó en la Liga Árabe, y en 1947 en la ONU. El último rey fue derrocado en 1962, y se estableció la República Árabe de Yemen, conocida como Yemen del Norte, aunque se libró de forma casi paralela una guerra civil entre los monárquicos, que obtuvieron apoyo de Arabia Saudí, y los republicanos, que fueron auxiliados por Egipto con ayuda material y un importante contingente de tropas. La lucha duró hasta 1970, cuando los republicanos se impusieron. <br>
+ 
+        En la región de Adén, en 1963 grupos antibritánicos opuestos a que el país quedara bajo la influencia de Londres, con ayuda desde el otro lado de la frontera yemení, iniciaron ataques guerrilleros y terroristas. En los siguientes años, la violencia se incrementó con numerosas víctimas, pero pese a los esfuerzos de Gran Bretaña por evitarlo, en 1967 debió negociar con los rebeldes y el antiguo dominio británico se transformó en la República Democrática Popular del Yemen o Yemen del Sur, de orientación marxista, que fue el primer Estado árabe comunista. <br>
+        Las posiciones revolucionarias del gobierno de Yemen del Sur causaron su aislamiento dentro de la Península arábiga. Las monarquías absolutas de la región se consideraron amenazadas y consideraron al Yemen del Sur como la vanguardia de posibles movimientos revolucionarios. Estos, en particular Arabia Saudita, favorecieron el aislamiento económico del país y apoyaron las incursiones armadas de los grupos de oposición, obligando al régimen a centrarse en los gastos militares y de defensa a expensas del desarrollo. El Yemen del Sur fue objeto de varias intervenciones militares: de Arabia Saudita en octubre de 1968, diciembre de 1969 y noviembre de 1970. Y Yemen del Norte en septiembre y octubre de 1972 y luego en 1979 ; y los aviones británicos bombardearon y destruyeron la ciudad de Hauf en mayo de 1972.
+    </section>
+    <img src="{% static 'imagenes informacion/yemenmapa.jpg' %}"><br>
+    <div id="guerra"><textos id="subtitulo">GUERRA EN YEMEN </textos></div>
+    <section id="parrafo">
+        El conflicto tiene sus raíces en la Primavera Árabe de 2011, cuando un levantamiento forzó al presidente autoritario del país, Ali Abdullah Saleh, a dejar el poder en manos de su vicepresidente, Abdrabbuh Mansour Hadi. Se suponía que la transición política llevaría la estabilidad a Yemen, pero el presidente Hadi enfrentó diferentes problemas, entre ellos los ataques por parte de al Qaeda y de un movimiento separatista en el sur, la corrupción, la inseguridad alimentaria y el hecho de que muchos militares seguían siendo leales a Saleh.Cómo un vital puerto del mar Rojo en Yemen se prepara para la peor de las ofensivas. <br>
+        El movimiento hutí, que defiende a la minoría chiita zaidí de Yemen y luchó en varias rebeliones contra Saleh en la década precedente, se aprovechó de la debilidad del nuevo presidente para tomar el control de la norteña provincia de Saada y zonas cercanas. Muchos yemeníes, sunitas incluidos, apoyaron a los hutíes, y a finales de 2014 y principios de 2015 los rebeldes tomaron Saná, la capital, forzando a Hadi a irse al exilio. <br>
+        En marzo de 2015, Arabia Saudita y otros ocho países árabes, mayoritariamente sunitas y apoyados por Estados Unidos, Reino Unido y Francia, lanzaron ataques aéreos contra los hutíes con el objetivo declarado de restaurar el gobierno de Hadi, la coalición temía que el éxito de los hutíes diera a Irán, rival regional y país mayoritariamente chiita, un punto de apoyo en Yemen, vecino del sur de Arabia Saudita. Arabia Saudita dice que Irán está apoyando a los hutíes con armas y soporte logístico, una acusación que Irán niega. <br>
+        Los hutíes rompieron con Saleh y combatientes suyos lo mataron en diciembre de 2017.
+        <img src="{% static 'imagenes informacion/yemenguerra.jpg' %}">
+    </section>
+    <div id="gobierno"><textos id="subtitulo">gobierno y política </textos></div>
+    <section id="parrafo">
+        Desde la unificación de la República Árabe de Yemen del Norte la República Democrática de Yemen del Sur en mayo de 1990, el tipo de gobierno es semipresidencialista, se basa en un Consejo Presidencial de 5 integrantes (tres del Norte y dos del Sur), que el máximo mandatario dirige Abd Rabbuh Mansur al-Hadi. El presidente nombra al primer ministro, siendo el primero el jefe de estado y el segundo el jefe de gobierno. La composición del sistema de partidos en Yemen es de partido hegemónico, aunque la existencia y competencia con otros partidos ha estado presente desde la unificación del Estado. El partido hegemónico, y por lo tanto el del régimen desde 1982, es el Congreso General del Pueblo (GPC). Fue formado por el presidente y su grupo político años después de la creación de la República Árabe de Yemen. El Al-Islah es el partido islamista, compuesto por una facción de los Hermanos Musulmanes, tribus y la  rama sunni Salafi. Este partido apareció como una competencia que legitimaba al régimen, tras la unificación de Yemen en 1990, pero poco a poco se separó del control del régimen. El Partido Socialista, un rezago de la historia de la colonia en Aden, sirvió como contrapeso al partido de Saleh en 1990, pero perdió fuerza inmediatamente.Actualmente la competencia política está coartada por un sistema electoral que favorece los distritos controlados por el régimen, a pesar de la salida de Saleh de la presidencia 
+        <img src="{% static 'imagenes informacion/yemengobierno.jpg' %}">
+    </section>
+    <div id="derechos"><textos id="subtitulo">DERECHOS HUMANOS</textos></div>
+    <section id="parrafo">
+        Las partes en el conflicto de Yemen siguieron cometiendo con impunidad violaciones del derecho internacional humanitario y de los derechos humanos. La coalición dirigida por Arabia Saudí, que apoyaba al gobierno yemení reconocido internacionalmente, y las fuerzas huzíes siguieron llevando a cabo ataques en los que, ilegítimamente, se mató e hirió a civiles y se destruyeron bienes civiles, incluida infraestructura de producción y distribución de alimentos. Las fuerzas del Consejo de Transición del Sur llevaron a cabo ejecuciones, hostigamiento, detenciones arbitrarias, desapariciones forzadas, tortura y otros malos tratos, y juicios injustos de personas a causa de sus vínculos políticos, religiosos o profesionales, su activismo pacífico o su género. Todas las partes cometieron actos de violencia y discriminación por motivos de género. El gobierno y el Consejo de Transición del Sur emplearon violencia letal para reprimir protestas mayoritariamente pacíficas que exigían medidas para abordar el deterioro de la situación económica. Las partes en el conflicto obstaculizaron la circulación de alimentos, medicamentos, combustible y ayuda humanitaria. Las autoridades de huzíes impidieron la vacunación contra la COVID-19. Arabia Saudí y Bahréin captaron apoyos entre los Estados miembros del Consejo de Derechos Humanos de la ONU contra la renovación del Grupo de Eminentes Expertos Internacionales y Regionales sobre Yemen de la ONU, con lo que forzaron el fin del único mecanismo internacional imparcial de investigación sobre Yemen. 
+    </section>
+    <textos id="subtitulo">Situaciones de las mujeres en Yemen:</textos>
+    <section id="parrafo">
+        <ul>
+            <li>El matrimonio y el divorcio son válidos aún sin registrarse ante la autoridad (el Estado no tiene control sobre dichas prácticas).</li>
+            <li>La esposa le debe obediencia a su esposo y el esposo debe encargarse de la manutención de la casa.</li>
+            <li>La esposa puede solicitar el divorcio solamente ante una corte. </li>
+            <li>La poligamia fue restringida pero solamente en papel y debe ser justificada por el hombre con una razón válida. Se debe notificar a ambas esposas que vivirán en un matrimonio con polígamo aunque no se especifica cuál es este procedimiento. </li>
+            <li>Se establece como edad mínima para casarse, los 15 años, aunque no está en este código y por lo tanto no invalida un matrimonio con una niña más pequeña </li>
+        </ul>
+    </section>
+    <div id="geografia"><textos id="subtitulo">GEOGRAFIA DE YEMEN </textos></div>
+    <section id="parrafo">
+        La República de Yemen comprende los antiguos territorios Democrático. Está bordeada por el mar Arábigo, el golfo de Adén y el mar Rojo. Por lo tanto su localización corresponde al Continente Asiático (Asía y no África pese a su proximidad). <br> 
+        Su superficie es de 527 970 km. cuadrados. El terreno es en su mayoría desértico, el clima cálido y húmedo a lo largo de la costa, templado en las montañas del oeste y extraordinariamente cálido y seco en el desierto oriental.  <br>
+        Al norte, es el territorio más fértil de toda la península arábiga, por lo que se le denominó en el pasado, junto con el valle de Hadhramaut, la "Arabia Feliz”.
+        <img src="{% static 'imagenes informacion/yemenmap.jpg' %}">
+    </section>
+    <textos id="subtitulo">Relieve de Yemen</textos>
+    <section id="parrafo">
+        Yemen ocupa el extremo meridional de la placa arábiga. El montañoso país interior está rodeado por una estrecha llanura costera en el oeste, sur y este, y por un desierto a mayor altitud en la frontera del norte con Arabia Saudí. La llanura costera de Tihama, de 420 km de longitud, se extiende a lo largo de toda la costa occidental de la península arábiga junto al mar Rojo, Forma parte de la ecorregión denominada “DESIERTO COSTERO NUBLADO” de la península arábiga, que abarca gran parte de la costa del sur de Yemen también. <br>
+        Las montañas del interior pueden dividirse en occidentales y centrales, separadas por el desierto de Ramlat al-Sab'atayn, que forma parte del desierto de Rub al-Jali, en el norte y por un estrechamiento entre la ciudad de Ataq y el mar, en el sur. En las montañas occidentales, más cercanas al mar Rojo, la tierra es más fértil y húmeda. Destacan algunos picos, como el Jabal an Nabi Shu'ayb, de 3.666 m. Los cultivos más conocidos de esta región son el sorgo y el café, y frutos tropicales como el plátano y el mango. Las lluvias son más escasas, pero suficientes en verano para las cosechas. <br>
+        Las tierras altas del interior están atravesadas por uadis, valles secos en invierno. En Yemen no hay ningún curso de agua permanente. Destaca el uadi Hadramaut, que corta las montañas orientales e Oeste a este. Desemboca en el desierto de Ramlat al-Sab'atayn y está habitado en sus partes altas, donde las lluvias veraniegas permiten los cultivos <br>
+        La región oriental, la gobernación de Al Mahrah, comprende una sierra de 1000 m de altitud que se separa de las montañas centrales dejando paso a varios uadis que discurren hacia el mar, como el de Dhahawn, que desemboca en Al Ghayda y finalmente sigue la costa hasta la frontera con Omán.
+        <img src="{% static 'imagenes informacion/yemenrelieve.jpg' %}">
+    </section>
+    <textos id="subtitulo">Clima de Yemen</textos>
+    <section id="parrafo">
+        Las temperaturas son, por lo general, muy altas en Yemen, sobre todo en las regiones costeras. Las lluvias, escasas, varían según la altitud. Las tierras altas gozan de mejores temperaturas, con medias de 21. °C en verano e inviernos frescos en los que puede llegar a helar. <br>
+        La costa del mar Rojo, desértica, es cálida todo el año, con máximas de 28 a 30. °C en invierno y de 38 a 40. °C en verano. <br>
+        La costa del golfo de Adén tiene un clima similar, aunque el monzón del sudoeste refresca algo las zonas costeras del nordeste. En Al Mukalla, en el centro, caen 59 mm en 9 días de lluvia al año, con máximos en marzo y abril y temperaturas de 19-27. °C en invierno y 26-34. °C en junio. 
+    </section>
+    <div id="economia"><textos id="subtitulo">ECONOMÍA Y DEMOGRAFIA DE YEMEN</textos></div>
+    <section id="parrafo">
+        Sus principales socios comerciales son Tailandia, China, Corea del Sur, Singapur, Japón, y Arabia Saudita. Cabe destacar que Yemen es uno de los países más pobres del mundo, ya que tiene un PIB per cápita de 2473 dólares (2009). <br>
+        Yemen, con una población de 30.490.639 personas, se encuentra en la posición 48 de la tabla de población, compuesta por 196 países y presenta una moderada densidad de población, 58 habitantes por Km2.Su capital es Saná y su moneda Riales yemenies. <br>
+        Yemen es la economía número 116 por volumen de PIB. Su deuda pública en 2022 fue de 13.915 millones de euros, con una deuda del 84,17% del PIB. Su deuda per cápita es de 467 € euros por habitantes.
+        <img src="{% static 'imagenes informacion/yemenstat.jpg' %}">
+    </section>
+    <div id="cultura"><textos id="subtitulo">CULTURA </textos>
+    <section id="parrafo">
+        Al ser una nación predominantemente musulmán, la cultura que se respira en la sociedad yemení es la que típicamente se encuentra en un país islámico: mujeres usando velos que cubren su rostro, hombres con bigote y personas que siguen, en mayor o menor medida, los consejos de sus imanes.
+        <img src="{% static 'imagenes informacion/yemencultura.jpg' %}">
+        Yemen es un país culturalmente rico con influencia de muchas civilizaciones, como la civilización temprana de Saba.
+    </section>
+    <textos id="subtitulo">MEDIOS:</textos>
+    <section id="parrafo">
+        <ul>
+            <li>La transmisión de radio en Yemen comenzó en la década de 1940 cuando todavía estaba dividida en el sur por los británicos y el norte por el sistema de gobierno Imami.</li>
+            <li>La televisión es la plataforma de medios más importante en Yemen. Dada la baja tasa de alfabetización en el país, la televisión es la principal fuente de noticias para los yemeníes. Actualmente hay seis canales gratuitos en Yemen, de los cuales cuatro son de propiedad estatal. </li>
+            <li>La industria cinematográfica yemení está en sus primeras etapas; solo dos películas yemeníes se han lanzado a partir de 2008 </li>
+        </ul>
+    </section>
+    <textos id="subtitulo">TEATRO: </textos>
+    <section id="parrafo">
+        La historia del teatro yemení se remonta al menos un siglo, a principios del siglo XX. Muchos de los poetas y autores importantes de Yemen, como Ali Ahmed Ba Kathir, Muhammad al-Sharafi y Wajdi al-Ahdal, han escrito obras dramáticas; poemas, novelas y cuentos de autores yemeníes como Mohammad Abdul-Wali y Abdulaziz Al-Maqaleh también se han adaptado para el escenario. Históricamente hablando, la ciudad portuaria meridional de Adén es la cuna del teatro yemení; En las últimas décadas, la capital, Sana’a, ha acogido numerosos festivales de teatro, a menudo junto con el Día Mundial del Teatro.
+    </section>
+    <textos id="subtitulo">SPORT: </textos>
+    <section id="parrafo">
+        <ul>
+            <li>El fútbol es el deporte más popular en Yemen. La Asociación de Fútbol de Yemen es miembro de FIFA y AFC. El equipo nacional de fútbol de Yemen participa internacionalmente. El país también alberga muchos clubes de fútbol. Compiten en las ligas nacionales e internacionales. </li>
+            <li>Las montañas de Yemen brindan muchas oportunidades para practicar deportes al aire libre, como ciclismo, escalada en roca, trekking, senderismo y otros deportes más desafiantes, incluida la escalada.</li>
+            <li>El salto en camello es un deporte tradicional que se está volviendo cada vez más popular entre la tribu Zaraniq en la costa oeste de Yemen en una llanura desértica junto al Mar Rojo.</li>
+            <li>Las zonas costeras de Yemen y la isla de Socotra también brindan muchas oportunidades para practicar deportes acuáticos, como surf, bodyboard, vela, natación y buceo </li>
+        </ul>
+    </section>
+    <div id="comida"><textos id="subtitulo">Comidas y bebidas típicas </textos></div>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/yemencomida.jpg' %}"><br>
+        El plato nacional del Yemen es el saltah que posee ligeras variantes regionales a lo largo del territorio. La base del plato tiene su origen en un estofado de carne turco denominado maraq, se acompaña de una pasta de fenogreco, el sahawiq o sahowqa (una mezcla de chillies, tomates, ajo y diversas hierbas picadas en una salsa.) arroz, patata, huevo revuelto, y diversas verduras. Se suele comer con pan plano.<br>  
+        El pollo, cabra y cordero son las carnes básicas en Yemen. Se comen con más frecuencia que la carne de res. El pescado también se consume, especialmente en las zonas costeras. La generosa oferta de comida a los huéspedes es una de las costumbres de la cultura yemení, y que un invitado no acepté se considera un insulto. Las comidas generalmente se consumen sentándose en el piso o suelo. A diferencia de la tradición en la mayoría de los países árabes, el almuerzo es la comida principal del día en Yemen, en lugar de la cena. 
+    </section>
+    <textos id="subtitulo">BEBIDAS:</textos>
+    <section id="parrafo">
+        <ul>
+            <li>Té con leche, té negro(con clavo, cardamomo o menta) , café(Qishr, Qahwa)</li>
+            <li>Bebida frías con pasas de uva.</li>
+            <li>Los jugos de mango y guayaba.</li>
+            <li>Karkadé</li>
+            <li>Las bebidas alcohólicas se consideran inadecuadas debido a razones culturales y religiosas, pero están disponibles en el país. </li>
+        </ul>
+        El café y el té se consumen en todo Yemen, el café es la bebida preferida en Saná, mientras que el té negro es la bebida de elección en Adén y Hadramaut.
+        <img src="{% static 'imagenes informacion/yemente.jpg' %}">
+    </section>
+    <div id="educacion"><textos id="subtitulo">Educación:</textos></div>
+    <section id="parrafo">
+        La tasa de alfabetización de adultos en 2010 fue del 64%. El gobierno se ha comprometido a reducir el analfabetismo a menos del 10% para 2025. Aunque el gobierno de Yemen ofrece educación universal, obligatoria y gratuita para niños de seis a 15 años, el Departamento de Estado de EE. UU. Informa que la asistencia obligatoria no se aplica. El gobierno desarrolló la Estrategia Nacional de Desarrollo de Educación Básica en 2003 que tenía como objetivo proporcionar educación al 95% de los niños yemeníes entre las edades de seis y 14 años y también disminuir la brecha entre hombres y mujeres en las zonas urbanas y rurales. <br>
+        En marzo de 2008, el Banco Mundial aprobó un proyecto de siete años para mejorar la equidad de género y la calidad y eficiencia de la educación secundaria, centrado en las niñas en las zonas rurales. Después de esto, Yemen aumentó su gasto en educación del 5% del PIB en 1995 a 10% en 2005. <br>
+        Las mejores universidades del país son la Universidad Yemení de Ciencia y Tecnología en todo el mundo, la Universidad Al Ahgaff y la Universidad de Sanaa. 
+        <img src="{% static 'imagenes informacion/yemeneducacion.jpg' %}">
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+{% load static %}
+
+<html>
+<head>
+<title> República CentroAfricana </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a República CentroAfricana <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#etnias">ETNIAS</a></li>
+            <li><a href="#datos">DATOS GEOGRÁFICOS:</a></li>
+            <li><a href="#economia">ECONOMÍA:</a></li>
+            <li><a href="#problemas">PROBLEMAS:</a></li>
+            <li><a href="#fauna">FAUNA:</a></li>
+            <li><a href="#flora">FLORA:</a></li>
+            <li><a href="#lugares">LUGARES TURÍSTICOS EN LA REPUBLICA CENTROAFRICANA</a></li>
+            <li><a href="#curso">Curso 2°E</a></li>
+        </ul>
+    </div>
+   <center><img src="{% static 'imagenes informacion/africamapa.png' %}" ></center>
+   <section id="parrafo">
+    LA REPUBLICA CENTROAFRICANA, O SIMPLEMENTE CENTROAFRICA, ES UN PAIS LITORAL UBICADO EN AFRICA CENTRAL. LIMITA CON CHAD AL NORTE, SUDAN AL NOROESTE, SUDAN DEL SUR AL ESETE, LA REPUBLICA DEMOCRACTICA DEL CONGO Y LA REPUBLICA DEL CONGO AL SUR Y CAMERUN AL OESTE. CUBRE UNA SUPERFICIE DE 622,984KM CUADRADO Y EN 2018 TUVO UNA POBLACION ESTIMADA DE 4,7 MILLONES DE HABITANTE. LA CAPITAL Y CIUDAD MAS POBLADA ES BANGUI.
+   </section>
+   <section id="titulo">BANGUI. ( CIUDAD CAPITAL DE REPÚBLICA CENTROAFRICANA.)</section>
+   <center><img src="{% static 'imagenes informacion/africapital.jpg' %}" ></center>
+   <section id="titulo">BANDERA DE LA REPÚBLICA CENTROAFRICANA:</section>
+   <center><img src="{% static 'imagenes informacion/africabandera.jpg' %}" ></center>
+   <div id="etnias"><textos id="subtitulo">ETNIAS</textos></div>
+   <section id="parrafo">
+    LA CULTURA CENTROAFRICANA ES DIVERSA POR LOS MÚLTIPLES PUEBLOS Y ETNIAS QUE HABITAN LA NACIÓN. UNA DE LAS MAS IMPORTANTES SON LOS BANTÚES; QUE SE SUBDIVIDEN EN VARIOS GRUPOS. 
+   </section>
+   <textos id="subtitulo">M´BORORO FULANI: </textos>
+   <section id="parrafo">
+    ESTOS VIAJAN DE MANER CONSTANTE PARA ENCONTRAR PASTO. ESTOS VIAJES LOS PONEN EN CONFLICTO CON LOS AGRICULTORES SEDENTARIOS, YA QUE ESTO CAUSA DAÑOS A SUS CULTIVOS Y REBAÑOS. ESTE CONFLICTO SUELE TERMINAR EN DERRAMAMIENTO DE SANGRE A PESAR DE LAS REGULACIONES ESTABLECIDAS POR LAS AUTORIDADES COMUNALES Y ADMINISTRATIVOS QUE ESTABLECEN LOS DERECHOS DE LOS PASTORES Y AGRICULTORES.<br>
+    EN 2019 ESTOS EMIGRARON AL SUR POR LAS MISMAS RAZONES. ALLI PERDIERON GRAN PARTE DE SU GANADO A CAUSA DE ENFERMEDADES.<br>
+    TAMBIEN LA CONSTANTE DE TORBELLINOS EN LA ZONA PROVOCÓ LA MUERTE DE NIÑOS.
+    <img src="{% static 'imagenes informacion/africapersonas.jpg' %}" >
+   </section>
+   <textos id="subtitulo">LOS LITHO</textos>
+   <section id="parrafo">
+    ESTA POBLACIÓN VIVE EN LA SÁBANA BOSCOSA DEL NORTE DE LA REPÚBLICA CENTROAFRICANA. EL CAMBIO CLIMÁTICO AQUÍ ESTÁ DANDO LUGAR A ESTACIONES SECAS MÁS DURAS, QUE CAUSAN CAMBIOS EN LA VEGETACIÓN QUE HACEN QUE LOS PRODUCTOS QUE ESTAS PERSONAS RECOGEN SEAN CADA VEZ MÁS DIFÍCILES DE ENCONTRAR. ADEMÁS DE ESTO, SUS COSECHAS YA NOSON LO QUE SOLÍAN SER, ESTOS FACTORES HAN DADO LUGAR A LA MALNUTRICIÓN EN LA POBLACIÓN, Y ESTO PARTICULARMENTE GRAVE ENTRE LOS NIÑOS. LAS NIÑAS SE HAN VUELTOSUMAMENTE VULNERABLES Y ESTÁN EXPUESTAS A ENFERMENDADES DE LA PIEL, LOS OJOS Y LA HINCHAZÓN. LOS VIOLENTOS VIENTOS CALIENTES DE MESES COMO DICIEMBRE CAUSAN ESTRAGOS EN SUS HOGARES.
+    <img src="{% static 'imagenes informacion/africapersonas2.jpg' %}" >
+   </section>
+   <textos id="subtitulo">LOS PIGMEOS:</textos>
+   <section id="parrafo">
+    LOS PIGMEOS VIVEN EN UN DENSO ENTORNO FORESTAL Y POR LO TANTO NO HAN EXPERIMENTADO LOS MISMOS IMPACTOS NEGATIVOS DEL CAMBIO CLIMÁTICO QUE LOS M´BORORO O LOS LITHO. EL BOSQUE ES UN ENTORNO MÁS TEMPLADO, POR LO QUE SE HAN LIBREDO DEL CALOR QUE SUS COMPAÑEROS SUFREN EN LA SABANA SIN EMBARGO, LOS BOSQUES ESTÁN BAJO LA CONTINUA AMENAZA DE DESTRCCIÓN DEBIDO A LAS GRANDES OBRAS INDUSTRIALES: LA APERTURA DE CAMINOS, LA TALA NO REGULADA POR PARTE DE MULTINACIONALES.ESTO ESTÁ DESFIGURANDO EL PAISAJE FORESTAL.
+    <img src="{% static 'imagenes informacion/africapersonas3.jpg' %}" >
+   </section>
+   <div id="datos"><textos id="subtitulo">DATOS GEOGRÁFICOS:</textos></div>
+   <section id="parrafo">
+    LA REPÚBLICA CENTRO AFRICANA TIENE UNA SUPERFICIE DE 62,3 MILLONES DE HECTAREAS Y UNA POBLACIÓN DE 4,6 MILLONES DE PERSONA.CONSTA DE UNA VASTA ALTIPLANICIE ONDULADA DE 600 O 800 METRO DE ALCTITUD, DEL TAMAÑO DE FRANCIA O UCRANIA, QUE SEPARA LAS CUENCA DEL RIO CONGO, AL SUR Y DEL LAGO CHAD, AL NORTE.AL NORTE SE ENCUENTRA EL CHAD;AL SUR ENCUENTRA LA REPUBLICA DEMOCRATICA DEL CONGO;AL ESTE SE ENCUENTRA SUDAN Y SUDAN DEL SUR , ESTE ULTIMO CON UNA FRONTERA MUCHO MAS LARGA; AL SUDOESTE,SE ENCUENTRA LA REPUBLICA DEL CONGO, Y AL OESTE , CAMERUN . LA CAPITAL, BANGUI, SE ALLA EN LA FRONTERA SUR, FORMADA POR ELRIO UBUANGUI AFLUENTE DEL RIO CONGO.
+    <img src="{% static 'imagenes informacion/africaubicacion.jpg' %}" >
+    MAPA DE LA UBICACIÓN GEOGRÁFICA DE LA REPÚBLICA CENTROAFRICANA.
+   </section>
+   <textos id="subtitulo">PREFECTURAS  DE LA REPÚBLICA CENTROAFRICANA:</textos>
+   <section id="parrafo">
+    <img src="{% static 'imagenes informacion/africaprefectura.png' %}" >
+   </section>
+   <div id="economia"><textos id="subtitulo">ECONOMÍA:</textos></div>
+   <section id="parrafo">
+    LA REPUBLICA CENTROAFRICANA, ES UNO DE LOS PAISES MENOS DESARROLLADOS DEL MUNDO CON PBI PER CAPITA DE POCO MÁS DE 700 DÓLARES ANUALES, DEFICIENTES, COMUNICACIONES Y UN SISTEMA EDUCATIVO Y DE FORMACIÓN CASI INEXISTENTE.<br>
+    LA AGRICULTURA Y LA SILVICULTURA DE SUBSISTENCIA FORMAN LA COLUMNA VERTEBRAL DE LA ECONOMÍA ACTUAL DE LA REPÚBLICA CENTROAFRICANA. A PARTIR DE 2006, LA AGRICULTURA REPRESENTA EL 56 % DEL PRODUCTO NACIONAL BRUTO (PIB) Y EMPLEA 74% DE LA POBLACIÓN. LAS GANANCIAS DE LA AGRICULTURA PROVIENEN DE CULTIVO Y LA VENTA DE LOS CULTIVOS DE ALIMENTOS COMO LA YUCA, EL MANI, MIJO, SORGO, MAIZ, AJONJOLI, PLÁTANO Y LAS EXPORTACIONES DE ESTE TIPO DE CULTIVOS COMERCIALES COMO EL ALGODÓN, EL CAFÉ Y EL TABACO, LOS INGRESOS DE EXPORTACIÓN DE LA MADERA, QUE REPRESENTAN EL 16 % AUMENTAN LOS INGRESOS GENERADOS POR LA INDUSTRIA DEL DIAMANTE QUE REPRESENTA CASI EL 5 DE LOS INGRESOS DEL SECTOR EXPORTADOR.<br>
+    El INGRESO PER CÁPITA ES UNO DE LOS MÁS BAJOS DEL MUNDO.<br>
+    EL ALCOHOL, MARFIL, DIAMANTES, CARNE DE ANIMALES SILVESTRES Y MEDICINAS TRADICIONALES FORMA PARTE DE LA VENTA NO REGISTRADA. 
+    </section>
+    <textos id="subtitulo">EXPORTACIÓN DE BANANA:</textos>
+    <section id="parrafo">
+    <img src="{% static 'imagenes informacion/africabananas.jpg' %}" >
+    </section>
+    <textos id="subtitulo">MÚSICA:</textos>
+    <section id="parrafo">
+        REPÚBLICA CENTROAFRICANA BELLA MUSICA ROCK Y POP OCCIDENTAL, ASÍ COMO AFRODEA SOWKOU Y OTRO GÉNERO SE HAN VUELTO POPULAR EN TODO EL PAÍS.LA SANZA ES UN ISTRUMENTO POPULAR. LOS PIGMEO TIENE UN COMPLEJA TRADICIÓN MUSICA FOLKLORICA.
+        <img src="{% static 'imagenes informacion/africapersonas4.jpg' %}" >
+    </section>
+    <div id="problemas"><textos id="subtitulo">PROBLEMAS:</textos></div>
+    <section id="parrafo">
+        LOS HABITANTES DE REPUBLICA CENTRO AFRICANA HAN VIVVIDO EN GUERRA DESDE 2010. ACTUALMENTE EL PAÍS SE ENCUENTRA EN UNA SITUACIÓN CRÍTICA PROVOCADA POR TANTOS AÑOS DE CONFLICTO EL IMPACTO DE LA PANDEMIA DE COVID 19.
+        <img src="{% static 'imagenes informacion/africapersonas5.jpg' %}" > <br>
+        EXISTE UNA EMERGENCIA NUTRICIONAL EN CASI TODO EL PAÍS, COMO ASÍ TAMBIÉN DAN CUENTA DE RECLUTAMIENTO INFANTIL POR GRUPOS ARMADOS, MUCHOS SUFREN VIOLENCIA SEXUAL.
+        <img src="{% static 'imagenes informacion/africapersonas6.jpg' %}" >
+        GRAVES PROBLEMAS POR LA FALTA DE AGUA:
+        <img src="{% static 'imagenes informacion/africapersonas7.jpg' %}" >
+        POBREZA EXTREMA EN REPÚBLICA CENTROAFRICANA
+        <img src="{% static 'imagenes informacion/africapersonas8.jpg' %}" >
+        <img src="{% static 'imagenes informacion/africapersonas9.jpg' %}" >
+        <img src="{% static 'imagenes informacion/africapersonas10.jpg' %}" >
+        VIOLENCIA SEXUAL( MAYORMENTE NIÑOS Y NIÑAS) 
+        <img src="{% static 'imagenes informacion/africapersonas11.jpg' %}" >
+        PROBLEMAS DE SALUD, ALTOS ÍNDICES DE GENTE CONTAGIADA DEL VIH.
+        <img src="{% static 'imagenes informacion/africapersonas12.jpg' %}" >
+        <img src="{% static 'imagenes informacion/africapersonas13.jpg' %}" >
+    </section>
+    <div id="fauna"><textos id="subtitulo">FAUNA:</textos></div>
+    <section id="parrafo">
+        EN LA REPÚBLICA CENTROAFRICANA UNA PARTE IMPORTANTE DE LA FAUNA ESTÁ REPRESENTADA EN LOS PARQUES NACIONALES DE BAMINGUI-BANGORAN, SAINT-FLORIS Y ANDRÉ- FÉLIX, EN EL NORTE DEL PAÍS. TAMBIEN PUEDE OBSERVARSE ELEFANTES, LEONES, LEOPARDOS, ANTÍLOPES COBOS, BÚFALOS Y ALCES, LOS LAGOS Y LOS RÍOS ALBERGAN COCODRILOS E HIPOPÓTAMOS, MIENTRAS QUE PÁJAROS, MONOS Y FACÓQUEROS VIVEN EN LA SELVA.
+        <img src="{% static 'imagenes informacion/africanimales.png' %}" >
+        <img src="{% static 'imagenes informacion/africanimales2.jpg' %}" >
+        FAUNA DE LA REPUBLICA CENTROAFRICANA<br>
+        FACOQUEROS
+        <img src="{% static 'imagenes informacion/africanimales3.jpg' %}" >
+        <img src="{% static 'imagenes informacion/africanimales4.jpg' %}" >
+    </section>
+    <div id="flora"><textos id="subtitulo">FLORA:</textos></div>
+    <section id="parrafo">
+        ESTÁ REPRESENTADA AL NORTE POR LA SABANA Y POR LA SELVA TROPICAL AL SUR. LA VEGETACION FRONDOSA CREA UNA RED MUY DENSA, SOBRE TODO EN LA ZONA DE LOBAYE QUE ESTÁ FORMADA POR UN BOSQUE.<br>
+        <img src="{% static 'imagenes informacion/africabosque.jpg' %}" >
+        <img src="{% static 'imagenes informacion/africabosque2.jpg' %}" >
+        LA FLOR NACIONAL DE LA REPÚBLICA CENTROAFRICANA: PROTEA CYNAROIDES 
+        <img src="{% static 'imagenes informacion/africaflor.jpg' %}" >
+    </section>
+    <div id="lugares"><textos id="subtitulo">LUGARES TURÍSTICOS EN LA REPUBLICA CENTROAFRICANA</textos></div>
+    <section id="parrafo">
+        CATEDRAL NUESTRA SEÑORA EN LA CAPITAL BANGUI. SE TRATA DE UNA IGLESIA GRANDE Y ELEGANTE CONSTRUIDA CON LADRILLO ROJO Y QUE ES DE TIPO COMÚN EN LAS COLONIAS TROPICALES FRANCESAS. SE ENCUENTRA A 2 KM DEL ESTADIO NACIONAL2 EN LA CAPITAL DE ESE PAÍS AFRICANO, LA CIUDAD DE BANGUI.
+        <img src="{% static 'imagenes informacion/africatedral.jpg' %}">
+        REFUGIOS:<br>
+        SON LOS TRES REFUGIOS DE LA REPUBLICA CENTROAFRICANA, TIENE DIBUJOS TALLADOS O PINTURAS A MANO, EN COLORES NEGRO, OCRE, ROJO Y BLANCO. LA MAYORIA DE LOS DIBUJOS SON DE LOS ÓRGANOS HUMANOS EN GRUPOS .
+        <img src="{% static 'imagenes informacion/africarefugio.jpg' %}">
+        FOTOS DE LOS REFUGIOS DE TOULOU, KOUMBALA Y DJEBEL MELA: <br> <br> <br>
+        CASCADAS DE BOALI:<br>
+         43 MILLAS DESDE LA CAPITAL DE BANGUI, ESTAS CATARATAS SE ENCUENTRAN EN SU ESTADO VIRGEN Y TODA LA ZONA CARECE DE INFRAESTRUCTURA.
+         <img src="{% static 'imagenes informacion/africascada.jpg' %}">
+    </section>
+    <div id="curso"><section id="titulo">Curso 2°E</section></div>
+    <section id="parrafo">
+           <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno6.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno9.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno10.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno11.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/Africa/alumno12.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

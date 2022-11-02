@@ -1,0 +1,160 @@
+{% load static %}
+
+<html>
+<head>
+<title> Canadá </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Canadá<br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#origen">Origen</a></li>
+            <li><a href="#datos">Datos básicos</a></li>
+            <li><a href="#forma">FORMA DE GOBIERNO</a></li>
+            <li><a href="#cultura">Cultura</a></li>
+            <li><a href="#turismo">Turismo:</a></li>
+            <li><a href="#naturales">Naturales</a></li>
+            <li><a href="#constitucion">Constitución</a></li>
+            <li><a href="#educacion">Educacion Fisica</a></li>
+            <li><a href="#cuadros">Cuadros estadísticos:</a></li>
+        </ul>
+    </div>
+    <textos id="subtitulo">CANADÁ:</textos>
+    <section id="parrafo">
+        Canadá es el país norteamericano que se extiende desde los Estados Unidos en el sur hasta el círculo polar ártico en el norte. 
+    </section>
+    <div id="origen"><textos id="subtitulo">ORIGEN: </textos></div>
+    <section id="parrafo">
+        En 1867, con la unión de tres colonias británicas norteamericanas mediante la Confederación, Canadá se formó como un dominio federal de cuatro provincias. Esto hizo que comenzara una acumulación de provincias y territorios, y un proceso de autonomía frente al Reino Unido. <br>
+        Tras la independencia de Estados Unidos, los colonos ingleses que se mantuvieron leales a la madre patria (el Reino Unido) emigraron a Canadá. A través de tratados con las tribus aborígenes, los colonos se establecieron principalmente en lo que es hoy Ontario. <br>
+        A diferencia de los Estados Unidos, que lucharon por su independencia, Canadá evolucionó de forma pacífica. A través de un tratado aceptado por la reina Victoria, Canadá se transformó en una federación con autogobierno independiente en 1867. Ahora, los canadienses celebran el «Día de la Reina Victoria» en el tercer lunes de mayo, en agradecimiento y conmemoración al segundo monarca británico de más largo reinado 
+        <img src="{% static 'imagenes informacion/canadaorigen.jpg' %}">
+    </section>
+    <div id="datos"><section id="titulo">Datos básicos </section></div>
+    <section id="parrafo">
+        Habitantes: 38.01 millones(2020) <br>
+        Superficie: 9.984.670 km2  <br>
+        Límites: Se encuentra situado al extremo norte del continente americano. Limita al sur con Estados Unidos, al norte con el Océano Glaciar Ártico, al este con el Océano Atlántico, y al oeste con el Océano Pacífico y Esta- dos Unidos (Alaska). <br>
+        Territorio: Canadá tiene 10 provincias y 3 territorios: Alberta, Columbia Británica, Manitoba, Nuevo Brunswick, Terranova y Labrador, Nueva Escocia, Nunavut, Ontario, Isla del Príncipe Eduardo, Quebec, Saskatchewan, los Territorios del Noroeste y Yukón. <br>
+        Natalidad: 1.47 hijos por mujer (2019) <br>
+        Mortalidad: 8,1 muertes por cada mil habitantes. <br>
+        Moneda: dólar canadiense <br>
+        Idioma: francés e inglés  
+    </section>
+    <textos id="subtitulo">MAPA </textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/canadamapa.jpg' %}">
+    </section>
+    <div id="forma"><section id="titulo">FORMA DE GOBIERNO </section></div>
+    <section id="parrafo">
+        Canadá constituye una monarquía un Estado de la Commonwealth con un sistema federal parlamentarista y una fuerte tradición democrática. Muchas de las prácticas legislativas del país derivan de las prácticas no escritas y de los precedentes establecidos por el parlamento de Westminster del Reino Unido. No obstante, Canadá presenta algunas variaciones. La disciplina de partido en Canadá es mayor que la del Reino Unido, y muchos de los votos son considerados como votos de confianza, lo cual tiende a disminuir el rol de los miembros del Parlamento que no forman parte del gabinete, llamados “backbenchers”. Los backbenchers son (mutos) que de todas formas pueden ejercer su influencia en los Comités parlamentarios, como el Comité de Cuentas Públicas o el Comité de Defensa Nacional. <br>
+        El sistema político que opera en Canadá es el sistema Westminster, el cual se estableció en el parlamento británico a través del Acta constitucional de 
+        1867 (también conocida como el Acta de la Norteamérica británica), pero el modelo federal y la división de poderes fueron establecidos por los políticos canadienses. Después de la primera guerra mundial los ciudadanos de los dominios autónomos comenzaron a desarrollar un fuerte sentimiento de identidad, y en la Declaración Balfour de 1926 el gobierno británico expresó su voluntad de garantizar la plena autonomía a estos dominios. En 1931 el parlamento británico aprobó el Estatuto de Westminster, a través del cual se reconocía la autonomía de Canadá y de otros dominios. Los políticos canadienses no fueron capaces de llegar a un consenso respecto al proceso de reformas en la Constitución hasta 1982. Los cambios en la Constitución requerirían la aprobación del parlamento británico. El comité judicial del Consejo Privado en el Reino Unido fue el órgano decisor en cuestiones legales hasta 1949. 
+        <img src="{% static 'imagenes informacion/canadabandera.jpg' %}">
+    </section>
+    <div id="cultura"><section id="titulo">Cultura</section></div>
+    <textos id="subtitulo">COMIDAS TÍPICAS:  </textos>
+    <section id="parrafo">
+        <ul>
+            <li>Poutine. Originario de Montreal, este plato es uno de los más populares de Canadá. </li>
+            <li>Carne ahumada </li>
+            <li>Tourtière</li>
+            <li>Calgary beef hash </li>
+            <li>Fiddleheads</li>
+            <li>Peameal bacon</li>
+            <li>Salmón </li>
+            <li>Jarabe de arce. </li>
+        </ul>
+        <img src="{% static 'imagenes informacion/canadacomida.jpg' %}">
+    </section>
+    <textos id="subtitulo">BAILES TIPICOS:  </textos>
+    <section id="parrafo">
+        <ul>
+            <li>Cuadrilla.</li>
+            <li>Ronda de parejas.</li>
+            <li>Minowin.</li>
+            <li>El red river jig.</li>
+        </ul>
+        <img src="{% static 'imagenes informacion/canadabaile.jpg' %}">
+    </section>
+    <textos id="subtitulo">Música:</textos>
+    <section id="parrafo">
+        La música folclórica de Canadá utiliza una gran variedad instrumentos, pero el más importante es el violín. También se utilizan guitarras, acordeones, armónicas, silbatos, arpas judías, y gaitas. Típicamente se baile cuadrillas, el cotillón, y la plantilla con la música  folclórica.
+    </section>
+    <div id="turismo"><section id="titulo">Turismo: </section></div>
+    <section id="parrafo">
+        <ol>
+            <li>Cataratas del Niágara: imperdibles en tu viaje a Canadá Un lugar de fácil acceso, pues están ubicadas a poco más de una hora en auto desde la ciudad de Toronto. Sin lugar a dudas, la atracción natural más famosa de Canadá. </li>
+            <li>Toronto: cosmopolita y multicultural Es la ciudad más grande de Canadá, en la que habitan más de 200 grupos étnicos que hablan 120 idiomas diferentes. Una de las ciudades favoritas de los estudiantes internacionales. </li>
+            <li>Parque Nacional Banff: el mejor paisaje de Canadá En el corazón de las Montañas Rocosas, se encuentra la ciudad de Banff, que presta su nombre al Parque Nacional. Aquí puedes disfrutar de sitios de acampada, largas caminatas en verano o practicar esquí en invierno. </li>
+            <li>Whistler: un destino de esquí de clase mundial Whistler es un destino de esquí de clase mundial. Es conocido por ser el sitio de muchos de los eventos de esquí de los Juegos Olímpicos de Invierno 2010 </li>
+            <li>Whitehorse: disfruta auroras boreales en Canadá Whitehorse se encuentra al norte de Canadá, y es la puerta de entrada a otras zonas impresionantes como Alaska y el Parque Nacional Yukón, donde puedes explorar impresionantes áreas naturales </li>
+        </ol>
+        <img src="{% static 'imagenes informacion/canadaturismo.jpg' %}">
+        CLIMA: El inmenso tamaño de Canadá permite experimentar un amplio rango de climas desde las cálidas y húmedas costas del Pacífico y la más fría y brumosa costa del Atlántico, hasta las islas del helado Ártico norte. <br>
+        RELIEVE: El relieve canadiense se caracteriza por su orientación general predominante de norte a sur. Los Apalaches, las Rocosas, el Escudo Canadiense constituyen barreras naturales transversales. <br>
+        BIOMA: Tundra. Bosque boreal. Bosque mixto <br>
+        PROBLEMAS AMBIENTALES: Canadá está padeciendo problemas de contaminación en algunas zonas debido a industrias petroquímicas, pesticidas, aguas servidas, nitratos, desechos químicos y bacterias. La contaminación de los acuíferos produce la mortalidad entre la población, sobre todo en los niños y en los ancianos más vulnerables. 
+        <img src="{% static 'imagenes informacion/canadaproblema.jpg' %}">
+    </section>
+    <div id="naturales"><section id="titulo">Naturales</section></div>
+    <textos id="subtitulo">FLORA</textos>
+    <section id="parrafo">
+        cubierto por bosques de árboles maderables, donde se destacan el pino, el abeto, la pícea y el cedro. También posee grandes praderas 
+        <img src="{% static 'imagenes informacion/canadaflora.jpg' %}">
+    </section>
+    <textos id="subtitulo">FAUNA</textos>
+    <section id="parrafo">
+        Pueden encontrarse osos, lobos, coyotes, leones americanos y pumas, entre otros animales carnívoros. En las regiones árticas hay osos polares. En algunas zonas pueden verse castores, puercoespines y numerosos roedores. 
+        <img src="{% static 'imagenes informacion/canadafauna.jpg' %}">
+    </section>
+    <div id="constitucion"><section id="titulo">Constitución</section></div>
+    <section id="parrafo">
+        La Constitución de Canadá es la ley suprema del Estado gubernamental de Canadá y es una amalgama de actas codificadas y tradiciones injustificadas y convenciones. Esta determina las líneas de acción del sistema de gobierno de Canadá así como los derechos civiles de los ciudadanos canadienses. 
+        <img src="{% static 'imagenes informacion/canadaconsti.jpg' %}">
+    </section>
+    <div id="educacion"><section id="titulo">Educacion Fisica</section></div>
+    <textos id="subtitulo">Participación en mundiales: </textos>
+    <section id="parrafo">
+        La última participación de la selección canadiense en una una Copa Mundial de Fútbol fue en la 1986, donde jugó en el grupo C del torneo junto a Francia, Hungría y la Unión Soviética. Pero perdió sus tres partidos y finalizó en la última posición tanto en su grupo como en la tabla general de esa edición. 
+        <img src="{% static 'imagenes informacion/canadamundial.jpg' %}">
+    </section>
+    <textos id="subtitulo">Juegos Olímpicos:</textos>
+    <section id="parrafo">
+        Canadá en los Juegos Olímpicos está representado por el Comité Olímpico Canadiense, miembro del Comité Olímpico Internacional desde el año 1907. Ha participado en 27 ediciones de los Juegos Olímpicos de Verano, su primera presencia tuvo lugar en París 1900. 
+        <img src="{% static 'imagenes informacion/canadaolimpi.jpg' %}">
+    </section>
+    <div id="cuadros"><section id="titulo">Cuadros estadísticos:  </section></div>
+    <textos id="subtitulo">ECONOMÍA </textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/canadaeco.jpg' %}">
+    </section>
+    <textos id="subtitulo">Natalidad </textos>
+    <section id="parrafo">
+    <img src="{% static 'imagenes informacion/canadanata.jpg' %}">
+    </section>
+    <textos id="subtitulo">Mortalidad </textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/canadamor.jpg' %}">
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,340 @@
+{% load static %}
+
+<html>
+<head>
+<title> Hungría </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Hungría <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#introduccion">INTRODUCCIÓN</a></li>
+            <li><a href="#hungria">HUNGRÍA Y SU HISTORIA</a></li>
+            <li><a href="#desembrada">Hungría desmembrada (periodo de entreguerras)</a></li>
+            <li><a href="#forma">FORMA DE GOBIERNO Y CONSTITUCIÓN</a></li>
+            <li><a href="#cultura">ASPECTOS CULTURALES</a></li>
+            <li><a href="#ubicacion">UBICACIÓN GEOGRÁFICA, MORTALIDAD Y NATALIDAD</a></li>
+            <li><a href="#gastronomia">GASTRONOMÍA HÚNGARA</a></li>
+            <li><a href="#conclusion">CONCLUSIÓN</a></li>
+            <li><a href="#biblio">BIBLIOGRAFÍA</a></li>
+            <li><a href="#curso">Curso 4°B</a></li>
+        </ul>
+    </div>
+    <div id="introduccion"><section id="titulo">INTRODUCCIÓN</section></div>
+    <section id="parrafo">
+        En este trabajo hablaremos del país de Hungría, un país que está ubicado en Europa Central con un total de 9.588.099 habitantes aproximadamente. Con este trabajo logramos aprender acerca de la cultura de su país: su baile, su comida típica, su vestimenta. Así también su historia, su geografía, su forma de gobierno entre otras. Aprendimos a trabajar en equipo , a dividirnos las tareas, a debatir y llegar a un acuerdo concreto. Creamos un grupo de WhatsApp en el cual coordinamos las tareas y nos mantuvimos comunicados. La información buscamos en internet y consultamos con algunas personas que nos asesoraron sobre el  tema.
+    </section>
+    <div id="hungria"><textos id="subtitulo">HUNGRÍA Y SU HISTORIA</textos></div>
+    <section id="parrafo">
+        La Cuenca de los Cárpatos se redujo por un tiempo en el ámbito del Mediterráneo. Sin embargo, sus plazas, calles pavimentadas y las fuentes escritas son parte de los avances que la migración de los pueblos de composición.<br>
+        Entre los primeros en llegar están los hunos, que construyeron un poderoso imperio bajo Atila el Huno. Atila fue considerado como un gobernante ancestral de los húngaros, pero este argumento ha sido rechazado hoy día por la mayoría de los estudiosos. Después que el reino de los hunos se desvaneció, los germanos ostrogodos y lombardos llegaron a Panonia, y los gépidos ocuparon la parte oriental de la cuenca de los Cárpatos durante unos 100 años. En el año 560 los ávaros fundaron el janato de Avar, un Estado que mantuvo la supremacía en la región durante más de dos siglos. Su poder militar queda demostrado por las frecuentes batallas y victorias sobre todos sus vecinos. El janato de Avar se vio debilitado por las constantes guerras y la presión externa. Finalmente, el gobierno de los ávaros terminó cuando el janato fue conquistado por el Imperio de Carlomagno en Occidente y los búlgaros con Khan Krum en el Este. Ninguno de los dos, ni otros fueron capaces de crear un Estado duradero en la región, y en el siglo IX la tierra estaba habitada sólo por una escasa población de eslavos.<br>
+        Los Magiares (húngaros) recientemente unificados, guiados por Árpád comenzaron a establecerse en la cuenca de los Cárpatos a partir del 895. De acuerdo a los lingüistas los húngaros tendrían su origen en una antigua población ugrofinesa que habitó originalmente las zonas boscosas situadas entre el río Volga y los montes Urales. El rey Arnulfo I de Baviera invitó a los húngaros a ocupar las tierras de Svatopluk al este del río Danubio. En 894, mientras que Simeón de Bulgaria atacó al imperio bizantino, Svatopluk cuestionó a Arnulfo invadiendo Polonia. Tanto Arnulfo y León VI el Sabio, buscaron la ayuda de los húngaros, quienes estaban en condiciones de atacar a los búlgaros y los moravos de la parte posterior.<br>
+        Arnulfo mantuvo la alianza con los húngaros hasta su muerte en 899.
+    </section>
+    <textos id="subtitulo">La Gente de Árpád</textos>
+    <section id="parrafo">
+        La tradición sostiene que Hungría fue fundada por siete tribus magiares (húngaras) que emigraron desde la región de los Montes Urales cerca del límite de Europa y Asia hasta el territorio actual en el siglo VIII. Estas fueron guiadas por siete líderes: Álmos, Előd, Ond, Kond, Tas, Huba y Töhötöm. Un par de décadas después de haber llegado a las tierras del Danubio, Árpád - el hijo mayor de Álmos - se convirtió en príncipe y líder absoluto de las tribus, que hicieron un pacto de sangre para simbolizar una unión indivisible.<br>
+        Así comenzó la historia de la nación húngara y la dinastía de los Árpád.
+    </section>
+    <textos id="subtitulo">San Esteban y el Cristianismo</textos>
+    <section id="parrafo">
+        El tataranieto de Árpád fue Esteban I (1000-1038), hijo del príncipe Géza. Esteban había nacido como pagano con el nombre de Vajk y posteriormente fue bautizado con su nombre cristiano. Esteban sabía que si su nación quería sobrevivir, debía ser reconocida como un reino cristiano y estar bajo la tutela del Papa. Así, comenzó su lucha contra el paganismo tras haber sido coronado Rey de Hungría en el año 1000. El principal adversario de Esteban era un familiar suyo llamado Koppány, que deseaba la corona de Hungría y repudia el cristianismo. Finalmente fallece y Esteban ordena que fuese desmembrado en cuatro y que las partes de su cuerpo fueran enviadas a ciudades importantes como muestra de lo "poco conveniente" que podía ser el paganismo.<br>
+        Un ferviente defensor del Cristianismo fue el rey caballero San Ladislao I de Hungría (1077-1095), cuyo culto floreció posterior a su canonización en 1192. En su época se anexionó Croacia y Dalmacia a Hungría, también consolidándose el poder real y la situación interna del reino.
+    </section>
+    <textos id="subtitulo">Casa de los Anjou y Segismundo</textos>
+    <section id="parrafo">
+        Una vez que desapareció la familia real húngara, la Casa de Árpad en 1301, el príncipe napolitano Carlos Roberto de Anjou reclamó el trono como único descendiente por vía materna de los reyes húngaros. Comenzó entonces la Edad de Oro del reino, siendo implementadas numerosas reformas económicas. Hungría pasó a ser el mayor proveedor de oro y plata en Europa en su época, y a dominar comercial y militarmente su entorno. Luego de la desaparición de la Casa de Anjou en 1387, Segismundo de Luxemburgo se convirtió en rey húngaro por vía de matrimonio. Como rey checo y posteriormente emperador germánico, Segismundo obtuvo cada vez más adeptos, y concentrándose siempre en Hungría, impulsó el arte y la arquitectura gótica.
+    </section>
+    <textos id="subtitulo">Matías Corvino y los turcos</textos>
+    <section id="parrafo">
+        Hungría se convirtió gradualmente en un reino amplio e independiente, donde florecerá la cultura y se daría un importante progreso económico, sobre todo de la mano de Mátyás (Matías Corvino), quien conquistó Moravia, Bohemia y Silesia, y posteriormente trasladó la corte húngara a Viena. Así, Matías fue una figura de gran relevancia para el renacimiento en Hungría y la lucha armada contra los turcos, a los que se intentaba repeler desde hacía décadas (por ejemplo, su padre, el Regente húngaro Juan Hunyadi, hijo de un noble de
+        Valaquia, guio incontables campañas contra los turcos).
+    </section>
+    <textos id="subtitulo">La batalla de Mohács y la victoria turca</textos>
+    <section id="parrafo">
+        La época dorada finalizó con la derrota húngara de Mohács en 1526 y la ocupación turca de Buda (hoy parte de Budapest). A la muerte de Luis II en la batalla de Mohács, la nobleza húngara eligió rey a Fernando de Habsburgo, hermano del emperador Carlos V, vinculando así Hungría por casi 400 años a la Casa de Habsburgo.<br>
+        En 1529 fracasó la ofensiva turca contra Viena. Durante la dominación otomana de gran parte de Hungría, ésta estaría administrada por algunas grandes familias, y las revueltas serían constantes, al igual que en Transilvania. A finales del siglo XVII, los Habsburgo reconquistarían Hungría (Budapest en 1686 y en 1699 Transilvania). Durante los siglos XVIII y XIX, Hungría formó parte de los territorios administrados por los Habsburgo (Imperio austríaco a partir de 1806).
+    </section>
+    <textos id="subtitulo">Los Habsburgo y su dominio sobre Hungría</textos>
+    <section id="parrafo">
+        Tras las victorias imperiales de finales del siglo XVII, Hungría y Transilvania pasaron a formar parte del Imperio de los Habsburgo, ocasionando varios conflictos entre la nobleza magiar, poderosa y de espíritu independiente, y las tendencias centralistas de Viena.<br>
+        En 1848, estallaron rebeliones en todas partes del imperio, y en Hungría escritores como Sándor Petőfi tomaron las calles y guiaron las multitudes contra los austriacos. Pronto se estableció un gobierno provisional que fue derrocado por el emperador Francisco José I con el apoyo en Hungría de las minorías que estaban sometidas a los húngaros (especialmente croatas y rumanos) y por la intervención rusa. La rebelión fracasó, y entre 1849 y 1866 se implantó una política centralista y autoritaria.
+    </section>
+    <textos id="subtitulo">"El Compromiso"</textos>
+    <section id="parrafo">
+        Tras la derrota austríaca de 1866 contra Rusia en la Guerra de las Siete Semanas, Hungría se convertiría finalmente, en 1867, en una parte autónoma del Imperio austrohúngaro. En 1902, una comitiva húngara encabezada por Ferenc Deák fue enviada a Viena, donde se firmó el Compromiso (en húngaro: Kiegyezés y en alemán: Ausgleich). En este tratado se le otorgaban a Hungría instituciones políticas propias, gobierno y ejército propios y el parlamento tendría su sede en Budapest. Hungría (territorios de la Corona de San Esteban) se constituyó en la 2ª entidad de la nueva monarquía, con plena independencia excepto en asuntos militares, exteriores, monetarios y aduaneros. El káiser pasó a ser simultáneamente "rey apostólico" de Hungría. La política interna húngara se caracterizó por apostar por la magiarización de las minorías (croatas, serbios, eslovacos, ucranianos y rumanos), la centralización administrativa (sólo Croacia conservó cierta autonomía) y el mantenimiento de un régimen tendente al autoritarismo (sufragio censitario reducido, discriminación de las minorías, etc.). A diferencia de la parte austríaca, Hungría se mantuvo esencialmente rural y agraria bajo el dominio de una numerosa y poderosa nobleza que controlaba gran parte de los recursos del Estado.
+    </section>
+    <div id="desembrada"><textos id="subtitulo">Hungría desmembrada (periodo de entreguerras)</textos></div>
+    <section id="parrafo">
+        Sin embargo, el Imperio fue derrotado durante la Primera Guerra Mundial, por lo que
+        Hungría declaró su independencia el 1 de octubre de 1918. Con el tratado de Trianon en 1920 Hungría firmó la paz con las potencias vencedoras y perdió más de un 70% de su territorio, que pasó a los nuevos Estados centroeuropeos. Eslovaquia y Rutenia se unirían a Bohemia y Moravia para formar Checoslovaquia. Transilvania y parte del Banato se juntarían a
+        Rumanía. Croacia y Voivodina pasarían al Reino de los Serbios, Croatas y Eslovenos, futura Yugoslavia. Quedaron, no obstante, importantes grupos de población húngara en Checoslovaquia (884.000 individuos), Voivodina serbia (420.000) y Transilvania rumana (1.662.000), hoy en día también siguen siendo mayoritarios en numerosos distritos y municipios de las tres nuevas naciones.<br>
+        Poco después, hubo una revolución comunista instaurándose la República Soviética Húngara, que fue sofocada tres meses más tarde por las tropas anticomunistas rumanas. Durante este estado de anarquía, el almirante Miklós Horthy tomó el poder como regente "permanente" del Reino de Hungría (1920 - 1945), aunque impidiendo la restauración del rey Carlos IV de
+        Habsburgo (que falleció en 1922), quien contaba con un apoyo social muy amplio.
+    </section>
+    <textos id="subtitulo">La Segunda Guerra Mundial</textos>
+    <section id="parrafo">
+        Tras cierta presión, Horthy, el regente húngaro, estableció una alianza con la Alemania nazi y los otros miembros de las Potencias del Eje (Italia y Japón) en los años 1930, donde le ofrecían revisar el Tratado de Trianon. Hungría fue recompensada por Alemania con territorios pertenecientes a Checoslovaquia, Yugoslavia y Rumanía, y tomó parte activa en la Segunda Guerra Mundial, pudiendo así recuperar temporalmente unos territorios donde había húngaros (sur de Eslovaquia, Rutenia subcarpática, Transilvania septentrional y el norte de la Voivodina), y donde las autoridades húngaras pretendieron que los húngaros eran la mayoría, aunque los censos hechos por las autoridades rumanas, eslovacas o serbias pretendían lo contrario. En octubre de 1944, Adolf Hitler forzó la abdicación del no demasiado dócil Horthy, por un mayor colaboracionista pronazi húngaro, Ferenc Szálasi, con el fin de evitar así la defección de Hungría. La segunda guerra mundial afectó decisivamente a Hungría en el sitio de Budapest, donde perecieron unos 40.000 civiles además de 50.000 defensores y
+        70.000 atacantes del Ejército Rojo
+    </section>
+    <textos id="subtitulo">La Hungría comunista y la rebelión de 1956</textos>
+    <section id="parrafo">
+        Tras la caída de Hitler, Hungría fue ocupada por tropas rusas y, pese a que hubo un pequeño periodo liberal, en 1947 se instauró un gobierno comunista, liderado por el Partido de los Trabajadores Húngaros, estando a la cabeza de este Mátyás Rákosi. Por lo tanto el país pasaba a ser una parte importante del Bloque del Este. En 1949 Hungría ingresó en el Consejo de Asistencia Económica Mutua (COMECON) patrocinado por la Unión Soviética, del que formó parte hasta 1991.<br>
+        Cuando murió Iósif Stalin en 1953, se inició - como en la URSS y toda Europa del Este (menos Yugoslavia, que había elegido su propia vía al socialismo) - el proceso de desestalinización, en donde se aprobó un nuevo programa económico y se concedió amnistía a varios prisioneros políticos. En 1955, se firmó el Pacto de Varsovia que era un tratado de ayuda mutua, tanto económica como militar.<br>
+        El 28 de octubre de 1956, una revolución que pedía la retirada del Pacto de Varsovia fue respondida con una intervención militar por la Unión Soviética y la deposición y ejecución del primer ministro Imre Nagy. A finales de los años 1980, Hungría encabezó el movimiento para disolver el Pacto de Varsovia y se encaminó hacia una economía orientada al mercado bajo el liderazgo de János Kádár, secretario general del Partido Socialista de los Trabajadores Húngaros hasta 1988, año en que dimitió. Durante su gobierno se impulsó una política reformista, permitiendo el establecimiento de pequeñas empresas o PyMES particulares, aunque el gobierno defendía arduamente los derechos de los trabajadores y mantenía el control político del país.
+    </section>
+    <textos id="subtitulo">El cambio de régimen y la nueva Hungría</textos>
+    <section id="parrafo">
+        Tras el colapso de la Unión Soviética en 1991, Hungría intensificó los lazos con Europa occidental, se unió a la OTAN en 1999 y a la Unión Europea el 1 de mayo de 2004. Hungría fue el país que mejor afrontó la caída de la Unión Soviética en Europa Oriental, ya que el país había ido acercándose paulatinamente al sistema de libre mercado hacia los últimos años del régimen socialista.<br>
+        El 18 de septiembre de 2006, miles de húngaros, en gran parte llamados por el FIDESZ (o Alianza de Jóvenes Demócratas), el partido conservador mayoritario (en la oposición en ese momento) salieron a las calles enarbolando las banderas del antiguo Reino de Hungría(comúnmente identificado con los movimientos de extrema derecha), luego de que fuera divulgado un audio donde el Primer Ministro, Ferenc Gyurcsány, admitía que mintió en cuanto a la situación económica húngara para ganar las elecciones. En el audio puede oírse claramente que: «si la economía se mantuvo encarrilada fue por la divina providencia, la abundancia de dinero efectivo en la economía mundial y cientos de engaños», para después agregar: «es obvio que hemos mentido en el último año y medio, dos años. No hay dudas de que lo que estamos diciendo no es verdad».<br>
+        Los miles de húngaros movilizados por el FIDESZ exigieron tanto la renuncia del ministro como la de su gabinete, produciéndose enfrentamientos donde la policía fue desbordada y se ocupó el edificio de la televisión estatal húngara (MTV), produciéndose algunos incendios en su interior, en lo que fueron las jornadas más violentas vistas por Hungría desde la caída del Socialismo. En las elecciones del 2010 el FIDESZ resultó elegido para encabezar el nuevo gobierno por una mayoría abrumadora de más de dos tercios de los votos emitidos.
+    </section>
+   <div id="forma"><textos id="subtitulo">FORMA DE GOBIERNO Y CONSTITUCIÓN</textos></div>
+    <section id="parrafo">
+        Desde el 23 de octubre de 1989 Hungría es una democracia constitucional parlamentaria. El sistema político húngaro actual fue creado durante el cambio de régimen político, en 1989, según el modelo de Alemania Federal. De esta manera, el parlamento húngaro es unicameral y cada cuatro años se celebran elecciones parlamentarias para renovar sus miembros, en las que la población puede votar. El parlamento húngaro decide las leyes y con una mayoría de 2/3 puede modificar la constitución. El presidente de la República puede devolver las leyes antes de su aplicación, o dirigirse al Tribunal Constitucional, que puede eliminar una ley o una parte de ella si considera que viola la constitución húngara.<br>
+        Los candidatos a conseguir un escaño pueden presentarse en las filas de un partido o como independientes.
+    </section>
+    <textos id="subtitulo">Gobiernos:</textos>
+    <section id="parrafo">
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Periodo</th>
+                        <th>Primer Ministro (partido) </th>
+                        <th>Coaliciòn</th>
+                        <th>Gobierno</th>
+                        <th>Ideologìa polìtica</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Periodo">1990-1993</td>
+                        <td data-label="Primer Ministro (partido)">Jòzsef Antall (MDF)</td>
+                        <td data-label="Coaliciòn">MDF-FKGP-KDNP</td>
+                        <td data-label="Gobierno">Gobierno Antall</td>
+                        <td data-label="Ideologìa polìtica">derecha</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">1993-1994</td>
+                        <td data-label="Primer Ministro (partido)">Pèter Boross</td>
+                        <td data-label="Coaliciòn">MDF-FKGP-KDNP</td>
+                        <td data-label="Gobierno">Gobierno Boross</td>
+                        <td data-label="Ideologìa polìtica">derecha</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">1994-1998</td>
+                        <td data-label="Primer Ministro (partido)">Gyula Horn (MSZP)</td>
+                        <td data-label="Coaliciòn">MDF-FKGP-KNDP</td>
+                        <td data-label="Gobierno">Gobierno Horn</td>
+                        <td data-label="Ideologìa polìtica">izquierda</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">1998-2002</td>
+                        <td data-label="Primer Ministro (partido)">Viktor Orbàn (Fidesz)</td>
+                        <td data-label="Coaliciòn">Fidesz-FKGP-MDF</td>
+                        <td data-label="Gobierno">Gobierno Orbàn</td>
+                        <td data-label="Ideologìa polìtica">derecha</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">2002-2004</td>
+                        <td data-label="Primer Ministro (partido)">Petèr Medgyessy</td>
+                        <td data-label="Coaliciòn">MSZP-SZDSZ</td>
+                        <td data-label="Gobierno">Gobierno Medgyessy</td>
+                        <td data-label="Ideologìa polìtica">izquierda</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">2004-2006</td>
+                        <td data-label="Primer Ministro (partido)">Ferenc Gyurcsàn</td>
+                        <td data-label="Coaliciòn">MSZP-SZDSZ</td>
+                        <td data-label="Gobierno">Primer Gobierno Gyurcsàny</td>
+                        <td data-label="Ideologìa polìtica">izquierda</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">2006-2009</td>
+                        <td data-label="Primer Ministro (partido)">Ferenc Gyurcsàny (MSZP)</td>
+                        <td data-label="Coaliciòn">MSZP (hasta el 2008 en coalición con el SZDSZ)</td>
+                        <td data-label="Gobierno">Segundo Gobierno Gyurcsàny</td>
+                        <td data-label="Ideologìa polìtica">izquierda</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">2009-2010</td>
+                        <td data-label="Primer Ministro (partido)">Gordon Bajnai (independiente)</td>
+                        <td data-label="Coaliciòn">MSZP-SZDSZ</td>
+                        <td data-label="Gobierno">Gobierno Bajnai</td>
+                        <td data-label="Ideologìa polìtica">izquierda</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Periodo">2010</td>
+                        <td data-label="Primer Ministro (partido)">Viktor Orbàn</td>
+                        <td data-label="Coaliciòn">Fidesz</td>
+                        <td data-label="Gobierno">Gobierno Orbàn</td>
+                        <td data-label="Ideologìa polìtica">derecha</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
+    </section>
+    <div id="cultura"><section id="titulo">ASPECTOS CULTURALES</section></div>
+    <section id="parrafo">
+        Un país con una rica tradición folclórica que abarca artesanías tales como bordados, tallas o alfarería pintada y también edificios o manifestaciones musicales. La música húngara comprende desde las rapsodias románticas de Liszt a la música de los gitanos húngaros o la música romaní.<br>
+        Parlamento de Budapest<br>
+        Cubo de Rubik<br>
+        Franz Liszt es un compositor húngaro romántico, un virtuoso pianista y profesor.<br>
+        La gente de Eger de los años de 1830<br>
+        Vizsla (perro)<br>
+        Igualmente es históricamente rica la literatura húngara, con numerosos poetas y escritores que, pese a excepciones como Sándor Márai o Imre Kertész, aplaudidos en época reciente, no son especialmente conocidos fuera del país. Este desconocimiento de la literatura húngara se ha relacionado con las limitaciones que impone el húngaro, lengua de la familia ugrofinesa. El escritor Imre Kertész ganó el Nobel de Literatura en 2002. Por su parte Péter Esterházy es bastante conocido en Austria y Alemania y Magda Szabó está alcanzando cierta fama en
+        Europa occidental. 
+    </section>
+    <div id="ubicacion"><section id="titulo">UBICACIÓN GEOGRÁFICA, MORTALIDAD Y NATALIDAD</section></div>
+    <section id="parrafo">
+        Hungría se encuentra ubicada en el centro de Europa; colinda al norte con Eslovaquia, al noroeste y al este con Ucrania y Rumania, al sur con Serbia y Croacia y al oeste con Eslovenia y Austria. División Administrativa: 19 provincias, 23 ciudades provinciales y la capital.
+        húngaro)<br>
+        Punto más altoKékes <br>
+        Población total	Puesto 92.º<br>
+        •	Estimación (2020)	9 769 526 hab.<br>
+        •	Densidad (est.)	105,3 hab./km²<br>
+        37 filas más<br>
+        9.75 millones (2020)<br>
+        Chequia<br>
+        10.7 millones  (2020)<br>
+        Bulgaria<br>
+        6.927 millones  (2020)<br>
+        Explorar más<br>
+        Las fuentes incluyen: Banco Mundial<br>
+        1.49 hijos por mujer (2019)<br>
+        Polonia<br>
+        1.42  (2019)<br>
+        Chequia<br>
+        1.71  (2019)<br>
+        En 2021 murieron en Hungría 156.131 personas, 14.805 más que el año anterior. Esto supone428 fallecimientos cada día. Si observamos los datos por sexos vemos que murieron más mujeres, 72.468, que hombres, 68.858, dato que conviene comparar con la distribución de la población en Hungría por sexos.<br>
+        https://datosmacro.expansion.com › ...<br>
+        Hungría - Mortalidad 2021 - Datosmacro.com<br>
+        Hungría tiene un clima continental, con inviernos fríos y veranos entre templados y calurosos. La temperatura media anual es de alrededor de 10 °C, en verano de 27 a 35 °C, y en invierno de 0 a 15 grados bajo cero. La pluviosidad media anual es de alrededor de 600 mm.<br>
+        https://es.m.wikipedia.org › wiki<br>
+        Geografía de Hungría - Wikipedia, la enciclopedia libre<br>
+        Hungría es una gran llanura que sólo se rompe en algunos puntos por modestas cadenas montañosas. Ocupa parte de la cuenca media del Danubio, y su afluente el Tisza. La llanura se extiende más allá de sus fronteras, por el norte de Serbia, el sur de Eslovaquia y el oeste de Rumanía. Podemos distinguir tres unidades fisográficas, la Gran Llanura, la Pequeña Llanura y las tierras altas del Dunantul, o Transdanubia y las Tierras Altas de Hungría.<br>
+    </section>
+    <div id="gastronomia"><section id="titulo">GASTRONOMÍA HÚNGARA</section></div>
+    <section id="parrafo">
+        La gastronomía húngara es un elemento que resalta en la cultura magiar. Es variada, con tipos de comidas creativas. La cultura culinaria es el resultado del desarrollo histórico, que tiene más de 1000 años, con buenas dotaciones naturales. La cocina húngara es rica en aromas y sabores picantes, el plato más conocido de esta cocina es el gulash que reúne los sabores típicos de esta cocina mezclados con su popular pimentón. Se entiende por cocina húngara no solo la que se circunscribe a Hungría sino que también a la de los magiares..
+        <img src="{% static 'imagenes informacion/hungriacomida.jpg' %}">
+    </section>
+    <textos id="subtitulo">Ingredientes</textos>
+    <section id="parrafo">
+        Es frecuente en esta gastronomía el uso de pimientos, pimentón (denominado Erős Pista) y de ajo, existen pocos platos en los que las verduras se incluyan crudas. Las frituras suelen hacerse con manteca de cerdo que llega a ser utilizada para freír a alta temperatura y suele tener un sabor ahumado. En el terreno de los embutidos se tiene el famoso salami (en húngaro: téliszalámi), este salami elaborado en Hungría desde el año 1883 en Szeged de forma artesanal posee unas cualidades únicas que lo diferencian bastante del original italiano, otros embutidos son el paprikás szalámi (salami con pimentón) y el csemege szalámi (salami elaborado con una mezcla de carnes de cerdo y ternera), las salchichas ahumadas békéscsaba y gyula.
+        <img src="{% static 'imagenes informacion/hungriacomida2.jpg' %}">
+    </section>
+    <textos id="subtitulo">Platos</textos>
+    <section id="parrafo">
+        Goulash - (con la denominación gulyás se entiende en cualquier caso que es una sopa de
+        carne)<br>
+        Bográcsgulyás - (La forma más antigua de Kesselgulasch)<br>
+        Pörkölt - Trozos de carne con un caldo de pimentón y otras especias. Se sirve con una pasta denominada tarhonya<br>
+        Halászlé - sopa picante de pescado<br>
+        Bajai halászlé - (mit Fadennudeln)<br>
+        Szegedi halászlé - (Szegediner sopa de pescado)<br>
+        Hurka - (véres hurka: morcilla, májas hurka: paté de hígado, especialidades caseras de cerdo, el hurka y el kolbász se conocen como disznótoros)<br>
+        Fogasch - (ung. "fogas")<br>
+        Libamáj - (Hígado de ganso)<br>
+        Lecsó - Pimientos fritos con cebolla y patatas (acompañamiento)
+    </section>
+    <textos id="subtitulo">MÚSICA</textos>
+    <section id="parrafo">
+        Música húngara Se compone de música folk, tradicional y clásica producto de compositores como Liszt, Franz Schmidt, Dohnányi, entre otros. Es un ritmo dactílico dado que en Hungría la sílaba tónica se corresponde con la primera sílaba de cada palabra. La música gitana también es importante en la música y el folklore húngaro. El virtuoso del siglo XIX, fue el
+        fundador de la técnica pianista moderna, escritor de obras sinfónicas
+    </section>
+    <textos id="subtitulo">VESTIMENTAS Y BAILES</textos>
+    <section id="parrafo">
+        La mujer utiliza un vestido compuesto por dos piezas principalmente. Una falda floreada que no tiene vuelo. Suelen ser florecillas que decoran minimalistamente la falda dándole un toque muy especial. El vestido le llega hasta los pies y ahí tiene algún que otro detalle mínimo. La otra pieza es un corsé duro, es decir, completamente armado con mangas que pasan de los hombros. El diseño sigue siendo muy minimalista y se eligen colores tierra generalmente. La mujer cubre su cabeza completamente con un manto que suele ser blanco y también puede tener flecos. <br>
+        El traje del hombre está muy determinado y su diseño llama mucho la atención. Consta de una falda que lleva flecos con diseños que pueden ser extraídos de la cultura de Hungría o de los indígenas que habitaron esa zona. Son elegidos los colores tierra para representar estos modelos sobre la falda. El hombre luce también una camisa blanca con adornos sobre la parte superior y mangas súper amplias y decorados en los extremos como así también en los hombros. Sobre esta camisa se coloca una chaqueta pequeña que también está repleta de
+        ornamentos. El traje típico de Hungría para los hombres debe contener un sombrero y unas
+    </section>
+    <textos id="subtitulo">FLORA Y FAUNA</textos>
+    <section id="parrafo">
+        Los ríos y lagos de Hungría son ricos en peces, lucios, bagres y percas son los favoritos de los pescadores. El país preserva su naturalidad los amantes de la equitación a campo pueden recorrer libremente infinitas áreas y abiertas sin barreras y vallas. Hoy en día esto es un regalo raro en Europa y contribuye en gran medida a la sensación de libertad que conmueve de inmediato al visitante. Muchas especies de plantas y animales están protegidas, algunas de las cuales son raras en el resto de Europa.<br>
+        Tres los diez parques nacionales de Hungría forman Patrimonio de la Humanidad de la
+        UNESCO. Los recorridos guiados de observación de aves y animales silvestres y los senderos de estudio son especialmente adecuados para la observación de la fauna, los que se pueden recorrer con un guía experto en la llanura de Hortobágy y el lago Tisza, entre otros.
+    </section>
+    <textos id="subtitulo">PARTICIPACIÓN EN JUEGOS OLÍMPICOS</textos>
+    <section id="parrafo">
+        Ha participado en 27 ediciones de los Juegos Olímpicos de Verano, su primera presencia tuvo lugar en Atenas 1896. El país ha obtenido un total de 511 medallas en las ediciones de verano: 181 de oro, 154 de plata y 176 de bronce.<br>
+        En los Juegos Olímpicos de Invierno ha participado en todas las ediciones (24 en total). El país ha conseguido un total de 10 medallas en las ediciones de invierno: 2 de oro, 2 de plata y 6 de bronce.
+    </section>
+    <div id="conclusion"><section id="titulo">CONCLUSIÓN</section></div>
+    <section id="parrafo">
+        En lo personal consideramos que es un país muy interesante, tienen costumbres diversas, la comida específicamente es muy extravagante, la sopa clásica que usan es muy buena. En
+    general el evento tendría que ser de países de América, pero sin que se repitan.
+    </section>
+    <div id="biblio"><section id="titulo">BIBLIOGRAFÍA</section></div>
+    <section id="parrafo">
+            <font size="6px">
+                <a href="https://es.m.wikipedia.org/wiki/Cultura_de_Hungr%C3%ADa#:~:text=Es%20un%20pa%
+                C3%ADs%20con%20una,h%C3%BAngaros%20o%20la%20m%C3%BAsica%20roman%
+                C3%AD">Aspectos Culturales (comida, vestimenta).</a><br>
+                <a href="https://es.m.wikipedia.org/wiki/Pol%C3%ADtica_de_Hungr%C3%ADa#:~:text=Desde%20 el%2023%20de%20octubre,el%20modelo%20de%20Alemania%20Federal">Politica	de Hungrìa.</a><br>
+                <a href="https://bloudit.com/comida-tipica-de-hungria/">Comida Típica De Hungría.</a><br>
+                <a href="https://turismo.org/ropa-tipica-de-budapest/">Ropa de Hungría.</a><br>
+                <a href="https://es.slideshare.net/lelaadaniela99/danzas-y-musica">Danza y Música.</a><br>
+                <a href="https://www.google.com/search?q=vestimenta+traje+tipico+de+hungria&tbm=isch&hl=es419&client=ms-android-samsung-ss&prmd=ivn&sa=X&ved=2ahUKEwihmp20lY_6AhUB q5UCHc3aB8gQrNwCKAB6BQgBENwB&biw=360&bih=671#imgrc=ovJta_hfwnj0vM">Traje típico de Hungría.</a><br>
+                <a href="http://www.hungria.hn/index.php/historia">Historia de Hungría </a><br>
+                <a href="https://visithungary.com/es/articulos/flora-y-fauna">Flora y Fauna.</a><br>
+                <a href="https://geografia.laguia2000.com/relieve/hungria-relieve-e-hidrografia">Geografía	de Hungría.</a><br>
+                <a href="https://youtu.be/Kt2Jo7e3Oko">Video del Baile Húngaro.</a><br>
+                <a href="https://es.m.wikipedia.org/wiki/Gastronom%C3%ADa_de_Hungr%C3%ADa#">Gastronomía Húngara.</a>
+            </font>
+    </section>
+    <div id="curso"><section id="titulo">Curso 4°B</section></div>
+    <section id="parrafo">
+           <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno6.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno9.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/hungria/alumno10.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

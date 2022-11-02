@@ -1,0 +1,254 @@
+{% load static %}
+
+<html>
+<head>
+<title> Etiopía </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Etiopía <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#introduccion">INTRODUCCIÓN Y DELIMITACIÓN DE OBJETIVOS PEDAGÓGICOS </a></li>
+            <li><a href="#ciencias">CIENCIAS SOCIALES - GEOGRAFÍA</a></li>
+            <li><a href="#cienciasj">CIENCIAS JURÍDICAS / CONTABLES</a></li>
+            <li><a href="#lengua">LENGUA Y LITERATURA</a></li>
+            <li><a href="#cienciasn">CIENCIAS NATURALES: FLORA Y FAUNA</a></li>
+            <li><a href="#cienciass">CIENCIAS SOCIALES - HISTORIA: PROBLEMÁTICAS EN PERSPECTIVA</a></li>
+            <li><a href="#sociologia">SOCIOLOGÍA: ASPECTOS SOCIOLÓGICOS DE RELEVANCIA MUNDIAL</a></li>
+            <li><a href="#artistica">ARTÍSTICA: EXPRESIÓN Y ARTES ETÍOPES</a></li>
+            <li><a href="#antropologia">ANTROPOLOGÍA: ASPECTOS CULTURALES RELACIONADOS CON LA GASTRONOMÍA VERNACULAR</a></li>
+            <li><a href="#educacion">EDUCACIÓN FÍSICA</a></li>
+            <li><a href="#filosofia">FILOSOFÍA</a></li>
+            <li><a href="#psicologia">PSICOLOGÍA</a></li>
+            <li><a href="#formacion">FORMACIÓN ÉTICA Y CIUDADANÍA</a></li>
+            <li><a href="#lenguaje">LENGUAJE EXTRANJERO INGLÉS</a></li>
+            <li><a href="#conclusion">CONCLUSIÓN SOBRE EL TRABAJO DE INVESTIGACIÓN</a></li>
+            <li><a href="#curso">Curso 5°D</a></li>
+        </ul>
+    </div>
+    <div id="introduccion"><section id="titulo">INTRODUCCIÓN Y DELIMITACIÓN DE OBJETIVOS PEDAGÓGICOS</section></div>
+    <textos id="subtitulo">Introducción</textos>
+    <section id="parrafo">
+        El presente proyecto fue creado para difundir el respeto y la valoración de diferentes culturas, así como también promover valores que busquen de la paz y el bien común. Es por ello que lo consideramos como un proyecto de intervención social – comunitaria que tendrá como escenario a las aulas de nuestra institución.  <br> <br>
+        El presente Proyecto Educativo y Cultural, nace con el objetivo de brindar a los jóvenes la posibilidad de tomar conciencia sobre la vida en diferentes países, sus culturas, historias, los problemas mundiales y sus posibles soluciones que como jóvenes pueden ofrecer. Al participar de éste proyecto, nosotros (los alumnos) no sólo adquirimos una visión amplia del país al que representamos, sino que actividades de ésta índole nos permiten conocer nuevas culturas, valorar la propia y aprender a convivir con personas que tienen otra forma de pensar, de vivir y de actuar. La metodología de investigación que se usará será de carácter cualitativa y de revisión bibliográfica.
+    </section>
+    <textos id="subtitulo">Objetivos:</textos>
+    <section id="parrafo">
+        <ol>
+            <li>Desarrollar y problematizar aspectos culturales importantes del país en cuestión: 
+                “Etiopía”. </li>
+            <li>Trabajar como grupo operativo en la concientización de culturas diferentes a la nuestra, desde una actitud de respeto, paz y puesta en valor.</li>
+            <li>Incorporar contenidos de todos los curriculums de manera transversal en un solo proyecto integrador.</li>    
+            <li>Sensibilizar, con nuestro trabajo, a los demás miembros de la comunidad educativa para lograr así una mirada hacia una cultura diversa, rica e inclusiva.</li>   
+        </ol>
+    </section>
+    <div id="ciencias"><section id="titulo">CIENCIAS SOCIALES - GEOGRAFÍA</section></div>
+    <section id="parrafo">
+        Tras la independencia de Eritrea, Etiopía se convirtió en un estado sin litoral, dependiendo en gran medida de Yibuti para sus exportaciones marítimas. Con 1 104 300 km²,[3] Etiopía es el vigésimo séptimo país más extenso del mundo. Para efectos comparativos, la extensión de su territorio es similar a la de Bolivia.<br>
+        La mayor parte de Etiopía yace en el Cuerno de África, que es el extremo oriental de África. Al oeste limita con Sudán y Sudán del Sur, al norte con Yibuti y Eritrea, al este con Somalia, y al sur con Kenia. El Gran Valle del Rift atraviesa el país de noreste a suroeste, creando una zona de depresión que es cuenca de varios lagos. 
+    </section>
+    <textos id="subtitulo">División política de Etiopía</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/etiopiamapa.jpg' %}" >
+    </section>
+    <textos id="subtitulo">UBICACIÓN GEOGRÁFICA </textos>
+    <section id="parrafo">
+        Etiopía, oficialmente la República Democrática Federal de Etiopía, antiguamente llamada Abisinia, es un país sin litoral, situado en el Cuerno de África. Es el segundo país más poblado de África. Su ciudad más grande y poblada es Adís Abeba y limita con Eritrea, Yibuti, Kenia, Sudán y Sudán del Sur.
+        <img src="{% static 'imagenes informacion/etiopiaplanet.png' %}" > 
+    </section>
+    <textos id="subtitulo">MATEMÁTICAS:  ESTADÍSTICA APLICADA </textos>
+    <section id="parrafo">
+        Etiopía, situada en el este de África, tiene una superficie de 1.136.259 Km2, por lo que puede considerarse un país grande. Etiopía, con una población de 120.812.697 personas, es un país muy poblado y presenta una moderada densidad de población, 88 habitantes por Km2. Su capital es Adís Abeba y su moneda Birr etíopes. <br>
+        Etiopía es la economía número 67, su deuda pública en 2021 fue de 44.435 millones de euros, con una deuda del 52,95% del PIB. Su deuda per cápita es de 446 € euros por habitante. <br>
+       <img src="{% static 'imagenes informacion/etiopiastat.jpg' %}" ><br>
+       En Etiopía en 2020 fallecieron 1.674 personas de media al día, cifra que este año podría verse incrementada por la cifra de muertes por coronavirus.  En este momento hay 7.572 personas fallecidas por coronavirus, en la última jornada no ha habido ningún muerto por coronavirus. Actualmente, la tasa de pacientes confirmados de coronavirus en los últimos 14 días es de 0,18 por cada cien mil habitantes. Se encuentra entre los países con menor tasa de enfermos confirmados del mundo.
+    </section>
+    <textos id="subtitulo">Reloj de población de Etiopía Total </textos>
+    <section id="parrafo">
+        <ul>
+            <li>poblacional: 121.528.901 </li>
+            <li>Población actual: 60.484.562 </li>
+            <li>Población masculina actual (49.8%): 61.044.339</li>
+            <li>Población femenina actual (50.2%): 2.867.608 </li>
+            <li>Nacimientos este año: 9.144 </li>
+            <li>Nacimientos hoy: 673.767 </li>
+            <li>Muertes este año: 2.148</li>
+            <li>Muertes hoy -11.215 </li>
+            <li>La migración neta este año -36 </li>
+            <li>La migración neta hoy: 2.182.626 </li>
+            <li>Crecimiento poblacional este año: 6 960 </li>
+        </ul>
+    </section>
+    <div id="cienciasj"><section id="titulo">CIENCIAS JURÍDICAS / CONTABLES </section></div>
+    <section id="parrafo">
+        Forma del Estado Etíope <br>
+        Etiopía es una República Federal parlamentaria, basada en la Constitución aprobada en 1994, que codifica el funcionamiento de las instituciones etíopes, estableciendo una república parlamentaria federal, con un poder ejecutivo, legislativo y judicial.  La Presidencia de la República es una función honorífica, elegido para seis años en sesión conjunta de ambas cámaras. El presidente no ejerce ningún poder en realidad, sino que tiene funciones protocolarias y un cierto poder de influencia. <br>
+        El Gobierno de la Federación es la institución que controla realmente el poder en Etiopía. El Primer Ministro es escogido por el partido mayoritario en la Cámara de Representantes, y tiene un mandato de 5 años. En cuanto al Poder Legislativo está constituido por dos órganos: la Cámara de los Representantes del Pueblo (547 miembros, Cámara Baja), cuyos miembros son elegidos cada 5 años por sufragio universal y que legisla sobre los temas de competencia federal (relaciones internacionales, inmigración, nombramiento del Defensor 
+        del Pueblo, etc.) y la Cámara de la Federación (Cámara Alta), formada por los representantes de los distintos Consejos Regionales de los estados federados, y encargada de la interpretación de la Constitución y de definir las relaciones entre los estados federados etíopes, entre otras funciones.<br>
+        <img src="{% static 'imagenes informacion/etiopiamapita.jpg' %}" ><br>
+        En la cúspide del Poder Judicial se encuentra la Corte Suprema Federal constitucionalmente independiente de los poderes legislativo y ejecutivo. Tras la llegada al poder del EPRDF en 1991, y con la aprobación de la constitución en 1995, se consagra un modelo de 
+        República Federal Democrática con una base étnica. La Constitución etíope comienza con el siguiente encabezamiento “Nosotros, las naciones, nacionalidades y pueblos de Etiopía...”  lo cual subraya la idea de que el federalismo etíope es étnico y no territorial. Una de las más importantes particularidades de la Constitución etíope, es que asienta la creación de esta república federal en un teórico derecho a la secesión de Etiopía, teóricamente posible pero prácticamente improbable. <br>
+        A su vez, la Constitución reconoce también el derecho de cada una de las  naciones, nacionalidades y pueblos a constituirse en estado separado dentro de Etiopía.  
+        División Administrativa: Actualmente, existen diez estados regionales, Oromía, Amhara, Tigray, Somali, Afar, Gambela, Benishangul-Gumuz, Harar, Naciones y Pueblos del Sur, y el recientemente creado Sidama y dos ciudades, Addis Abeba y Dire Dawa con estatuto especial.  
+    </section>
+    <textos id="subtitulo">Sistema de Gobierno </textos>
+    <section id="parrafo">
+        Etiopía es un país federal, el cual ha adoptado un sistema jurídico de derecho civil. Las leyes federales se redactan en inglés y en Amharic. Todas las leyes son publicadas en el Diario oficial "Federal Negarit Gazeta". Etiopía, es una República democrática, parlamentaria y federal. Etiopía fue proclamada como una República Democrática Federal en el año 1995 por una Asamblea Constitutiva. <br>
+        El mandato en este país tiene una duración de 6 años con posibilidad a una sola reelección inmediata. La Cámara de Representantes Populares nomina a la candidatura presidencial. El cargo queda vacante al término de un mandato o renuncia. La tenencia presidencial no está relacionada con la de la Cámara. La presidencia es elegida en una sesión conjunta de la 
+        Cámara de Representantes Populares y la Cámara de la Federación por una mayoría de dos tercios. Al momento de tomar posesión del cargo se realiza un juramento ante una sesión 
+        conjunta de las dos cámaras de la Asamblea Parlamentaria Federalː Escudos de Etiopía. <br>
+        <img src="{% static 'imagenes informacion/etiopiaescudo.jpg' %}" >
+    </section>
+    <textos id="subtitulo">Poder Ejecutivo</textos>
+    <section id="parrafo">
+        El Jefe de Estado es el presidente y el Jefe de Gobierno es el Primer Ministro. Este ultimo ejerce el Poder Ejecutivo y puede reelegirse una sola vez, pues el presidente no ejerce ninguna función o poder. Tanto a nivel federal como regional existe un Poder Ejecutivo, un Poder Legislativo y uno Judicial. Desde la Constitución del 1995, el presidente solo puede reelegirse una vez, es decir, solo puede estar en el poder dos periodos de seis años. 
+    </section>
+    <textos id="subtitulo">Regulación Constitucional </textos>
+    <section id="parrafo">
+        De conformidad con la Constitución Federal de Etiopía, dentro del capítulo séptimo, el cual se titula "El Presidente de la República". El artículo 69, regula: "El Presidente de la República Democrática Federal de Etiopía es el jefe de Estado." Asimismo, el artículo 71, regula los poderes y funciones del Presidente: "(1) Abrirá la sesión conjunta de la Cámara de Representantes del Pueblo y la Cámara de la Federación al comienzo de sus sesiones anuales." "(2) Proclamará en el Negarit Gazeta las leyes y los acuerdos internacionales aprobados por la Cámara de Representantes del Pueblo de acuerdo con la Constitución." "(3) Él, por recomendación del Primer Ministro, nombrará embajadores y otros enviados para representar al país en el exterior" "(4) Recibirá las credenciales de embajadores extranjeros y enviados especiales." "(5) Otorgará medallas, premios y obsequios de acuerdo con las condiciones y procedimientos establecidos por la ley." "(6) Deberá, por recomendación del Primer Ministro y de conformidad con la ley, otorgar altos títulos militares." "(7) Perdonará, de acuerdo con las condiciones y procedimientos establecidos por la ley." 
+    </section>
+    <textos id="subtitulo">Poder Legislativo</textos>
+    <section id="parrafo">
+        El Poder Legislativo es representado por dos asambleas por lo que es un sistema bicameral y designa al Primer Ministro, quien se encuentra a cargo del Consejo de Ministros. La Asamblea Parlamentaria Federal, con una cámara alta, La Cámara de la Federación, constituida por 112 que son elegidos por el Consejo de Estado. Su función principal es tener el control constitucional de la región. La Cámara baja, Cámara de Representantes Populares, esta constituida por 547 miembros elegidos por el voto universal y secreto. Esta misma Cámara es la que elige al presidente, en un periodo de 6 años. El sistema jurídico que adopto Etiopía es una mezcla entre el derecho musulmán y el romano germánico o derecho civil.
+    </section>
+    <textos id="subtitulo">Actual Presidente de Etiopía </textos>
+    <section id="parrafo">
+        El presidente de la República Democrática Federal de Etiopía asume la jefatura del Estado de dicho país. Desde octubre de 2018 la presidenta es Sahle-Work Zewde, primera mujer que asume el cargo. 
+    </section>
+    <div id="lengua"><section id="titulo">LENGUA Y LITERATURA </section></div>
+    <textos id="subtitulo">Lenguas </textos>
+    <section id="parrafo">
+        Estos son los idiomas que se hablan en Etiopía. Esto es un porcentaje del 2017:  
+        Oromo (34,92%), Amárico (30,27%), Otros idiomas (8,37%), somalí (6,40%), Tigriña (6,10%), Sidamo (2,07%), Wolaytta (2,27%), Gurage (2,07%), Lejos (1,76%), Hadiya 
+        (1,76%), Gamo (1,55%), Gedeo (1,34%), Kafa (1,14%) <br>
+        <img src="{% static 'imagenes informacion/etiopialetra.png' %}"> <br> 
+        La escritura etíope o escritura etiópica es una escritura alfasilábica que originalmente se desarrolló para escribir el idioma ge'ez, en el norte de la actual Etiopía.
+    </section>
+    <textos id="subtitulo">Literatura </textos>
+    <section id="parrafo">
+        Literatura etíope, escritos en géez clásico (etíope) o en amárico, el principal idioma moderno de Etiopía. Las primeras obras literarias existentes en Geʿez son traducciones de escritos religiosos cristianos del griego, que pueden haber influido en su estilo y sintaxis. Desde el siglo VII al XIII, período marcado por disturbios políticos, no hubo nueva actividad literaria; pero, con el anuncio del nuevo Dinastía salomónida en Etiopía en 1270, comenzó la era más productiva de la literatura Geʿez, nuevamente caracterizada por traducción, no del griego sino del árabe, aunque los originales eran frecuentemente coptos, siríacos o Griego. El tema era mayoritariamente teológico o estaba fuertemente influenciado por consideraciones religiosas. La obra más interesante de este período fue la del siglo XIV. Kebra Negast(“Gloria de los reyes”), una combinación de historia mítica, alegoría y apocalipsis, cuyo tema central es la visita del Reina de Saba (Makeda) a Salomón y el nacimiento de un hijo, Menilek, que se convirtió en el legendario fundador de la dinastía etíope. 
+    </section>
+    <div id="cienciasn"><section id="titulo">CIENCIAS NATURALES: FLORA Y FAUNA  </section></div>
+    <section id="parrafo">
+        El páramo montano de Etiopía es una ecorregión de páramo de la ecozona afrotropical, definidapor WWF, que ocupa las zonas de más elevadas del macizo Etíope, en Etiopía. Junto con la ecorregión de pradera montana y monte alto de Etiopía forma la región del macizo Etíope, la región montañosa más extensa de África, que además está incluida en la lista Global 200 del WWF. 
+    </section>
+    <textos id="subtitulo">Fauna</textos> 
+    <section id="parrafo">    
+        La fauna del país se compone principalmente de animales de llanuras del este de África, pero hay también orixes, zorros orejudos, linces, osos hormigueros, colobos, monos verdes, leopardos, hipopótamos, gacelas, guepardos, leones, kudus (especie de antílope) y 450 especies de aves que conviven en los 720 kilómetros. <br>
+        Es una ecorregión de pradera de montaña que ocupa 25.200 kilómetros cuadrados repartidos en varios enclaves en Etiopía, por encima de los 3.000 msnm, sobre la pradera montana y monte alto de Etiopía. Los datos sobre el clima son escasos. Las precipitaciones anuales varían entre unos 2500 mm en el suroeste, con sólo dos meses de estación seca, y 1000 mm en el norte, donde la estación seca dura hasta diez meses. El lobo etíope (Canis simensis) es endémico de esta ecorregión, y se encuentra en grave peligro de extinción. Hay varios roedores endémicos: la rata-topo gigante (Tachyoryctes macrocephalus), Megadendromus nikolausi, Stenocephalemys albocaudata, Stenocephalemys griseicauda y Lophuromys melanonyx. El endémico sapo etíope (Altiphrynoides malcomi) ha evolucionado de manera que su fecundación es interna, y los huevos se desarrollan en el suelo húmedo. En concreto, la avifauna de Etiopía es una de las más ricas y particulares de África continental. Se pueden visualizar 836 aves en estado silvestre de las 9971 especies mundiales, 86 de las 203 familias mundiales y 22 de los 28 órdenes mundiales. También encontrará mamíferos comunes como la gacela de Sömmering, el kudú mayor y menor y otros muy difíciles de observar como el caracal, y otros guepardos, leopardos y leones. - Las zonas montañosas también tienen sus tesoros animales. 
+    </section>
+    <textos id="subtitulo">Flora </textos>
+    <section id="parrafo">
+        Entre los mamíferos destacan la cabra montés de Etiopía (Capra walie), en gravísimo peligro de extinción, el nyala de montaña (Tragelaphus buxtoni), el antílope saltarrocas (Oreotragus oreotragus), el gelada (Theropithecus gelada) y el damán de El Cabo (Procavia capensis). Abundan los roedores y las musarañas. En conjunto, la vegetación es intermedia entre la flora montana de la ecozona afrotropical y la de la paleártica. El número de endemismos es muy elevado. Su vegetación, llamada wurch, consiste en praderas y páramos con abundantes plantas herbáceas y arbustos, como el hipérico Hypericum revoltum. Las especies arbustivas dominantes en el páramo son el brezo blanco (Erica arborea) y Philippia; entre los arbustos crecen escasas plantas. En las zonas pantanosas abunda el cárex Carex monostachya 
+    </section>
+    <textos id="subtitulo">Flor nacional de Etiopía </textos>
+    <section id="parrafo">
+        Zantedeschia aethiopica, conocida comúnmente como alcatraz, cala, cala de Etiopía, aro de Etiopía, lirio de agua, cartucho, flor de pato o flor del jarro, es una planta perenne herbácea de origen sudafricano, de la familia de las aráceas, la más robusta y ampliamente naturalizada del género Zantedeschia.  
+    </section>
+    <div id="cienciass"><section id="titulo">CIENCIAS SOCIALES - HISTORIA: PROBLEMÁTICAS EN PERSPECTIVA </section></div>
+    <section id="parrafo">
+        Etiopía es la segunda nación más antigua del mundo en adoptar el cristianismo como religión oficial (333 d.C.) después de Armenia (301 d.C.). Durante el reparto europeo de África del siglo xix, Etiopía conservó su independencia; sin embargo, en 1895 ocurre la invasión italiana, desde su colonia en Eritrea. En 1931 sube al trono el emperador Haile Selassie. En 1935, las tropas italianas de Benito Mussolini invadieron el país. El ejército etíope, que mantenía caballería con lanzas y unos pocos con fusiles, no eran rivales para el ejército italiano.El presidente mexicano Lázaro Cárdenas del Río envió armas a Etiopía, pero los italianos finalmente conquistaron Etiopía, y pasó a llamarse Abisinia. En 1936, el territorio pasa oficialmente (con poco reconocimiento internacional) a formar parte del África Oriental Italiana. Durante la Segunda Guerra Mundial, la derrota italiana en la batalla de Gondar devolvió el poder a Haile Selassie I. En 1952, la ONU aprobó la federación de Etiopía y de Eritrea, convertida posteriormente en un país demócrata. Hacia 1974, el régimen de Haile Selassie se enfrentaba a un gran descontento público, agudizado por derrotas militares a manos de guerrilleros eritreanos, y a raíz de una profunda hambruna en las provincias de Wolo y Tigray, producida por la sequía. Estos hechos desencadenaron una revolución liderada por oficiales de baja graduación del Ejército y promovida por grupos políticos de izquierda, que terminó con el derrocamiento del emperador. Asumió el poder una Junta Militar conocida como el Derg. Sufre una terrible hambruna en 1984, debida a una gran sequía, muy habitual en la zona como la de 1970. En 1991 la República Democrática Popular de Etiopía es derrocada en medio de una guerra civil. <br>
+        En mayo de 1991, Meles Zenawi al mando del Frente Democrático Revolucionario del Pueblo Etíope alcanza la victoria armada sobre Menghistu y es proclamado presidente, iniciando un periodo de reformas políticas y sociales que le llevan a abandonar el régimen socialista. La nueva guerra con Eritrea de 1997 a 2000 finalizó con la independencia de Eritrea y, bajo el patrocinio de la ONU y la OUA, se obtuvo la paz definitiva. 
+    </section>
+    <div id="sociologia"><section id="titulo">SOCIOLOGÍA: ASPECTOS SOCIOLÓGICOS DE RELEVANCIA MUNDIAL</section></div>
+    <section id="parrafo">
+        Siendo uno de los países más poblados de África, Etiopía lucha por satisfacer las necesidades de su grupo en edad infantil. En combinación con la pobreza severa, problemas como el aumento de la mutilación genital femenina, la falta de servicios de salud y saneamiento y la desnutrición representan una gran amenaza para los niños. <br>
+        Población : 109,2 millones <br>
+        Pob. de 0 – 14 años : 43.5% <br>
+        Esperanza de vida: 66 años <br>
+        Mortalidad en menores de 5 años: 63,25% <br>
+        El país sigue teniendo una población relativamente joven con 43.5 por ciento menor de 15 años (2017). También alberga una amplia variedad de grupos étnicos compuestos por un mosaico de casi 100 idiomas diferentes divididos en cuatro grupos principales. <br>
+        La economía del país depende en gran medida de la agricultura, lo que contribuye a casi la mitad de su PIB. Las fuentes de fabricación y energía también contribuyen de manera importante a la economía del país. Todavía está mejorando mucho. <br>
+        Pero hoy, la pobreza y los problemas que causa representan una amenaza significativa para un segmento mayor de la población. La pobreza genera problemas de saneamiento, acceso a servicios de agua y salud, desnutrición y tenencia de la tierra, que son perjudiciales para la mayoría de la población. Además, Etiopía es propensa a choques relacionados con el clima y brotes de enfermedades. Estado de los derechos del niño. <br>
+        La población de Etiopía está compuesta principalmente por niños. La mediana de edad es de solo 17.9 años, que es significativamente baja en comparación con el mundo. Incluso se pronostica que para 2050, habrá 58 millones de niños en Etiopía, que es el 6 por ciento de la población de África.En Etiopía, el 88 por ciento de los niños, que se concentran principalmente en las zonas rurales, viven en una pobreza multidimensional que carece de acceso a al menos tres de las necesidades fundamentales, como una nutrición adecuada, educación, salud y vivienda.  <br>
+        El conflicto en Etiopía entre el Gobierno y el Frente de Liberación del Pueblo se ha convertido en una de las mayores crisis humanitarias del año, con millones de ciudadanos necesitados de asistencia humanitaria por carecer de todo. Existen aproximadamente 15 grupos étnicos en Etiopía, algunos de ellos en peligro de extinción, que viven fieles a sus costumbres y tradiciones desde hace siglos. Los oromo, amhara, somalí y tigray forman más de las tres cuartas partes de la población, pero hay más de 80 grupos étnicos diferentes en Etiopía, de los que algunos tienen poco más de 10.000 individuos.
+    </section>
+    <div id="artistica"><section id="titulo">ARTÍSTICA: EXPRESIÓN Y ARTES ETÍOPES</section></div>
+    <section id="parrafo">
+        A continuación, presentamos algunas expresiones artísticas de la cultura etíope. <br>
+        <img src="{% static 'imagenes informacion/etiopiaimagen.jpg' %}"> <br>
+        <img src="{% static 'imagenes informacion/etiopiaimagen2.jpg' %}">
+    </section>
+    <section id="titulo">MÚSICA</section>
+    <section id="parrafo">
+        La música etíope tiene su origen en tradiciones del cristianismo ortodoxo, el judaísmo etíope y el mundo musulmán, así como en expresiones polifónicas e instrumentales africanas. Predominantemente vocal, la música etíope recurre a instrumentos muy variados, algunos de los cuales se remontan probablemente a la época del Antiguo Testamento. Entre los más utilizados figuran las liras baganna y krar, el violín masenqo, los tambores kabaro y la flauta washint.  Por su temática, la Música de Etiopía se puede dividir en tres grandes grupos:
+        <ul>
+            <li>Música folclórica y tradicional etíope. Comprende la música de los diversos grupos étnicos de Etiopía desde remotas épocas.</li>
+            <li>Chik Chikka es un tipo de ritmo etíope, que actualmente se puede interpretar con un tiempo rápido y también lento. </li>
+            <li>Música copta o sacra.</li>
+            <li>Música popular. Se diferencia de la música folclórica por su carácter más general e influencia extranjera. </li>
+        </ul>
+    </section>
+    <div id="antropologia"><section id="titulo">ANTROPOLOGÍA: ASPECTOS CULTURALES RELACIONADOS CON LA GASTRONOMÍA VERNACULAR</section></div>
+    <section id="parrafo">
+        	Comida típica de Etiopía: introducción a su gastronomía 
+        	10 Platos imprescindibles de Etiopía  
+        <ol>
+            <li>Injera.</li>
+            <li>Watt.</li>
+            <li>Kifto.</li>
+            <li>Tibs.</li>
+            <li>Fish Goulash.</li>
+            <li>Tella.</li>
+            <li>Yemarina Yewotet Dabo.</li>
+            <li>Tej.</li>
+            <li>Café.</li>
+        </ol>
+        <img src="{% static 'imagenes informacion/etiopiacomida.jpg' %}">
+    </section>
+    <div id="educacion"><section id="titulo">EDUCACIÓN FÍSICA </section></div>
+    <section id="parrafo">
+        Etiopía en los Juegos Olímpicos está representada por el Comité Olímpico Etíope, miembro del Comité Olímpico Internacional desde el año 1954.  <br>
+        Ha participado en 14 ediciones de los Juegos Olímpicos de Verano, su primera presencia tuvo lugar en Melbourne 1956. El país ha obtenido un total de 58 medallas en las ediciones de verano: 23 de oro, 12 de plata y 23 de bronce, 2 todas en atletismo, principalmente en las carreras de fondo y la maratón. En los Juegos Olímpicos de Invierno ha participado en 2 ediciones, siendo Turín 2006 su primera aparición en estos Juegos. El país no ha conseguido ninguna medalla en las ediciones de invierno.
+    </section>
+    <div id="filosofia"><section id="titulo">FILOSOFÍA </section></div>
+    <section id="parrafo">
+        La filosofía etíope o filosofía abisinia es el corpus filosófico de los territorios de las actuales Etiopía y Eritrea. Además de la tradición oral, se conservó temprano en forma escrita a través de manuscritos Ge'ez. Esta filosofía ocupa una posición única dentro de la filosofía africana. El carácter de la filosofía etíope está determinado por las condiciones particulares de evolución de la cultura etíope. Así, la filosofía etíope surge de la confluencia de la filosofía griega y patrística con los modos de pensamiento tradicionales etíopes. Debido al temprano aislamiento de sus fuentes de espiritualidad cristiana, Bizancio y Alejandría, Etiopía recibió parte de su herencia filosófica a través de versiones árabes. Como consecuencia, prevalece la reflexión moral de la inspiración religiosa, y se prefiere el uso de narrativas, parábolas, apotegmas y ricas imágenes al uso de argumentos abstractos. Esta literatura sapiencial consiste en traducciones y adaptaciones de algunos textos griegos, a saber, el Physiolog (hacia el siglo V d. C.), La vida y máximas de Skendes (siglo XI d. C.) y El libro de los sabios filósofos.(1510/22). Zera Yacob (1599–1692) es el exponente más importante de este renacimiento. Su tratado Hatata (1667) es una obra incluida a menudo en el estrecho canon de la filosofía universal. 
+    </section>
+    <div id="psicologia"><section id="titulo">PSICOLOGÍA </section></div>
+    <section id="parrafo">
+        Existen diferentes aspectos psicológicos que se pueden analizar en un país como Etiopía. Debido a la limitada extensión de este trabajo, optamos por tomar una sola problemática psicológica: las secuelas de las constantes guerras en Etiopía y sus refugiados.  Ciudades destruidas, regiones devastadas, terrenos infértiles y ausencia de medios de producción y supervivencia son algunas de las postales más habituales cuando nos acercamos a una guerra e intentamos comprenderla.  Los efectos más recurrentes tras una situación de estas características son: Ansiedad permanente, Depresión, Inseguridad y desconfianza, Desarraigo. Un estudio identificó cinco trastornos recurrentes en zonas de conflicto, presentes en más del 22% de las personas que han vivido una guerra: depresión, ansiedad, trastorno de estrés postraumático, trastorno bipolar y esquizofrenia. 
+    </section>
+    <div id="formacion"><section id="titulo">FORMACIÓN ÉTICA Y CIUDADANÍA </section></div>
+    <section id="parrafo">
+        Debido a que la extensión de este trabajo en su totalidad es muy limitada (15 hojas), tomaremos solo un aspecto en esta área. La Ética Ciudadana nos educa para desarrollar valores para la vida en sociedad, pues son estos los que nos facilitan la relación con otras personas y aumentan el nivel de bienestar común. Algunos de esos valores son: la solidaridad, la tolerancia, el respeto, la justicia, el diálogo, la equidad, la justicia, etc. En el país investigado, Etiopía, vemos que es muy difícil incorporar esta asignatura al curriculum nacional. También podemos mencionar que al ser una nación tan diversa, son diversos los valores y las mores.
+    </section>
+    <div id="lenguaje"><section id="titulo">LENGUAJE EXTRANJERO INGLÉS </section></div>
+    <textos id="subtitulo">7 INTERESTING FACTS ABOUT ETHIOPIA</textos>
+    <section id="parrafo">
+        Located in the horn of Africa between Djibouti, Eritrea, Kenya, Somalia, South Sudan, Sudan, and Somaliland; Ethiopia is the heart of East Africa. Famous for its incredible coffee, unique Orthodox Christian traditions and breathtaking natural landscapes, there is certainly a lot to love. <br> 
+        1. Ethiopia’s calendar will surprise you. It is a 13 months calendar. 2. It has the most UNESCO World Heritage Sites on the continent. 9 sites. 3. Over 80 languages are spoken in Ethiopia 4. Over half of Africa’s mountains are in Ethiopia 5. The first African to win an Olympic gold medal was Ethiopian. Abebe Bikila was his name.  6. Ethiopia is Africa’s oldest country (Originally founded in 980 BC.) 7. Ethiopia has never been colonised
+    </section>
+    <div id="conclusion"><section id="titulo">CONCLUSIÓN SOBRE EL  TRABAJO DE INVESTIGACIÓN</section></div>
+    <section id="parrafo">
+        Como conclusión podemos decir que el presente trabajo de investigación nos ha permitido:
+        <ul>
+            <li>Exhibir el potencial educativo al realizar proyectos escolares de investigación. Especialmente, este tipo de trabajo colaborativo grupal que nos ha servido para estimular actitudes, valores y vocaciones. </li>
+            <li>Asimismo, este trabajo permitió impulsar el intercambio de experiencias pedagógicas entre los compañeros, y entre todas las materias de nuestra orientación: Humanidades y Ciencias Sociales.</li>
+            <li>Finalizando, y en consonancia con los objetivos iniciales propuestos, este trabajo nos ha enriquecido tanto individual como grupalmente. Ahora tomamos más conciencia a la hora de fomentar la cultura ciudadana y democrática; el espíritu crítico y la curiosidad en niños, jóvenes y adultos, docentes y la comunidad en general.  Por último, este trabajo nos aportó y despertó la necesidad de desarrollar habilidades de comunicación a través de nuestras investigaciones bibliográficas, nuestras expresiones artísticas y nuestra relación con la tecnología.</li>
+        </ul>
+    </section>
+    <div id="curso"><section id="titulo">Curso 5°D </section></div>
+    <img src="{% static 'imagenes informacion/etiopiaalumnos.jpg' %}">
+    <img src="{% static 'imagenes informacion/etiopiaalumnos2.jpg' %}">
+</div>
+</body>
+</html>

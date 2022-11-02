@@ -1,0 +1,66 @@
+{% load static %}
+
+<html>
+<head>
+<title> Cuba </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Cuba <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#republica">REPUBLICA DE CUBA</a></li>
+            <li><a href="#geografia">GEOGRAFIA DE CUBA</a></li>
+            <li><a href="#cuba">CUBA: EL PAIS SOCIALISTA.</a></li>
+            <li><a href="#historia">HISTORIA DE CUBA</a></li>
+            <li><a href="#biblio">BIBLIOGRAFÍA DE FIDEL CASTRO</a></li>
+        </ul>
+    </div>
+    <div id="republica"><section id="titulo">REPUBLICA DE CUBA</section></div>
+    <textos id="parrafo">Capital: La Habana.</textos><br>
+    <textos id="parrafo">Población: 11.317.498 habitantes.</textos><br>
+    <textos id="parrafo">Superficie: 109.800 km.</textos><br>
+    <textos id="parrafo">Moneda: peso cubano.</textos><br>
+    <textos id="parrafo">Religión: mayoría cristianismo.</textos><br>
+    <textos id="parrafo">Ubicación Centro América.</textos><br>
+   <center> <img src="{% static 'imagenes informacion/cubabandera.png' %}"></center><br>
+   <div id="geografia"><textos id="subtitulo">GEOGRAFIA DE CUBA</textos></div>
+   <section id="parrafo">
+    Límites: al norte, EE. UU y Bahamas, al este de México, al sur las Islas Caimán y Jamaica, al este la isla española: Español <br>
+    Forma de estado: socialista de derecho y justicia social, independiente y soberano.
+   </section>
+   <div id="cuba"><textos id="subtitulo">CUBA: EL PAIS SOCIALISTA.</textos></div>
+   <section id="parrafo">
+    Cuba es la isla más grande del Caribe… y la más peculiar. Varios aspectos la distinguen del resto de los países de la región:                                      por un lado, el hecho de haber implementado, a partir de la revolución cubana de 1958, un modelo de sociedad socialista (o comunista) que, aunque con algunos cambios persiste hasta hoy en general, los modelos socialistas se deshacen en la propiedad colectiva de los medios de producción, la ausencia de empresa privada y un rol central, de estado en la economía en función de este modelo se realizan muchos trasformaciones sociales que han mejorado la situación. 
+   </section>
+   <div id="historia"><center> <img src="{% static 'imagenes informacion/cubatexto.png' %}"></center></div><br> <br>
+   <div id="biblio"><center> <img src="{% static 'imagenes informacion/cubatexto2.png' %}" height="700px"></center></div><br> <br>
+   <center> <img src="{% static 'imagenes informacion/cubaseñor.png' %}"></center>
+   <section id="parrafo">
+    Fidel Alegando Castro Ruz fue un abogado, político y guerrillero marxista cubano. Después de derrochar a la dictadura de Fulgencio Batista gracias a una guerra de guerrillas durante la revolución cubana, ejerció el poder ejecutivo en su país durante casi 50 años, como primer ministro y presidente.<br>
+    Nacimiento: 13 de agosto de 1916, Brian, Cuba <br>
+    Fallecimiento: 25 de noviembre de 2016, la habana <br>
+    Llego al poder tras encabezar la revolución cubana y derrocando a la dictadura de3 Fulgencio Batista el 1 de enero de 1959. Fue nombrado primer ministro el 27 de febrero del mismo año por el presidente Urrutia.
+   </section>
+</div>
+
+</body>
+
+</html>

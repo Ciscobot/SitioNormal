@@ -1,0 +1,219 @@
+{% load static %}
+
+<html>
+<head>
+<title> Argentina </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Argentina <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#argentina">Argentina</a></li>
+            <li><a href="#naturales">Naturales</a></li>
+            <li><a href="#matematica">Matemática</a></li>
+            <li><a href="#tecnologia">Tecnología</a></li>
+            <li><a href="#rele">The relevance of English in Argentina</a></li>
+        </ul>
+    </div>
+    <div id="argentina"><section id="titulo">ARGENTINA</section></div>
+    <section id="parrafo">
+        El nombre de nuestro país tiene como asociado un pasado colonial, a la extracción de riquezas (del latín argentum: plata), en este territorio se asentaban numerosos pueblos originarios de formas de organización política y prácticas. <br>
+        Desde mediados del siglo XIX somos una nación soberana y plural, de puertas abiertas, que ha sabido acoger -y acoge todavía- importantes contingentes migratorios. <br>
+        Datos de interés <br>
+        <ul>
+            <li>Superficie: 3.761.274 km² </li>
+            <li>N° habitantes: 47.327.407 (Resultados provisorios del Censo Nacional de Población, Hogares y Viviendas 2022). </li>
+            <li>Capital: Ciudad Autónoma de Buenos Aires. </li>
+            <li>Idioma oficial: español</li>
+            <li>Unidad monetaria: peso. </li>
+            <li>Hora oficial: GMT -3h (tres horas menos que la de Greenwich). </li>
+        </ul>
+    </section>
+    <textos id="subtitulo">Territorio</textos>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/argentinaplanet.png' %}">
+        Argentina es un país que se encuentra ubicado en América del Sur. Nuestro territorio abarca tres tipos de espacios: el terrestre, el marítimo y el aéreo, en las que el Estado nacional ejerce su autoridad y el control de manera exclusiva. <br>
+        Está dividido en 24 provincias:  
+        <ul id="lista1">
+            <li> <span class="separador">  </span> Buenos Aires </li>
+            <li><span class="separador">  </span>Ciudad Autónoma de Buenos Aires </li>
+            <li><span class="separador">  </span>Catamarca </li>
+            <li><span class="separador">  </span>Chaco</li>
+            <li><span class="separador">  </span>Chubut </li>
+            <li><span class="separador">  </span>Córdoba </li>
+            <li><span class="separador">  </span>Corrientes </li>
+            <li><span class="separador">  </span>Formosa </li>
+            <li><span class="separador">  </span>Jujuy </li>
+            <li><span class="separador">  </span>La Pampa </li>
+            <li><span class="separador">  </span>La Rioja </li>
+            <li><span class="separador">  </span>Mendoza </li>
+            <li><span class="separador">  </span>Misiones </li>
+            <li><span class="separador">  </span>Neuquén </li>
+            <li><span class="separador">  </span>Salta </li>
+            <li><span class="separador">  </span>San Juan </li>
+            <li><span class="separador">  </span>San Luis </li>
+            <li><span class="separador">  </span>Santa Cruz </li>
+            <li><span class="separador">  </span>Santa Fe </li>
+            <li><span class="separador">  </span>Santiago del Estero</li>
+            <li><span class="separador">  </span>Tierra del Fuego, Antártida e Islas del Atlántico Sur </li>
+            <li><span class="separador">  </span>Entre Ríos </li>
+            <li><span class="separador">  </span>Río Negro </li>
+            <li><span class="separador">  </span>Tucumán </li>
+        </ul>
+        <img src="{% static 'imagenes informacion/argentinamapa.jpg' %}">
+        Aún tenemos pendiente la resolución del conflicto con el Reino Unido sobre la soberanía de las Islas Malvinas, Georgias del Sur y Sandwich del Sur y los espacios marítimos correspondientes, que nuestro país reclama desde que las Islas fueron ocupadas por Gran Bretaña en 1833. <br>
+        Por otro lado, existe también una situación particular respecto de la soberanía del Sector Antártico Argentino, reclamada por el Estado nacional con anterioridad a la firma del Tratado Antártico de 1959. 
+    </section>
+    <textos id="subtitulo">Símbolos patrios  </textos>
+    <section id="parrafo">
+        La República Argentina se identifica como un estado nacional mediante símbolos, que se definieron en los primeros años de nuestra historia independiente y que se fueron estableciendo a través de un conjunto de normas. <br>
+        Estos representan nuestros ideales, nuestra cultura y nuestra tradición histórica; nos caracterizan como Nación, están presentes en nuestras instituciones estatales y exhiben nuestra imagen y nuestra voz ante las demás naciones de la Tierra. <br>
+        Dos son de representación vidual: la bandera, el escudo y el tercero lo es desde el punto de vista poético y musical: el himno. Se establece como símbolos patrios en el Decreto 10.302 del año  1944 y sus modificatorias. 
+        <img src="{% static 'imagenes informacion/argentinabandera.jpg' %}">
+    </section>
+    <div id="naturales"><section id="titulo">Naturales</section></div>
+    <section id="parrafo">
+        Alumnos: García Luciana Azul, Sosa Melani, Aguirre Walter, Reina Kevin, Lopez Malena, Maidana Eliel, Arenhardt Mahyara. <br>
+        Tema: Flora y Fauna de Argentina. 
+    </section>
+    <textos id="subtitulo">Flora y Fauna</textos> <br>
+    <img src="{% static 'imagenes informacion/argentinaflora.jpg' %}">
+    <section id="parrafo">
+        Índice: 
+        </section>
+        <section id="parrafo">
+        <ul>
+            <li><a href="#noro">Noroeste Argentino </li></a>
+            <li><a href="#nore">Noreste Argentino </li></a>
+            <li><a href="#regi">Región del Cuyo </li></a>
+            <li><a href="#regip">Región Pampeana </li></a>
+            <li><a href="#pata">Patagonia Argentina</li></a>
+        </ul>
+    </section>
+    <textos id="subtitulo">Introducción: </textos>
+    <section id="parrafo">
+        En este trabajo vamos a hablar, sobre la flora y fauna de Argentina. Dividimos la información en las regiones de Argentina, mostrando con imágenes y una pequeña descripción las especies tanto de flora como de fauna que incluye cada región. <br>
+        La flora y fauna de Argentina incluye especies de 18 distintas ecorregiones donde se desarrollan alrededor de 115 ecosistemas. El territorio argentino presenta desde climas tropicales y subtropicales al norte, templados al centro y sur, y frío húmedo al extremo sur del país. 
+        <img src="{% static 'imagenes informacion/argentinamapa2.jpg' %}">
+    </section>
+    <textos id="subtitulo">Desarrollo</textos>
+    <div id="noro"><textos id="subtitulo">Noroeste argentino: (Jujuy, Salta, Tucumán, Catamarca, La Rioja y Santiago del Estero) </textos></div>
+    <section id="parrafo">
+        Fauna: En las zonas bajas se hallan especies típicas de los ambientes secos de la región chaqueña semiárida u occidental. − Ejemplos de estos son aves como la chuña de patas rojas, la charata y mamíferos como el zorro de monte, la llama. Adjuntamos algunas imágenes como ejemplos:
+        <img src="{% static 'imagenes informacion/argentinafauna.jpg' %}">
+        Flora: El Noroeste presenta una vegetación rica en arrayanes, helechos, laureles y horco molle, que crecen en las selvas de la montaña; por su parte, en los bosques predominan los alisos y los pinos del cerro y en los valles jacarandaes, timboes, árboles de palo blanco y de palo amarillo. 
+        <img src="{% static 'imagenes informacion/argentinaflora2.jpg' %}">
+    </section>
+    <div id="nore"><textos id="subtitulo">Noreste argentino: (Formosa, Chaco, Corrientes y Misiones)</textos></div>
+    <section id="parrafo">
+        Fauna: Podemos encontrar una variedad de animales en esta zona, debido a la selva misionera, los montes, región del Chaco, etc... 
+        <img src="{% static 'imagenes informacion/argentinafauna2.jpg' %}">
+        Flora: Con respecto a su flora, en los lugares más húmedos son frecuentes los palmares y en los terrenos anegados predominan pajonales y juncales. Junto a los ríos y lagos de la región existe una estrecha franja cubierta de plantas, arbustos y árboles.
+        <img src="{% static 'imagenes informacion/argentinaflora3.jpg' %}">
+    </section>
+    <div id="regi"><textos id="subtitulo">Región del Cuyo: (Mendoza, provincia de San Juan y Provincia de San Luis) </textos></div>
+    <section id="parrafo">
+        Fauna: En la región del Cuyo la fauna es muy diversa. Entre los animales se destacan los pumas, zorros, gatos monteses, guanacos, hurones, maras, cuises, lagartos colorados, y aves como el ñandú, el halconcito gris, el loro barranquero y la martineta o perdiz de las pampas. 
+        <img src="{% static 'imagenes informacion/argentinafauna3.jpg' %}">
+        Flora: Debido a la escasez de agua, en el Cuyo, la mayor parte de la flora es xerófila (resistente a la sequedad) o halófila (que crecen en suelos salinos). La fisonomía de la vegetación cambia dependiendo de la altitud. 
+        <img src="{% static 'imagenes informacion/argentinaflora4.jpg' %}">
+    </section>
+    <div id="regip"><textos id="subtitulo">Región Pampeana: (Santa Fe, Entre Ríos, La Pampa, Córdoba, Buenos Aires) </textos></div>
+    <section id="parrafo">
+        Fauna: la región pampeana se trata de una zona que permite el desarrollo de múltiples especies. Muchos mamíferos se adaptan fácilmente a las condiciones que brindan estas tierras, así como muchos otros vertebrados como las aves y reptiles. Algunos muy comunes como: Puma, Ñandú, Perdiz copetona o martineta de cresta, Venado de las pampas, Cuis, etc.…Mostramos algunos ejemplos: 
+        <img src="{% static 'imagenes informacion/argentinafauna4.jpg' %}">
+        Flora: Con sus frutos se hace dulce casero (llamado, en algunos lugares arrope). La flora pampeana es muy rica. Entre las otras especies, son de destacar las aromáticas como el cedrón del monte y el tomillo, o medicinales como el té pampa. Alguna de las especies de plantas de la región pampeana más características son: Flechillares y pasto colorado. 
+        <img src="{% static 'imagenes informacion/argentinaflora5.jpg' %}">
+    </section>
+    <div id="pata"><textos id="subtitulo">Patagonia Argentina: (Neuquén, Río Negro, Chubut, Santa Cruz y Tierra del fuego, Antártida e Islas del Atlántico) </textos></div>
+    <section id="parrafo">
+        Fauna: La Patagonia posee una rica fauna con rasgos propios. La más importante es la que se encuentra en las costas y el mar continental. Allí la cantidad de animales y la diversidad de especies llama la atención. Entre los grandes vertebrados está la ballena franca austral, que se ve desde la costa, junto con la orca, los delfines y los grandes mamíferos anfibios, como lobos marinos, elefantes marinos y focas. Con respecto a la enorme variedades aves, mencionaremos las más importantes, como los pingüinos de Magallanes, varias especies de cormoranes, gaviotas y gaviotines y palomas antárticas, entre muchos otros.
+        <img src="{% static 'imagenes informacion/argentinafauna5.jpg' %}">
+        Flora: En la cordillera y gran parte de Tierra del Fuego abundan los bosques húmedos exuberantes. La acción de los vientos moldea los árboles zonales. En la estepa arbustiva de la Patagonia extrandina predomina el bioma de arbustos xerófilos bajos, en especial el neneo, la llareta y el coirón. 
+        <img src="{% static 'imagenes informacion/argentinafauna6.jpg' %}">
+        Conclusión: En este trabajo pudimos ver solo algunos pocos ejemplos de la cantidad de flora y fauna que podemos encontrar en nuestro país, y con las imágenes podemos tener una idea en mente de los hermosos y variados paisajes que hay en las diferentes provincias de Argentina. Asi también como conocer mejor nuestra región.
+    </section>
+    <div id="matematica"><section id="titulo">Matemática</section></div>
+    <textos id="subtitulo">Cuadros Estadísticos </textos>
+    <section id="parrafo">
+        Introducción: En el trabajo vamos a mostrar principalmente imágenes de cuadros estadísticos con una breve descripción, que nos informan acerca de:  
+        <ul>
+            <li>La población de Argentina (clasificada en hombres, mujeres, niños),  </li>
+            <li>Natalidad,  </li>
+            <li>Mortalidad y  Economía.</li>
+        </ul>
+        <img src="{% static 'imagenes informacion/argentinapoblacion.jpg' %}">
+        El resultado preliminar del Censo 2022 arrojó que en la Argentina hay más de 47 millones de habitantes. La estimación difundida por el Instituto de Estadística y Censos de la Nación (Indec) proyecta 47.327.407 de personas en todo el territorio nacional. De ese total, el 47,05 por ciento son hombres, el 52,8 por ciento son mujeres y el 0,12 no especificaron ninguna de las dos opciones. Esos datos surgieron como tendencia de lo relevado por vía digital. 
+        <img src="{% static 'imagenes informacion/argentinatilidad.jpg' %}">
+        Según las proyecciones mundiales de población, el nivel de fecundidad en Argentina se encuentra por debajo del promedio mundial, pero por encima del promedio regional. En el quinquenio 2015-2020, la Tasa Global de Fecundidad es de 2,5 hijos por mujer a nivel mundial, de 2,0 para Latinoamérica y el Caribe, y de 1,9 para América del Sur. Mortalidad: Gráfico 1: Tendencia en la mortalidad por cáncer en varones y mujeres. Todos los sitios. <br>
+        Tasas estandarizadas por edad por 100.000 habitantes. Argentina, 2002-2019.
+        <img src="{% static 'imagenes informacion/argentinatasa.jpg' %}">
+        Gráfico 2: Mortalidad por cáncer en varones y mujeres. Todos los sitios. Tasas ajustadas por edad por 100.000 habitantes. Argentina y sus jurisdicciones, 2019. 
+        <img src="{% static 'imagenes informacion/argentiamortalidad.jpg' %}">
+    </section>
+    <div id="tecnologia"><section id="titulo">Tecnología </section></div>
+    <section id="parrafo">
+        Alumnos: Benitez Mayerli, Vera Julieta, Bogado Antonela, Chavez David, Alderete Martín  <br>
+        TEMA: La tecnología en la Argentina. <br>
+        La tecnología en la República Argentina. Tipos de tecnologías desarrolladas para mejorar la vida de la población: Actualmente como ya lo sabemos la tecnología en la red social ya sea Instagram, Facebook, WhatsApp, tiktok son las más utilizada por los niños, jóvenes y adultos. También a lo último que se incorporó que fue la escuela robótica y principalmente en la provincia de Misiones está innovando en esa parte, que ha sido de gran ayuda para el aprendizaje de los niños en el Cual se realiza actividades que tocan varias áreas: robótica, electrónica, programación, lenguaje y creatividades, con el objetivo de fomentar en los niños el interés por la tecnología de una manera divertida. 
+        <img src="{% static 'imagenes informacion/argentinatecnologia.jpg' %}">
+        Por otra parte, la tecnología, ayuda a los planificadores a comprender y mejorar las necesidades de movilidad. Nuevas formas de adquisición, utilización y procesamiento de datos están empeoradas a las comunidades y ayudando los planificadores a tomar decisiones sobre zonificación, diseño de validad y desempleo del transporte público. También vimos como la ejemplificación de formato GTSF para datos de oferta de trasporte público ya ha permitido a investigadores hacer mapas de servicios. La capacidad para que las comunidades participen de forma efectiva en el proceso de planificación. La tecnología puede ayudar a los ciudadanos acerca de la planificación en sus comunidades en la toma de decisiones sobre políticas. También se prepararon los últimos avances en biomedicina, desarrollo de vacunas, biomoleculares de interés médico, ingeniería genética vegetal, bioingeniería de alimentos y producción de biocombustibles, entre otros. 
+        <img src="{% static 'imagenes informacion/argentinatecnologia2.jpg' %}">
+    </section>
+    <div id="rele"><section id="titulo">The relevance of English in Argentina  </section></div>
+    <textos id="subtitulo">(La relevancia del inglés en la Argentina) </textos>
+    <section id="parrafo">
+        Alumnas: Báez Abril, Gonzalez Damariz y Borges Belén.  <br>
+        Tema: Inmigrantes en Argentina. 
+        <img src="{% static 'imagenes informacion/argentinaingles.jpg' %}">
+        Introducción: En este artículo se abordarán las políticas lingüísticas del estado argentino con respecto a la inclusión de las lenguas extranjeras en el pais, en particular el inglés. A continuación, las determinaciones serán analizadas en el marco de la inclusión lingüística de nuestro pais. Desarrollaremos tres objetivos en este informe: 1. Reseña histórica de la inclusión del inglés en la argentina 2. Analizaremos estadísticas sobre los porcentajes de estudio del idioma 3. Enfocaremos nuestra atención en la importancia del inglés en el turismo y en el mundo laboral Fuentes de información: • Principalmente Google, así como varios diarios digitales como, por ejemplo: “La Nación”. 
+        <img src="{% static 'imagenes informacion/argentinaingles2.jpg' %}">
+    </section>
+    <textos id="subtitulo">EL INGLES EN LA ARGENTINA: </textos>
+    <section id="parrafo">
+        El inglés aparece como una lengua franca de nuestros días: es el idioma con más hablantes no nativos distribuidos en los 5 continentes. Si bien no es un idioma oficial en la mayoría de los países, es el que se enseña con más frecuencia como lengua extranjera, como es el caso de nuestro país y es el más utilizado en las actividades científica, comercial, turística y cultural. Hubo 14 inmigrantes que trajeron en idioma del inglés en la argentina. Luego en los siglos 19 y principios del siglo 20 se produjo una gran ola de inmigración británica a raíz de la construcción del ferrocarril, el sector agroexportador y sector bancario. Durante el siglo XIX estos inmigrantes se distribuyeron ente la capital federal y las 17 provincias de argentina, progresaron y a su vez llegaron más familias inglesas, quienes compraron las tierras para desarrollar su potencial, por ejemplo: en la zona de la pampa para el cultivo en gran escala, desarrollando así el comercio de exportación, cultivos de alimentos y productos de animales. Así fue como en aquellas épocas comenzó a expandirse la lengua extranjera” el inglés” y su cultura en nuestro país. DESCENDENCIA DE BRITANICOS DESTACADOS: • Carlos babingiton – exfutbolista. Conocido como las ingles • Carlos busser – almirante al mando de las tropas argentinas que arribaron en Malvinas en 1982. Tenía descendencia inglesa. • Alexander betts – político y empelado civil de las fuerzas argentinas. De descendencia británica • Entre otros ingleses. 
+    </section>
+    <textos id="subtitulo">EL IDIOMA INGLES EN LAS ESCUELAS: </textos>
+    <section id="parrafo">
+        El inglés es el 2 idioma más hablado de la argentina ya que la ley 26206 EDUCACON NACIONAL, ART 87 dice: “la enseñanza del idioma inglés será obligatorio en todas las escuelas de nivel inicial, primario y secundario del país. La primera catedra del inglés fue creada con carácter optativo de la universidad de buenos aires en 1827. En el curso del siglo XIX las lenguas extranjeras tuvieron una presencia importante en la educación formal en Argentina. En este periodo de tiempo se realiza una modificación en los planes de estudio ya que se incrementa la presencia del inglés . El objetivo de esta reforma seria según la LEY n° 1420 “Favorecer y dirigir 
+        <img src="{% static 'imagenes informacion/argentinaingles3.jpg' %}">
+        simultáneamente el desarrollo moral, intelectual y físico del niño de 6 a 14 años “ 
+    </section>
+    <textos id="subtitulo">ESTADISTICAS DEL IDIOMA INGLES EN ARGENTINA:</textos>
+    <section id="parrafo">
+        Actualmente se estima que existen alrededor de 7000 idiomas diferentes en el mundo, pero las estadísticas nos muestran que más de 1500 millones de personas hablan el inglés. No solo por ser lengua materna de unos 370 millones de personas, sino que además es la segunda y tercera lengua de muchos millones de personas. Se trata de una lengua verdaderamente global que se habla en 57 países de forma oficial, en algunos de ellos se comparte con algún otro dialecto, lo que significa que el inglés permite comunicarse en lugares tan distintos como, por ejemplo: reino unido, estados unidos, Canadá, Australia, irlanda, india o Sudáfrica, entre otros. Obviamente, saber ingles abre muchas puertas y facilita la movilidad por el mundo. Algo tan básico como seguir las indicaciones, hacer una reserva en un hotel o restaurante, interactuar con otros viajeros incluso con la población local es más fácil si tiene conocimiento de inglés, además, se puede ahondar y conocer más. Para alcanzar las conclusiones de la edición 2020, se analizaron a más de 2,2 millones de personas de 100 países. El estudio es el único en rankear el nivel de inglés en el mundo y tiene como objetivo comprender como influye el manejo del idioma en el desarrollo personal y profesional, y como se posiciona el individuo en la relación con la economía nacional. Si se analiza a la argentina, la situación local muestra que el dominio de inglés en la ciudad de buenos aire está por encima de países como, suiza, república checa y Grecia. Por otro lado, el informe de 2020 demostró que Tucumán y corrientes mejoraron significativamente su nivel respecto de 2019: y las ciudades de mar de la plata, la plata y rosario siguen siendo las más avanzadas en el idioma inglés.  
+        <img src="{% static 'imagenes informacion/argentinaingles4.jpg' %}">
+    </section>
+    <textos id="subtitulo">TURISMO:</textos>
+    <section id="parrafo">
+        El turismo es una actividad cuyo crecimiento es progresivo y tiene impactos cada vez más importantes en el ámbito cultural, social y económico de nuestro país. En nuestro pais hay un importante incremento de ingreso de extranjeros , que llegan a nuestro pais con el propósito de conocer nuestros lugares turísticos y cultura de cada una de nuestras provincias. El total de llegadas turísticas no hispanohablantes a la Argentina es de 1.200.000 y el 2 % corresponde al turismo idiomático: aproximadamente 24.000 turistas, de estos el 53 % son jóvenes universitarios y el 61 % tienen entre 19 y 30 años. La ciudad más popular de la Argentina para los viajeros internacionales es Buenos Aires, pues alcanzo el puesto 88 de las ciudades más populares del mundo con 2,77 millones de turistas. Nuestro Pais cuenta con una importante variedad de sitios montañosos, en varios de ellos se practica el montañismo y otros basan su atractivo turístico en el contacto con la nieve en sus paisajes característicos. Nuestra provincia de tierras coloradas, ofrece una combinación sin igual de lujo, naturaleza, comodidad y disfrute, imponentes saltos de agua e impenetrable selva con su mejor carta de presentación ante el mundo. El sitio más emblemático de nuestra provincia son las cataratas del Iguazú , ubicada dentro del Parque Nacional Iguazú .
+        <img src="{% static 'imagenes informacion/argentinaingles5.jpg' %}">
+        El inglés para el profesional del turismo constituye una herramienta básica en cualquiera de los campos donde se desarrolle, desde la información turística hasta la gestión y promoción de destinos o acuidades turísticas, pasando por las empresas del intermediación, alojamiento y transporte. Ante las actuales dificultades para acceder al mercado laboral, lo cierto es que dominar alguna lengua extranjera permite acceder a un 72,55% más de oferta de empleo. Nuestro país cuenta con una interesante propuesta presentada por Innovtur, curso 100% online de inglés profesional para el turismo, dirigido para trabajadores turísticos, personas que quieren incorporarse a este sector. Este curso permite al alumno adquirir los conocimientos y destrezas que le permite expresarse y desenvolverse de manera fluida en Ingles en las distintas situaciones propias de la actividad turística profesional. 
+        <img src="{% static 'imagenes informacion/argentinaingles6.jpg' %}">
+    </section>
+    <textos id="subtitulo">CONCLUSION:</textos>
+    <section id="parrafo">
+        El presente informe deja en evidencia la importancia del turismo en la economía argentina dada su significativa relevancia en la generación de valor agregado y empleo privado nacional. Sumado a eso los resultados encontrados concluimos que el inglés es un idioma universal y que tiene un gran impacto en nuestro pais. Pudimos ver como los extranjeros se distribuyeron por toda argentina para que así el idioma inglés se hable dentro del pais y parte de su cultura quede. También vimos los distintos descendientes que hubo en la argentina. En cuanto a la estadística dentro del pais con el idioma inglés pudimos ver que argentina está cada vez avanzada con el idioma. Resaltamos el valor práctico del idioma inglés dentro de los institutos para que los chicos puedan defenderse el día de mañana con el habla o al menos tengan un conocimiento del idioma. Pudimos destacar también uno de los lugares dentro del pais para aquellos extranjeros que vengan a conocer argentina puedan visitar una de las 7 maravillas del mundo que son las cataratas. 
+        <img src="{% static 'imagenes informacion/eeuuarg.jpg' %}">
+    </section>
+</div>
+</body>
+</html>

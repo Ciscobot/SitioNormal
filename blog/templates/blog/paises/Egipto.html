@@ -1,0 +1,282 @@
+{% load static %}
+
+<html>
+<head>
+<title> Egipto </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Egipto <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#gastronomia">Gastronomía</a></li>
+            <li><a href="#egipto">Egipto: desde la Antigüedad hasta la Edad Media</a></li>
+            <li><a href="#turismo">Turismo: Egipto y sus maravillas</a></li>
+            <li><a href="#caracteristica">Características de la flora y fauna de Egipto</a></li>
+            <li><a href="#religion">Religión o creencia de los antiguos egipcios.</a></li>
+            <li><a href="#vestuario">Vestuario Egipto</a></li>
+            <li><a href="#curso">Curso 2°D</a></li>
+            <li><a href="#audio">Audio en Ingles de Alumno</a></li>
+        </ul>
+    </div>
+    <div id="gastronomia"><section id="titulo">Gastronomía</section></div>
+    <textos id="subtitulo">Pan árabe de pita:</textos>
+    <section id="parrafo">
+        Receta: <br>
+        Para la preparación de este pan árabe necesitamos: 500gms de harina de trigo común 310 mts de agua a temperatura ambiente, azúcar, 8 gms. de  sal, 6 cucharaditas aceite de oliva y 20 gms. de levadura.
+        <img src="{% static 'imagenes informacion/egiptocomida.png' %}">
+    </section>
+    <textos id="subtitulo">Bandera de Egipto</textos>
+    <section id="parrafo">
+        Significado de la bandera de Egipto: <br>
+        El simbolismo de esta bandera radica principalmente en su escudo y en sus colores y es que cada color tiene un significado que vamos a ver a continuación: 
+        <ul>
+            <li>El color rojo representa la historia del país, cuando se creó la primera bandera en el siglo  XIX, aunque el color representa al reino otomano.</li>
+            <li>El blanco por el contrario representa la Revolución de 1952, y que acabo con una proclamación de la República.</li>
+            <li>El color negro representa el fin del colonialismo de Gran Bretaña  y la independencia de Egipto de sus colonos.</li>
+        </ul>
+        El escudo de Egipto fue creado durante la Revolución Árabe Unida, y tiene como lema la República Árabe de Egipto.
+        <img src="{% static 'imagenes informacion/egiptobandera.png' %}">
+    </section>
+    <div id="egipto"><textos id="subtitulo">Egipto: desde la Antigüedad hasta la Edad Media</textos></div>
+    <section id="parrafo">
+        <div class="container">
+            <table class="table">
+            <thead>
+                <tr>
+                    <th>3000 - 2800</th>
+                    <th>2800 - 2040</th>
+                    <th>2040 - 1580</th>
+                    <th>1580 - 657</th>
+                    <th>657 - AMag</th>
+                    <th>AMag - 330 - 30 a.C.</th>
+                    <th>30 - 395</th>
+                    <th>395 - 642</th>
+                    <th>642 - 1805</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="3000 - 2800" >Periodo tinita</td>
+                    <td data-label="2800 - 2040" >Imperio Antiguo</td>
+                    <td data-label="2040 - 1580">Imperio Medio</td>
+                    <td data-label="1580 - 657">Imperio Nuevo</td>
+                    <td data-label="657 - AMag">Baja Época</td>
+                    <td data-label="AMag - 330 - 30 a.C.">Periodo Helenístico</td>
+                    <td data-label="30 - 395">Egipto romano</td>
+                    <td data-label="395 - 642">Egipto bizantino</td>
+                    <td data-label="642 - 1805">Egipto musulmán</td>
+                </tr>
+                <tr>
+                    <td data-label="3000 - 2800" >Menes y I y II dinastías</td>
+                    <td data-label="2800 - 2040" >III - X</td>
+                    <td data-label="2040 - 1580">XI - XVII</td>
+                    <td data-label="1580 - 657">XVIII - XXV</td>
+                    <td data-label="657 - AMag">XXVI - XXX</td>
+                    <td data-label="AMag - 330 - 30 a.C.">Alejandro<br> Magno y<br> dinastía de<br> los Lágidas</td>
+                    <td data-label="30 - 395"></td>
+                    <td data-label="395 - 642"></td>
+                    <td data-label="642 - 1805"></td>
+                </tr>
+                <tr>
+                    <td data-label="3000 - 2800" >Periodo fundamental para Egipto ya que es el momento en el que se forma<br> el estado. Comienza la escritura y el calendario</td>
+                    <td data-label="2800 - 2040" >Durante este periodo la capital se encuentra en Memphis (al sur del delta).<br> Las dinastías de mayor esplendor son la IV y V, pero a partir de la VI<br> empieza un momento de decadencia y un momento intermedio</td>
+                    <td data-label="2040 - 1580">Durante este periodo la capital se encuentra en Tebas. Época de esplendor<br> en las dinastías XI y XII, pero a partir de ese momento comienza de nuevo<br> un periodo de decadencia en la que hay luchas de poder entre príncipes,<br> etc. que es aprovechado por la dinastia de los hicsos procedentes de Siria, <br> pero son expulsados y comienza el nuevo esplendor</td>
+                    <td data-label="1580 - 657">Se dan cambios significativos. Destacan las dinastías XVIII (marcada por el<br> reinado de Amenofis IV, con el que la capital cambia a Amarna), XIX<br> (marcada por Ramsés) y XX, tras la que vuelve un periodo de crisis</td>
+                    <td data-label="657 - AMag">En esta época hay momentos muy interesantes, como el periodo saíta,<br> pero luego comienzan invasiones de otros pueblos.</td>
+                    <td data-label="AMag - 330 - 30 a.C.">Alejandro Magno se hace con el poder, expulsa a los persas y del 330<br> aprox. hasta su muerte se da un periodo cultural y artístico muy<br> interesante. Tras su muerte Egipto pasa a poder de Ptolomeo,<br> lugarteniente de Alejandro, que empieza la dinastía de los lgidas que<br> permanecer hasta el 30 y entre los que destaca ya al final Cleopatra VII,<br> que da un gran empuje a Egipto, que consigue un gran poder, pero es<br> derrotada en el 31 por Roma en la batalla de Accion</td>
+                    <td data-label="30 - 395"></td>
+                    <td data-label="395 - 642">Egipto cristiano</td>
+                    <td data-label="642 - 1805">Dominado por distintos pueblos. A partir de 1805 se considera ya Egipto moderno</td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            <tr>
+              <td id="fondonaranja"></td>
+              <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+               
+                <td id="fondoamarillo"></td>
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                <td id="fondoamarillo"></td>
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                <td id="fondoamarillo"></td>
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            <tr>
+                
+                <td id="fondoamarillo"></td>
+                <td id="fondonaranja"></td>
+                <td id="fondoamarillo"></td>
+            </tr>
+            </table>
+    </section>
+    <div id="turismo"><section id="titulo">Turismo: Egipto y sus maravillas</section></div>
+    <section id="parrafo">
+        Egipto ubicado en el nordeste de África tiene monumentos  de gran antigüedad, ubicados junto al Rio Nilo. Los viajeros de todo el mundo pueden visitar las pirámides de Guisa y gran Esfinge. Además las tumbas del valle de los reyes y el templo de Kamak  decorado con jeroglíficos.<br>
+        En su capital el Cairo hay monumentos religiosos y culturales como: Mezquitas de Mahammad  Ali y el Museo Egipcio que reúne y preserva grandes tesoros y antigüedades.
+    </section>
+    <div id="caracteristica"><section id="titulo">Características de la flora y fauna de Egipto</section></div>
+    <section id="parrafo">
+        Antes de precisar cuáles son las especies de Egipto, debemos saber que las el 97% de la superficie del país está ocupada por zonas desérticas, por ello es que la enorme diversidad de flora y fauna de Egipto presenta características de adaptación al desierto. No obstante, en el valle del río Nilo y en los oasis que se encuentran en los desiertos se desarrolla una gran variedad de flora y fauna con particularidades diferentes a las especies del desierto.<br>
+        En los próximos apartados hablaremos de algunas especies de flora y fauna de este magnífico país y detallaremos sus peculiaridades.
+    </section>
+    <textos id="subtitulo">a)	Flora de Egipto</textos>
+    <section id="parrafo">
+        La vegetación de Egipto tiene una fuerte importancia en la cultura de los egipcios.
+    </section>
+    <textos id="subtitulo"> Loto de Egipto</textos>
+    <section id="parrafo">
+        El loto de Egipto (Nymphaea caerulea), también llamada loto azul egipcio, es una planta acuática que se estima que su distribución original es a lo largo del Nilo. Su flor se caracteriza por abrirse durante el día y cerrarse durante la noche, por ello, en el Antiguo Egipto la relacionaban con el sol, precisamente como un renacer diario. Hoy en día, se emplea para perfumería y aroma terapia.
+        <img src="{% static 'imagenes informacion/egiptoloto.png' %}">
+    </section>
+    <textos id="subtitulo">Papiro</textos>
+    <section id="parrafo">
+        El papiro o Cyperus papyrus, es una planta palustre que crece a orillas del río Nilo. Fue utilizado como soporte de escritura en el Antiguo Egipto y también para fabricar calzados e incluso embarcaciones. También era una fuente de alimento, ya que se consumían sus raíces, y de medicinas, por sus propiedades curativas.
+        <img src="{% static 'imagenes informacion/egiptopapiro.png' %}">
+    </section>
+    <textos id="subtitulo">Datilera del desierto</textos>
+    <section id="parrafo">
+        Este árbol (Balantes egipciaca) presenta muchas espinas y produce un fruto de color amarillo que es comestible. Se estima que esta especie ha sido cultivada en Egipto por más de 4000 años.
+        <img src="{% static 'imagenes informacion/egiptodatilera.png' %}">
+    </section>
+    <textos id="subtitulo">b)	Fauna de Egipto</textos>
+    <section id="parrafo">
+        Cuando pensamos en los animales de Egipto lo primero que se nos viene a la cabeza es el camello, en este caso mostraremos algunas especies.
+    </section>
+    <textos id="subtitulo">Comadreja egipcia</textos>
+    <section id="parrafo">
+        Denominado científicamente como Mustela subpalmata, es una especie endémica de Egipto, específicamente su distribución esta limitada hacia el norte del país.
+        <img src="{% static 'imagenes informacion/egiptocomadreja.png' %}">
+    </section>
+    <textos id="subtitulo">Mangosta egipcia</textos>
+    <section id="parrafo">
+        También endémica de Egipto, la mangosta (Herpestes ichneumon) es un mamífero carnívoro que habita el desierto de Sahara.
+        <img src="{% static 'imagenes informacion/egiptomangosta.png' %}">
+    </section>
+    <textos id="subtitulo">Cocodrilo del Nilo</textos>
+    <section id="parrafo">
+        Esta especie (Crocodylus niloticus), tiene una amplia distribución mas allá del Nilo. En el antiguo Egipto, los cocodrilos eran momificados y a través de ellos le rendían culto a Sobek, un rey cocodrilo relacionado con la fertilidad.
+        <img src="{% static 'imagenes informacion/egiptococodrilo.png' %}">
+    </section>
+    <div id="religion"><section id="titulo">Religión o creencia de los antiguos egipcios.</section></div>
+    <section id="parrafo">
+        El pueblo egipcio fue uno de los más religiosos del mundo antiguo; la religión ocupó todos los aspectos de la vida cotidiana. Adoraban múltiples dioses (politeísmo), divinizaban las fuerzas naturales (naturalismo), los representaban con forma animal (isomorfismo), o humana (antropomorfismo) y también en forma mixta, mezcla de animal y humana.<br>
+        Entre los dioses más destacados encontramos al sol, llamado Ra en Menfis o Amon en Tebas. Uno de los dioses más populares fue Osiris que, según la leyenda, fue muerto y despedazado por su hermano Seth. Su hermana y esposa Isis rehizo su cuerpo y le devolvió la vida. Según las creencias, esta fue la primera momia.
+    </section>
+    <textos id="subtitulo">Inmortalidad:</textos>
+    <section id="parrafo">
+        La muerte era concebida como la separación de los elementos espirituales (Ka y Ba) del cuerpo. El aspecto más original y creativo del pensamiento religioso egipcio fue la creencia en la inmortalidad del espíritu. Deseaban una vida plena, cómoda y agradable tanto en este mundo como en el más allá, de allí su concepción optimista de la vida. Se podía lograr si se conservaba el cuerpo (momificándolo) y el alma pasaba el Juicio de los muertos.
+    </section>
+    <textos id="subtitulo">Momificación: </textos>
+    <section id="parrafo">
+        Lleva a una serie de  ritos muy complejos. Así los describía el historiador Herodoto en la Antigüedad: “(…) tienen oficiales especialmente destinados a ejercer el arte de embalsamar; los cuales, apenas es llevado a su casa algún cadáver, presentan desde luego a los conductores, unas figuras de madera, modelos de su arte, las cuales con sus colores remedan al vivo un cadáver embalsamado (…) Enseñan después otra figura inferior (…) y por fin otra tercera más barata y ordinaria, preguntan de qué modo y conforme a qué modelo desean se les adobe el muerto; y después de entrar en ajuste y cerrado el contrato, se retiran los conductores. Entonces, quedando a solas los artesanos en su oficina, ejecutan en esta forma el adobo de primera clase. Empiezan metiendo por las narices del difunto unos hierros encorvados, y después de sacarles con ellos los sesos, introducen allí sus drogas e ingredientes. Abiertos después los ijares con piedra de Etiopía aguda y cortante, sacan por ellos los intestinos, y purgado el vientre, lo lavan con vino de palma y después con aromas de los cuales exceptúan el incienso, y cosen últimamente la abertura. Después de estos preparativos, adoban secretamente el cadáver con nitro durante setenta días, único plazo que se concede para guardarle oculto; luego se le faja, bien lavado, con ciertas vendas cortadas de una pieza de finísimo lino, untándole con aquella resina de que se sirven los egipcios en vez de cola. Vuelven entonces los parientes por el muerto, toman su momia, y la encierran en un nicho o caja de madera, cuya parte exterior tiene la forma y apariencia de un cuerpo humano y así guardada la depositaban en un aposentillo, colocándola en pie y arrimada a la pared (…) He aquí el modo más exquisito de embalsamar los muertos (…) El método de que suelen echar mano los que tienen menos recursos se reduce a limpiar las tripas del muerto a fuerza de lavativas, y adobar el cadáver, durante los setenta días prefijados restituyéndole después al que le trajo para que lo vuelva a su casa”. Herodoto. Libro I; LXXX casa”VI; LXXXVIII. Se lo acompañaba de estatuas que le podían reemplazar en caso que no se conservara adecuadamente; y de ofrendas alimenticias, así como una copia del “Libro de los muertos”.
+    </section>
+    <textos id="subtitulo">Juicio de los muertos:</textos>
+    <section id="parrafo">
+        En este juicio se pesan las obras de un hombre para saber si es digno de ir al reino de Anubis. El muerto tiene que declarar, siempre con un sentido negativo (no maté, no robé…), y su declaración será puesta por escrito, así como el resultado del peso del alma, por el Dios de la sabiduría, Thot. El que  fiscaliza todo es Anubis. Este juicio tiene una importancia muy grande ya que es algo inédito en las culturas de la Antigüedad y no volverá a darse nada parecido hasta el cristianismo, que recogerá  muchas de las simbologías que utilizaban los egipcios. El juicio de los muertos se representa siempre de la misma manera: está presidido por Osiris, y está asistido por Isis y Neftis. Los tres dioses están rodeados por 42 asesores, los dioses de los distintos nomos. En uno de los lados aparece el  difunto conducido de la mano por Anubis, "el conductor de almas". Llegan al centro de la escena donde hay una balanza;  en un platillo se encuentra el corazón del difunto y en el otro una pluma (símbolo de la diosa Maat). Si pesaba más la pluma que el corazón, el difunto es xculpado y avanza hacia Osiris acompañado por Horus, alcanzando la inmortalidad. Si era al revés, el difunto debe ir hacia la Devoradora (mezcla de cocodrilo, hipopótamo y león) para ser consumido. Esta vida sobrenatural estaba reservada al Faraón y a su familia, pero a partir del segundo milenio AC todos podían lograr la inmortalidad. Las tumbas eran individuales o fosas comunes, según el grupo social la que perteneciera el difunto.
+    </section>
+    <textos id="subtitulo">Culto a los dioses:</textos>
+    <section id="parrafo">
+        Se realizaba en los templos, dedicados a los dioses. A estos se les atribuía las mismas necesidades que a los humanos. Todas las mañanas los sacerdotes abrían el templo para que el sol iluminase su estatua y luego se procedía a lavarla, vestirla, perfumarla, llevarle ofrendas de comida. Se cantaban himnos y se quemaba incienso (resina aromática) en su honor.<br>
+        Reforma de Amenofis IV. El faraón Amenofis IV intentó la unificación religiosa del imperio en 1362 AC imponiendo la creencia en un solo dios: el culto al disco solar Atón. Cambió su nombre por el de Akhenatón “el que adora a Atón”. Trasladó la capital del imperio egipcio de Tebas a Tel-el-Amarna y la llamó Akhetatón “ciudad de horizonte”. La reforma duró exclusivamente su reinado porque no logró anular el poder de los sacerdotes partidarios de la religión tradicional.
+        <img src="{% static 'imagenes informacion/egiptorito.png' %}">
+        <img src="{% static 'imagenes informacion/egiptodioses.png' %}">
+        <img src="{% static 'imagenes informacion/egiptopared.png' %}">
+    </section>
+    <div id="vestuario"><section id="titulo">Vestuario Egipto</section></div>
+    <section id="parrafo">
+        La indumentaria en Egipto era una consecuencia directa  del clima, cálido y seco y de la forma de vida al aire libre se usaban ropas exclusivamente de lino, aunque al principio se usaban fibras de juncos y cañas, se impuso el lino por la creencia de que era mas puro, y se cultiva para fines textiles en exclusiva el color preferido era el blanco, aunque podía llevar algunos dibujos en los bordes<br>
+        La lana era conocida, pero fue considerada impura, como todas las fibras animales solo a partir de la conquista de Alejandro magno comenzó a emplearse la lana en las prendas de carácter cotidiano pero continuo prohibida en los templos y santuarios, donde los sacerdotes  debían usar ropas de lino de color blanco.
+    </section>
+    <textos id="subtitulo">a)	Vestuario popular:</textos>
+    <section id="parrafo">
+        Los campesinos, los trabajadores y las personas de condición modesta, solían ir con un taparrabos, y si se vestían, llevaban solo el shenti, usado por los varones de toda condición social durante tres  milenios, que consistía en una especie de falacia 1425 Adilla  que se arrollaban a la cintura y se ceñía con un cinturón de cuero durante el imperio nuevo, hacia 1425 AC. comenzó a usarse una túnica  ligera o camisa sin mangas, así como una especie  de jubón plisado entre los acomodados.
+    </section>
+    <textos id="subtitulo">Vestuario de la nobleza:</textos>
+    <section id="parrafo">
+        Entre la gente de posición se adornaba la pieza con bordados  y se colocaban sobre un calzón o túnica encima del shenti llevaban las personas  de distinción  una especie   de saya corta formando  mendos  pliegues, que para salir de casa se cambiaba por una túnica con mangas  o sin ellas, ambas de fina textura para cubrir la cabeza ambos  sexos usaban una peluca postiza, en el caso  del  faraón,  un tocado particular, el nemes, que se formaban con un lienzo cuadro, hecho con una tela a rayas cuyos colores mas comunes eran el azul y el amerillo, ajustado a la frente y con caídas a los  lados.
+    </section>
+
+    <section id="titulo">Audio del Alumno en ingles al respecto del Pais</section>
+    <center><div id="audio"><font size=20px><a href="https://anchor.fm/laura-ibanez7">Audio en ingles</a></font></div></center>
+
+    <div id="curso"><section id="titulo">Curso 2°D</section></div>
+    <section id="parrafo">
+           <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno6.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/egipto/alumno7.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

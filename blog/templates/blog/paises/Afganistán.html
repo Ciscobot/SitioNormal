@@ -1,0 +1,156 @@
+{% load static %}
+
+<html>
+<head>
+<title> Afganistán </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Afganistán <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <div class="idc-box">
+        <p class="idc-titulo">Indices</p>
+        <ul class="idc-lista">
+            <li><a href="#afga">Afganistán</a></li>
+            <li><a href="#cost">costumbre</a></li>
+            <li><a href="#idio">Idiomas</a></li>
+            <li><a href="#bande">La Bandera</a></li>
+            <li><a href="#comi">COMIDAS TÍPICAS</a></li>
+            <li><a href="#ubi">Ubicacion</a></li>
+            <li><a href="#eco">Economía:</a></li>
+            <li><a href="#ulti">ÚLTIMAS NOTICIAS</a></li>
+            <li><a href="#conclu">Conclusiones finales</a></li>
+        </ul>
+    </div>
+    <div id="afga"><section id="titulo">Afganistán</section></div>
+    <section id="parrafo">
+        AFGANISTAN TIENE UNA BANDERA DE TRES COLORES Y CADA
+        UNO TIENNE SU SIGNIFICADO: EL NEGRO REPRESENTA EL
+        PASADO; EL ROJO REPRESENTA SU LUCHA POR EL PAIS Y EL
+        VERDE SUS GANAS DE PRORESAR.<br>
+        Afganistán está situado en Asia Central, limita al noroeste con
+        Uzbekistán, al suroeste con Kazajistán, al norte y noroeste con Uzbekistán
+        , al suroeste con Iraní al oeste con el mar Caspio.
+        Es un país montañoso y sin salida al mar.<br>
+        El Hindu Kush es una cordillera que se extiende de noroeste a sudoeste
+        dividiendo el país en tres regiones principales:<br>
+        Las montañas principales (ya que es un país es montañoso), la meseta del
+        sudoeste y el área más pequeña y llana que contiene el suelo más fértil del
+        país.<br>
+        Las montañas más altas se encuentran en Pamir cerca de la frontera con
+        china. Ya que Afganistán tiene un total de 5530 km de fronteras con 6
+        países la frontera de china es una de las fronteras con Afganistán
+        Las principales ciudades del país son las siguientes:<br>
+        KABUL<br>
+        MAZAR-E SARIF<br>
+        KANDAHAR<br>
+        JALALABAD<br>
+        HERAT<br>
+        GAZNI<br>
+        </section>
+        <div id="cost"><section id="titulo">costumbre</section></div>
+        <section id="parrafo">
+        En ese país las costumbres son que se celebren las mismas vacaciones, se visten igual, consumen la misma comida, escuchan la misma música, y son multilingües hasta cierto punto<br>
+        Las mujeres<br>
+        Dado que la economía afgana es débil, muy pocas mujeres pueden
+        permitirse contratar personal doméstico, por lo que se ven obligadas a hacer el trabajo doméstico por su propia
+        cuenta. Aquellas que deciden trabajar tienen el doble de trabajo duro por
+        ese mismo caso.<br>
+        La burka o burqa puede referirse a dos forma de ropa tradicional usadas
+        por mujeres afganas que usan fuera de casa.
+        <img src="{% static 'imagenes informacion/afganistanmujer.jpg' %}">
+        Afganistán es el único país del mundo donde se prohíbe a las niñas ir a la
+        escuela secundaria, se prohíbe a las mujeres trabajar fuera del hogar, no
+        hay mujeres en el gobierno.<br>
+        Las mujeres de ese país no tienen derechos como las mujeres de otros
+        países como las de Argentina porque se los fueron arrebatados en la
+        década 1990.
+    </section>
+    <div id="idio"><section id="titulo">Idiomas</section></div>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/afganistanidiomas.jpg' %}">
+    </section>
+    <div id="bande"><section id="titulo">La Bandera</section></div>
+    <section id="parrafo">
+        AFFGANISTAN TIENE UNA BANDERA DE TRES COLORES Y CADA
+        UNO TIENE SU SIGNIFICADO: ELNEGRO REPRESENTA EL
+        PASADO; EL ROJO REPRESENTA SU LUCHA POR EL PAIS Y EL
+        VERDE SUS GANAS DE PROGRESAR.
+        <img src="{% static 'imagenes informacion/afganistanbandera.png' %}">
+    </section>
+    <div id="comi"><section id="titulo">COMIDAS TÍPICAS</section></div>
+    <section id="parrafo">
+        KABULI PULAU
+        <img src="{% static 'imagenes informacion/afganistankabuli.jpg' %}">
+    </section>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/afganistancomida.jpg' %}">
+    </section>
+    <section id="parrafo">
+        BOLANI:
+        <img src="{% static 'imagenes informacion/afganistanbolani.jpg' %}">
+    </section>
+    <div id="ubi"><section id="titulo">Ubicacion</section></div>
+    <section id="parrafo">
+        Afganistán está situado en Asia Central.
+        <img src="{% static 'imagenes informacion/afganistanplanet.jpg' %}">
+        Es un país montañoso y sin salida al mar.<br>
+        El Hindu Kush es una cordillera que se extiende de noroeste a sudoeste
+        dividiendo el país en tres regiones principales:<br>
+        Las montañas principales (ya que es un país es montañoso), la meseta del
+        sudoeste y el área más pequeña y llana que contiene el suelo más fértil del
+        país.
+        <img src="{% static 'imagenes informacion/afganistanmont.jpg' %}">
+        Las montañas más altas se encuentran en Pamir cerca de la frontera con
+        china. Ya que Afganistán tiene un total de 5530 km de fronteras con 6 países la frontera de china es una de las fronteras con Afganistán.<br>
+        Las principales ciudades del país son las siguientes:<br>
+        KABUL<br>
+        MAZAR-E SARIF<br>
+        KANDAHAR<br>
+        JALALABAD<br>
+        HERAT<br>
+        GAZNI .<br>
+        <img src="{% static 'imagenes informacion/afganistan.png' %}">
+    </section>
+    <div id="eco"><section id="titulo">Economía:</section></div>
+    <section id="parrafo">
+        Afganistán es la economía numero 118 por volumen de PIB (Producto Interno 
+        Bruto). Su deuda pública en 2020 fue de 
+        1.305 millones de euros/1.490 millones de dólares, con una deuda del 7,4% de 
+        del PIB del país el cual es de 19.81 miles de millones de USD (2020) y había 
+        tenido un gran aumento que comenzó en el año 2000. 
+        <img src="{% static 'imagenes informacion/afganistaneconomia.jpg' %}">
+        Una gran parte de la economía de Afganistán se ha basado siempre en la agricultura, y buena parte de la producción agrícola está destinada a la subsistencia. <br>
+        Sanciones económicas: <br>
+	    Estados Unidos y parte de los países europeos han impuestos sanciones tanto militares como económicas que dejaron al borde de una crisis al país y han hecho que el índice de pobreza aumente. Religión:  <br>
+	    La mayor parte de la población afgana, el 99,8%, es creyente. La religión más extendida es el ISLAM, con un 99,56% de personas que lo profesan  
+	    Islam se refiere a la religión monoteísta practicada por los musulmanes. Su dios es Alá, su profeta Mahoma y el Corán su libro sagrado. Los seguidores de esta religión practican durante un mes al año el Ramadán, que consiste en un ayuno durante las horas del día y también practican la circuncisión que consiste en retirar el prepucio del órgano reproductor masculino 
+    </section>
+    <div id="ulti"><section id="titulo">ÚLTIMAS NOTICIAS</section></div>
+    <img src="{% static 'imagenes informacion/afganistannoticia.png' %}">
+    <img src="{% static 'imagenes informacion/afganistannoticia2.png' %}">
+    <img src="{% static 'imagenes informacion/afganistannoticia3.png' %}">
+    <div id="conclu"><section id="titulo">Conclusiones finales</section>
+    <section id="parrafo">
+        El proyecto de la Peña nos incentivó a estudiar sobre otro país, nos dimos cuenta que sabemos tan poco de las realidades en que viven personas en otro lugar del mundo.
+        Agradecemos cordialmente su lectura, sin más lo saludamos att.
+    </section>
+</div>
+</body>
+
+</html>

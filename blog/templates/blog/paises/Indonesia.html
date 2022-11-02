@@ -1,0 +1,223 @@
+{% load static %}
+
+<html>
+<head>
+<title> Indonesia </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Indonesia <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div class="contenedor">
+    <section id="prueba">
+        <font size="30px" family="arial black">Informe sobre</font> <br>
+        <img src="{% static 'imagenes informacion/indonesiacaratula.jpg' %}" width="50%" height="50%">
+        <img src="{% static 'imagenes informacion/indonesiabandera.jpg' %}" width="30%" height="30%">
+    </section>
+    <section>
+        <div class="idc-box">
+            <p class="idc-titulo">Indices</p>
+            <ul class="idc-lista">
+                <li><a href="#historia">01… Historia del país, Forma de gobierno y Cultura.</a></li>
+                <li><a href="#ubicacion">02… Ubicación geográfica, Población, Economía, etc. </a></li>
+                <li><a href="#flora">03… Flora y Fauna, Biomas, Biodiversidad, etc.</a></li>
+                <li><a href="#tecnologia">04… Tecnología desarrollada en el país.  </a></li>
+                <li><a href="#poco">Un poco de Indonesia</a></li>
+                <li><a href="#curso">Curso 1°G</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="titulo">Introducción</section>
+    <section id="parrafo">
+        Todos los países de nuestro mundo, al igual que todas las personas, tienen una historia única que contar, una historia que fue pasando de generación en generación entre los habitantes, que a día de hoy puede revelarte mucho sobre como sus tradiciones, costumbres y cultura siguen perdurando y creciendo a medida que pasa el tiempo. Nuestro deber como seres humanos es seguir manteniendo viva esa historia, demostrando curiosidad, interés, y sobre todo respeto para que la población  del país en cuestión. <br>  
+        Siempre habrá conflictos y puntos negativos cuando se trate de hablar sobre la historia de cualquier lugar. Pero todo tiene su lado bueno e interesante a la hora de investigar, este informe se enfoca en eso, en cómo fue y ahora es la historia y cultura del país que ahora lleva por nombre Indonesia. 
+    </section>
+    <textos id="subtitulo">Los principales objetivos de este trabajo son: </textos>
+    <section id="parrafo">
+        Dar a conocer un nuevo lugar y sus costumbres a las personas para poder despertar su interés en culturas extranjeras. <br>
+        Mostrar las diferencias que puede haber entre nuestro país, (u otros) e Indonesia. <br>
+        Demostrar lo positivo de siempre seguir informándose. 
+    </section>
+    <textos id="subtitulo">Metodología del trabajo </textos>
+    <section id="parrafo">
+        El curso se dividió en distintos grupos de trabajo, de al menos 4 alumnos para poder completar las tareas asignadas y cumplir con los requisitos del informe para la ‘’Peña Intercultural’’ Cada integrante busco y resumió información de Google, también se buscó información geográfica en la biblioteca escolar, (Teniendo en cuenta las dimensiones, aspectos y temas a evaluar por cada espacio curricular). La información que se recolectaba era puesta en hojas de carpeta por separado, así, una vez que toda la información estuviera lista, se transcribiría a Word, con la ayuda de las computadoras escolares y los profesores. <br>
+        En las últimas semanas que quedaban para poder entregar el informe antes del evento, hubo complicaciones con la organización, así que se decidió que los grupos se enfocarían más en la decoración del aula y la creación de afiches u otros elementos informativos para el evento. El Informe quedo bajo la completa responsabilidad de un alumno que propuso rehacerlo, con la ayuda de la profesora tutora.
+    </section>
+    <div id="historia"><textos id="subtitulo">Historia del país, Forma de gobierno y Cultura. </textos></div>
+    <section id="parrafo">
+        Los fósiles que aún permanecen del Homo erectus, usualmente conocido como “El hombre de Java” indican que hace 500.000 años ya existían habitantes en el archipiélago indonesio. Se cree que la población moderna proviene de los pueblos austronesianos que emigraron hacia al sudeste asiático desde Taiwán. Las primeras soberanías que prosperaron incluyen el Imperio Srivijaya (siglo III-siglo XIV), Tarumanagara (358-732), Sailendra (800-900), Reino Sunda (669-1579), el Reino de Mataram (752-1045), Kediri (1045-1221), Singhasari (1222) y Majapahit (1293-1500). <br> <br>
+        La propagación del Islam en el país comenzó en la región occidental del archipiélago. <br>
+        Para finales del siglo XVI, el Islam era ya la religión predominante en Java y Sumatra. <br>
+        Los comerciantes y las familias reales fueron los primeros en adoptar la nueva religión. Durante los primeros años del siglo XVI, viajeros europeos (españoles, portugueses, británicos y holandeses) comenzaron a explorar el archipiélago. Los portugueses fueron los primeros en llegar a Indonesia en 1512. Ellos establecieron puertos comerciales, fuertes y misiones en diferentes islas del archipiélago. Los holandeses comenzaron su dominación a principios del siglo XVI con la creación de la Compañía Neerlandesa de las Indias Orientales (VOC). Establecieron un territorio colonial en Java conocido como las Indias Orientales Neerlandesas. La VOC se involucró en varios asuntos políticos internos de Java y peleó en diferentes guerras. <br> <br>
+        A principios del siglo XX, comenzó la lucha por la independencia de Indonesia con el establecimiento del primer movimiento nacionalista: el Budi Utomo. Pero los holandeses encarcelaron a los que apoyaban estas actividades políticas incluyendo a Sukarno, el primer presidente del país. Los efectos de la Segunda Guerra Mundial y las ofensivas japonesas finalmente terminaron con la época de dominación holandesa. Sukarno y Hatta declararon la independencia el 17 de agosto de 1945, dos días después de que el emperador japonés se rindiera en el Pacífico. Al día siguiente, Sukarno y Hatta fueron proclamados presidente y vicepresidente por el Comité Nacional Central de Indonesia. <br> <br>
+        Indonesia disfrutó de gran prosperidad económica a finales de los sesentas que duró casi tres décadas bajo el gobierno del presidente Suharto. Pero la crisis financiera asiática de 1997 paralizó al país y originó protestas masivas y la renuncia de Suharto en 1998. En 2004, Indonesia tuvo su primera elección presidencial directa donde Susilo Bambang Yudhoyono fue votado por la mayoría como el nuevo presidente. 
+    </section>
+    <textos id="subtitulo">Forma de gobierno </textos>
+    <section id="parrafo">
+        Indonesia tiene como sistema de gobierno una república democrática presidencialista. El presidente es el jefe del estado y del gobierno y existe un sistema multipartidista. La Constitución de Indonesia de 1945 estableció la separación entre el poder ejecutivo, legislativo y el control judicial. El poder ejecutivo es desempeñado por el gobierno, el legislativo está en manos del gobierno y de los dos consejos de representantes del pueblo. <br>
+        El presidente y vicepresidente están a cargo del poder ejecutivo. Ambos son electos a través de la votación popular para un periodo de cinco años. El presidente dirige el Gabinete Unido de Indonesia así como las fuerzas armadas y designa a los miembros del consejo de ministros. La Asamblea Consultiva del Pueblo (MPR) es el máximo órgano representativo. Entre sus responsabilidades se encuentra el establecer amplias políticas y directrices del Estado. Tiene 695 representantes, 550 de los cuales son miembros del Consejo Representativo del Pueblo mientras que de los restantes: 130 son elegidos por 26 parlamentos regionales y 65 son designados por varios grupos sociales. Después de la elección presidencial de 2004, la MPR se convirtió en un parlamento bicameral con un Consejo Representativo Regional (DPD) que actúa como una segunda cámara. <br>
+        La participación de Indonesia en la Asociación de Naciones del Sudeste Asiático (ASEAN), de la cual es miembro, simboliza el compromiso del país para fortalecer sus relaciones exteriores con la comunidad internacional. Al contar con la población musulmana más grande, el país también es miembro activo de la Organización de la Conferencia Islámica (OIC). Indonesia es también un sólido partidario del Foro de Cooperación Económica Asia – Pacífico (APEC). 
+    </section>
+    <textos id="subtitulo">Cultura</textos>
+    <section id="parrafo">
+        La religión más importante en Indonesia es el Islam, cerca de 88% de los indonesios se consideran musulmanes. Otras religiones que se practican en el país son: budismo, catolicismo, confucianismo, hinduismo y protestantismo. <br> <br>
+        En relación a la música, el kroncong es un estilo musical que se aplica a las guitarras y a los ukuleles (guitarras hawaianas) como instrumentos musicales principales. Este estilo nació en Portugal y fue traído por los comerciantes portugueses en el siglo XV. La música sasando proviene de la provincia este de Nusa Tenggara. Se acompaña de un instrumento fabricado de hojas de palma Lontar y su sonido es parecido al del arpa. <br> <br>
+        Los murales Kenyah de Long Nawang, al este de Kalimantán se encuentran usualmente entre las culturas austronesianas donde los principales motivos naturales indígenas son los perros, helechos, cálaos (una especie de ave), árboles y figuras humanas. <br> <br>
+        Existe una gran variedad de juegos tradicionales como las carreras de toros en Madura, las peleas de gallos en Bali y el salto de las piedras en Nias. Otro tipo de deporte nacional es el sepak takraw, que se comenzó en Melaka. Es parecido al voleibol: se debe mantener la pelota, hecha de ratán, en el aire usando los pies. El único mundial en el que participo Indonesia fue en el de 1938. <br> <br>
+        El arroz se sirve como platillo principal para la mayoría de los nativos indonesios con acompañantes como carne y verduras. Los platillos indonesios son comúnmente condimentados con pimientos y especias. Algunos de los más populares son: satay (brochetas de carne) nasi goreng (arroz frito) nasi padang (arroz con leche de coco y chile), tofu y tempe (soya fermentada). 
+    </section>
+    <div id="ubicacion"><textos id="subtitulo">Ubicación geográfica, población, Economía, etc.</textos></div>
+    <section id="parrafo">
+        La República de Indonesia cuenta con 17.000 islas que se extienden desde el sureste asiático hasta Papua, Nueva Guinea y el continente australiano. Las islas varían enormemente, algunas son pequeñas, de sólo unos cuantos kilómetros cuadrados y se encuentran deshabitadas. Las islas principales son Bali, Iran Jaya (o Nueva Guinea), Java, Kalimantan (o Borneo), Malaku, Nusa Tenggara, Célebes y Sumatra. <br> <br> 
+        Las islas ofrecen una cautivante diversidad de topografías y ecosistemas con volcanes cubiertos de niebla y montañas, incontables playas, selvas tropicales desconocidas e ininterrumpidos arrecifes que contienen una impresionante abundancia de vida salvaje, lo que hace del país el destino perfecto para la aventura y el ecoturismo. El clima de Indonesia es generalmente cálido y húmedo durante todo el año. La temperatura varía entre los 68 a 89 grados Fahrenheit y la humedad entre el 60 y 90 por ciento. La temporada de lluvias es entre noviembre y abril. <br> <br>
+        Fue a principios del siglo XVI cuando los portugueses, españoles y holandeses colonizaron la mayor parte de las islas del archipiélago. La ocupación de los europeos tuvo gran influencia en la política, religión y cultura del país. El idioma oficial de Indonesia es el indonesio con 583 dialectos locales, aun cuando el inglés es considerado importante para el comercio y la política. Existen seis religiones oficiales que son reconocidas por el gobierno: islam, protestantismo, catolicismo, hinduismo, budismo y confucianismo. <br> <br>
+        Indonesia fue duramente golpeada durante la crisis financiera del este asiático en 1997. Sin embargo, el país continúa su camino hacia el progreso manejando su desarrollo y las demandas crecientes de estilo de vida. La Bolsa de Valores de Indonesia alcanzó operaciones récord y como resultado se convirtió en la tercera de mayor rendimiento en el continente asiático a finales del año. Los productos agrícolas del país son: cerveza, yuca, cacao, café, copra, huevos, aceite de coco, cacahuates, carne de puerco, pollo, arroz y caucho. Entre las industrias del país se incluyen: vestidos, cemento, fertilizantes químicos, comida, calzado, explotación minera, petróleo, gas natural, textiles, madera laminada, caucho y turismo.
+    </section>
+    <textos id="subtitulo">Economía</textos>
+    <section id="parrafo">
+        En 2007, Indonesia era una de las economías más grandes en la región de la ASEAN con un PIB de $408 billones de dólares y un crecimiento anual de aproximadamente 5,6%. Durante la crisis financiera asiática en 1997-1998, Indonesia fue duramente golpeada junto con Corea del Sur y Tailandia. La rupia indonesia tuvo una devaluación de 2,000 a 18,000 por dólar estadounidense y la economía del país se contrajo casi un 14%. El país firmó acuerdos con el FMI para la implementación de varios programas financieros y económicos entre 1998 y 2000 para reestructurar su debilitada economía. <br> <br>
+        A principios de esta década, la economía del país comenzó a mejorar. En 2004, la Bolsa de Yakarta fue declarada como la de mejor comportamiento en el mercado con un 42%. Ese mismo año, el crecimiento en el PIB del país fue de 5,1% y de 5,6% el año siguiente. Pero en 2005, la nación continúo luchando debido a su alto índice inflacionario que alcanzó el 17%. La elección del reformista Susilo Bambang Yudhoyono en 2004 como presidente ha sido interpretada por varios sectores como una buena señal de la reconstrucción del país. <br> <br>
+        Indonesia es miembro de la APEC, ASEAN y OMC y es el único país del sudeste asiático que pertenece a la OPEP. Sus principales socios exportadores son Japón, Estados Unidos, China y Singapur. Entre los mercados más importantes del país se encuentran Japón, 
+        China y Singapur. Las principales industrias comprenden: petróleo y gas natural, vestimenta, textiles, industria minera, cemento, fertilizantes químicos, laminados de manera, caucho, comida y turismo. El sector de servicios aporta aproximadamente el 45% del PIB del país, seguido por la industria (41%) y la agricultura (14%).
+    </section>
+    <div id="flora"><textos id="subtitulo">Flora y Fauna, Biomas, Biodiversidad, etc. </textos></div>
+    <section id="parrafo">
+        La flora de Indonesia consiste de muchas variedades únicas de plantas tropicales. Con un clima tropical alrededor de 17.000 islas, Indonesia es la segunda nación con más biodiversidad en el mundo. La flora refleja una entremezcla de las especies nativas, asiáticas y Oceánicas. Esto es debido a la geografía de Indonesia, localizada entre dos continentes. El archipiélago consiste de una variedad de regiones de selvas tropicales de las tierras bajas del norte y bosques de las tierras bajas del sur. Indonesia también tiene muchas regiones de pantano y vegetación costera. Hay alrededor de 28.000 especies de plantas florecientes en Indonesia, consistiendo 2.500 tipos diferentes de orquídeas, 6.000 plantas medicinales tradicionales,  122 especies de bambú, más de 350 especies de ratán y 400 especies de Dipterocarpus, incluyendo ébano, sándalo y madera de teca. Indonesia es hogar de algunas especies inusuales como las plantas carnívoras. Una especie excepcional es conocida como Rafflesia arnoldi, nombrada así por Thomas Stamford Raffles y Thomas Arnold, quién descubrió la flor en las profundidades de Bengkulu, Sumatra.<br> 
+        La fauna de Indonesia está caracterizada por niveles altos de biodiversidad y endemicidad debido a su distribución sobre un archipiélago tropical vasto.1 Indonesia divide a dos regiones ecológicas; Indonesia occidental cuál es más influido por fauna asiática, y el del este, cuál es más influido por especies de Australasia. <br>
+        Línea de Wallace, alrededor de la cual se encuentra la Wallacea región de transición, en teoría divide las dos regiones.2 Hay amplia gama de ecosistemas, incluyendo las playas, dunas, estuarios, manglares, arrecifes de coral, los lechos de algas marinas, costeras, pantanos, marismas, camas de algas, y la pequeña isla de los ecosistemas. <br>
+        Las cuestiones ambientales debido a la rápida industrialización y el crecimiento de población de Indonesia, han visto más baja prioridad dada a la preservación de los ecosistemas. Los problemas incluyen la tala ilegal, con el resultado de la deforestación, y un alto nivel de urbanización, la contaminación del aire, la gestión de la basura y los servicios de agua de desecho también contribuyen al deterioro de los bosques.
+    </section>
+    <textos id="subtitulo">Problemática ambiental </textos>
+    <section id="parrafo">
+        Las selvas tropicales de Indonesia son un punto caliente de biodiversidad. Son también una región clave para la regulación del clima de la Tierra. Pero estos bosques están siendo talados y sustituidos por plantaciones para la producción de aceite de palma y pasta de papel. <br> <br>
+        Los bosques de turbera de Indonesia almacenan 12 veces más carbono por hectárea que los 
+        suelos de los bosques tropicales tropicales de Asia insular.<br> 
+        Se prevé que para 2030 se duplique la demanda de aceite de palma. <br> <br>
+        Las grandes marcas de alimentación siguen fabricando sus productos con aceite de palma procedente de los incendios y la destrucción de la selva. <br> <br>
+        Las selvas del Sureste Asiático ocupan las islas de Sumatra, Borneo, Papúa Nueva Guinea y un sinfín de pequeñas islas y archipiélagos cercanos, y contienen una rica biodiversidad. Pero estos bosques sufren una de las mayores tasas de deforestación del planeta. Indonesia ha perdido la cuarta parte de sus bosques en los últimos 25 años. La deforestación, provocada comúnmente a través de la quema de la selva, colocaron la pasada década a Indonesia como el tercer país emisor en gases de efecto invernadero del mundo. Los incendios forestales que asolaron Indonesia en 2015 son considerados una de las mayores catástrofes medioambientales del siglo XXI. El Banco Mundial estima que la crisis de los incendios de 2015 costó a la economía indonesia 16.000 millones de dólares en pérdidas. El humo de los incendios causó enfermedades respiratorias a cientos de miles de personas en toda la región y según un estudio, probablemente provocó más de 100.000 muertes prematuras. <br> <br>
+        La industria del aceite de palma es la principal responsable de la destrucción de los bosques de Indonesia. Si su deforestación continúa, la supervivencia de los orangutanes será imposible. 
+    </section>
+    <div id="tecnologia"><textos id="subtitulo">Tecnología desarrollada en el país. </textos></div>
+    <section id="parrafo">
+        En sus comentarios de apertura al Foro de Desarrollo de Indonesia 2018 , el profesor Bambang Brodjonegoro , ministro de planificación nacional del desarrollo de Indonesia, reflexionó sobre lo que le espera a Indonesia.<br> 
+        Señaló que 2045 será un año extremadamente importante para el país. No solo marcará 
+        100 años de independencia de Indonesia; pero también se presenta como un punto de inflexión para el desarrollo del país. Bappenas, la agencia nacional de planificación del desarrollo, proyectó recientemente que para 2045, la economía del país se habrá convertido en la cuarta más grande del mundo, en comparación con la 16ª en 2012 . Para alcanzar ese nivel, el país tendrá que trabajar duro para reducir las disparidades en el crecimiento económico entre sus regiones. Actualmente existe una brecha considerable entre las mitades oriental y occidental del país: el oeste aporta aproximadamente el 80% del PIB nacional.  <br>
+        Pero como destacó el ministro Brodjonegoro en el foro, la infraestructura no es suficiente. Si Indonesia quiere alcanzar sus objetivos para 2045, debe alejarse de las industrias extractivas y las exportaciones de recursos naturales, que son económicamente y ambientalmente insostenibles a largo plazo. <br>
+        En cambio, necesita pasar a una economía basada en el conocimiento : una economía cuya fortaleza proviene de la producción, distribución y uso del conocimiento y la información. <br>
+        Ese cambio hacia una economía del conocimiento es inevitable, según la profesora Veronica Taylor , quien respondió a los comentarios del ministro Brodjonegoro. Si el país va a competir en la economía global, deberá invertir en ciencia y tecnología para impulsar la innovación y estimular el crecimiento económico. <br>
+        Capitalizando la Cuarta Revolución Industrial 
+        Entonces, ¿cuál es la mejor manera de hacer esto? Una opción es continuar invirtiendo en capital humano e intentar aprovechar la llamada Cuarta Revolución Industrial . Esta revolución se caracteriza por los avances tecnológicos en una amplia gama de campos como la inteligencia artificial, la robótica, el internet de las cosas, la nanotecnología, la biotecnología, la ciencia de los materiales y el almacenamiento de energía. Desarrollar una sólida economía del conocimiento es clave para capitalizar esta revolución. <br>
+        El efecto combinado de estos avances tecnológicos cambiará profundamente la forma en que se fabrican los productos, cómo los ciudadanos participan en la toma de decisiones y qué habilidades se necesitan en el mercado laboral. <br>
+        Esta revolución representa una importante oportunidad para los países de ingresos medios que pretenden pasar de las exportaciones de recursos naturales al crecimiento económico basado en el conocimiento. <br>
+        Las nuevas tecnologías también permiten innovaciones emocionantes en la gobernanza y la provisión de servicios públicos, que serán esenciales para garantizar que las iniciativas de desarrollo y el crecimiento económico sean inclusivos. <br>
+        Los gobiernos locales, los programas de desarrollo y las organizaciones de la sociedad civil de Indonesia ya muestran interés en estas innovaciones. Varios participantes en las FDI de este año presentaron ejemplos de pilotos, investigaciones y experimentos de políticas que prueban formas de mejorar los servicios públicos con la ayuda de la tecnología digital.  <br>
+        El rol del gobierno. 
+        Estas nuevas tecnologías brindan grandes oportunidades para diversificar la base económica de Indonesia y mejorar la eficiencia de los servicios públicos. El desafío para los gobiernos locales y nacionales es cómo gestionar el ritmo y la naturaleza transnacional de estos avances tecnológicos. <br>
+        Aprovechar al máximo los avances tecnológicos del mañana significa que Indonesia necesita invertir hoy. Las inversiones en escuelas y educación superior, investigación de alta calidad y habilidades profesionales ayudarán a fortalecer las capacidades del sector público y privado para la innovación social y política. <br>
+        Y para evitar ampliar las brechas entre regiones, estas inversiones deben hacerse en todo el país. <br>
+        La innovación sucederá principalmente a nivel local, pero el gobierno central tiene un papel crucial en la creación de un entorno que respalde la transición a una economía del conocimiento. Esto significa proporcionar espacio para que los actores políticos experimenten e innoven, a menudo con la ayuda de la tecnología, y, en última instancia, para encontrar soluciones locales a los problemas locales. <br>
+        En 2019, Bappenas comenzará a trabajar en el nuevo plan quinquenal para 2020 a 2025. Este será un gran paso en el camino hacia la construcción del capital humano que Indonesia necesita para pasar a una economía del conocimiento y prosperar en la Cuarta Revolución Industrial.
+    </section>
+    <textos id="subtitulo">Conclusión</textos>
+    <section id="parrafo">
+        Indonesia sin duda alguna es un país muy interesante, como ya vimos, tiene muchos puntos positivos. Tiene una historia muy admirable respecto a la lucha por la libertad, de la independencia y los derechos. La cultura puede ser muy casual y alocada dependiendo del lugar que visites, es perfecto por si quieres ir de vacaciones a un clima tropical en una de las más de 17.000 islas que te esperan, que además tienen montones de flora y fauna que te van a encantar, con gastronomía que puede centrarse en usar mucho arroz y especias para lograr platillos exóticos y exquisitos. Solo hay que evitar la compra de mas aceite de palma… <br>
+        Investigar respecto a todo sobre un lugar, su cultura y sus orígenes puede llegar a ser una experiencia muy bella, aún más si es la primera vez que lo haces y no sabías absolutamente nada sobre él, hasta que alguien al fin te dio la iniciativa para poder abrirte a nuevas posibilidades y salir de tu zona de confort.  <br>
+        Puede servir de mucho para aprender a apreciar mas al mundo que nos rodea y animarse a saber más sobre él, porque no todo se trata sobre un solo lugar, hay millones en el mundo, cada uno con su propia historia, esperando a poder formar parte de la tuya, y de esa forma mostrarte cosas que antes ni siquiera sabias que estaban ahí, o tal vez si…pero no les prestabas suficiente atención. <br> 
+        -Maxi Brizuela y alumnos de 1° G. 
+    </section>
+    <textos id="subtitulo">Anexo</textos>
+    <section id="parrafo">
+        Para este indicador, El Banco Mundial proporciona datos para Indonesia desde 1960 a 2020. El valor medio para Indonesia durante ese período fue de 28.83 nacidos vivos en un año por cada 1.000 personas con un mínimo de 17.45 nacidos vivos en un año por cada 1.000 personas en 2020 y un máximo de 44.55 nacidos vivos en un año por cada 1.000 personas en 1960. <br>
+        <img src="{% static 'imagenes informacion/indonesiastat.jpg' %}" width="100%"> <br>
+        Tasa de mortalidad en un año (por cada 1.000 personas) - Indonesia
+        <img src="{% static 'imagenes informacion/indonesiatasa.jpg' %}" width="100%"> <br>
+    </section>
+    <textos id="subtitulo">Balanza comercial </textos>
+    <section id="parrafo">
+        La balanza comercial de Indonesia se encuentra desde hace muchos años en saldo positivo como muestra esta tabla de la OCDE que recoge la evolución desde 1995 hasta el año 2016 <br>
+        <img src="{% static 'imagenes informacion/indonesiacorriente.jpg' %}" width="100%"> <br>
+    </section>
+    <textos id="subtitulo">Balanza por cuenta corriente</textos>
+    <section id="parrafo">
+        Por otro lado, la balanza por cuenta corriente se encuentra en cifras negativas con un 1.7% del PIB en 2017 (el déficit está limitado al 3%), si bien Indonesia ha ido reduciendo la deuda que presentaba en 1999 y que suponía el 100% del PIB tras la crisis de los países asiáticos hasta un nada desdeñable 33% en datos de la CIA (2018 CIA WORLD FACTBOOK). <br>
+        <img src="{% static 'imagenes informacion/indonesiadeuda.jpg' %}" width="100%"> <br>
+        Deuda externa: 322 600 millones de dólares estadounidenses a 31 de diciembre de 2017. <br>
+        Inversión extranjera directa en Indonesia: 247 700 millones de dólares estadounidenses a 31 de diciembre de 2017. <br>
+        Inversión extranjera directa en el extranjero: 19 960 millones de dólares estadounidenses a 31 de diciembre de 2017. <br>
+        <img src="{% static 'imagenes informacion/indonesiastats.jpg' %}" width="100%">
+    </section>
+    <div id="poco"><textos id="titulo">Un poco de Indonesia </textos></div>>
+    <section id="parrafo">
+        <img src="{% static 'imagenes informacion/indonesiacomida.jpg' %}" > <br> <br>
+        <img src="{% static 'imagenes informacion/indonesiacomida2.jpg' %}" > <br><br>
+        <img src="{% static 'imagenes informacion/indonesiapersonas.jpg' %}" > <br><br>
+        <img src="{% static 'imagenes informacion/indonesiapaisaje.jpg' %}" ><br><br>
+        <img src="{% static 'imagenes informacion/indonesiapersonas2.jpg' %}" ><br><br>
+        <img src="{% static 'imagenes informacion/indonesiapaisaje2.jpg' %}" >
+    </section>
+
+    <div id="curso"><section id="titulo">Curso 1°G</section></div>
+    <section id="parrafo">
+           <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno2.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno3.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno4.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno5.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno6.jpg' %}">
+            </section>
+           <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno7.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno8.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno9.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno10.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno11.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno12.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno13.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno14.jpg' %}">
+            </section>
+            <section>
+                <img src="{% static 'imagenes informacion/indonesia/alumno15.jpg' %}">
+            </section>
+    </section>
+</div>
+</body>
+</html>

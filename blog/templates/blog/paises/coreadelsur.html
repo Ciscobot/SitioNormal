@@ -1,0 +1,53 @@
+{% load static %}
+
+<html>
+<head>
+<title> Corea Del Sur </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+<link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+<link rel="stylesheet" href="{% static 'css/menumañana.css' %}">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-flag">Bienvenidos a Corea del Sur <br></h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu-2" for="menu-bar"></label>
+        <nav class="menu">
+          <a href="{% url 'vista_inicio' %}">Inicio</a>
+         <a href="{% url 'vista_mañana' %}">Turno Mañana</a>
+         <a href="{% url 'vista_tarde' %}">Turno Tarde</a>
+        </nav>
+    </div>
+</header>
+<div id="Prueba">
+    <section id="titulo">Fotos de Alumnos de 4°D</section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno2.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno3.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno4.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno5.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno6.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno7.jpg' %}">
+    </section>
+    <section>
+        <img src="{% static 'imagenes informacion/corea/alumno8.jpg' %}">
+    </section>
+</div>
+</body>
+</html>
