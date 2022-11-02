@@ -19,11 +19,15 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
 
+        
+        
     def __str__(self):
         return self.title
 
 
-
+class uzbekistan(models.Model):
+    titulo = models.CharField(max_length=200)
+    texto = models.TextField()
     
     def __str__(self):
         texto = "{0} ({1})"
