@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
-#from requests import request
+from requests import request
 
 
 class Post(models.Model):
